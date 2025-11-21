@@ -4,6 +4,7 @@ import { getTranslations } from "next-intl/server"
 import { prisma } from "@/lib/prisma"
 import { Link } from "@/i18n/routing"
 import { format } from "date-fns"
+import UserMenu from "@/components/shared/UserMenu"
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -89,14 +90,7 @@ export default async function AdminRequestsPage({ params }: PageProps) {
               <span className="text-sm text-gray-400">→</span>
               <span className="text-sm font-semibold text-gray-600">Meeting Requests</span>
             </div>
-            <div className="flex items-center gap-4">
-              <span className="text-sm text-gray-600">
-                {session.user.nickname || session.user.email}
-              </span>
-              <div className="w-8 h-8 rounded-full bg-gradient-to-r from-[#FF385C] to-[#E61E4D] flex items-center justify-center text-white font-semibold">
-                {session.user.nickname?.[0] || 'A'}
-              </div>
-            </div>
+            <UserMenu />
           </div>
         </div>
       </header>

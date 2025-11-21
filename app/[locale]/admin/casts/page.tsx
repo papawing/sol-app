@@ -3,6 +3,7 @@ import { auth } from "@/lib/auth"
 import { getTranslations } from "next-intl/server"
 import { prisma } from "@/lib/prisma"
 import { Link } from "@/i18n/routing"
+import UserMenu from "@/components/shared/UserMenu"
 
 type PageProps = {
   params: Promise<{ locale: string }>;
@@ -76,27 +77,28 @@ export default async function AdminCastsPage({ params }: PageProps) {
               <span className="text-sm text-gray-400">→</span>
               <span className="text-sm font-semibold text-gray-600">Casts</span>
             </div>
-            <div className="flex items-center gap-4">
-              <span className="text-sm text-gray-600">
-                {session.user.nickname || session.user.email}
-              </span>
-              <div className="w-8 h-8 rounded-full bg-gradient-to-r from-[#FF385C] to-[#E61E4D] flex items-center justify-center text-white font-semibold">
-                {session.user.nickname?.[0] || 'A'}
-              </div>
-            </div>
+            <UserMenu />
           </div>
         </div>
       </header>
 
       {/* Main Content */}
       <main className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
-        <div className="mb-8">
-          <h1 className="text-3xl font-bold text-deep mb-2">
-            Cast Management
-          </h1>
-          <p className="text-gray-600">
-            Review and manage cast verifications, profiles, and availability
-          </p>
+        <div className="mb-8 flex items-start justify-between">
+          <div>
+            <h1 className="text-3xl font-bold text-deep mb-2">
+              Cast Management
+            </h1>
+            <p className="text-gray-600">
+              Review and manage cast verifications, profiles, and availability
+            </p>
+          </div>
+          <Link
+            href="/admin/casts/new"
+            className="px-4 py-2 bg-gradient-to-r from-[#FF385C] to-[#E61E4D] text-white rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2"
+          >
+            <span>+</span> Create Cast
+          </Link>
         </div>
 
         {/* Stats Overview */}
@@ -255,13 +257,21 @@ export default async function AdminCastsPage({ params }: PageProps) {
                     </div>
                   </div>
                   <div className="mt-3 flex gap-2">
+                    {user.cast?.id && (
+                      <Link
+                        href={`/admin/casts/${user.cast.id}/edit`}
+                        className="flex-1 text-center text-xs bg-gray-100 hover:bg-gray-200 py-1 rounded font-semibold text-gray-700 transition-colors"
+                      >
+                        Edit
+                      </Link>
+                    )}
                     {user.cast?.id ? (
                       <Link
                         href={`/browse/${user.cast.id}`}
                         locale={locale}
-                        className="flex-1 text-center text-xs text-rausch hover:underline font-semibold"
+                        className="flex-1 text-center text-xs text-rausch hover:underline font-semibold py-1"
                       >
-                        View Profile
+                        View
                       </Link>
                     ) : (
                       <button
@@ -274,7 +284,7 @@ export default async function AdminCastsPage({ params }: PageProps) {
                     <form action={`/api/admin/casts/${user.id}/deactivate`} method="POST" className="flex-1">
                       <button
                         type="submit"
-                        className="w-full text-xs text-gray-600 hover:underline font-semibold"
+                        className="w-full text-xs text-gray-600 hover:underline font-semibold py-1"
                       >
                         Deactivate
                       </button>

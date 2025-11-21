@@ -3,6 +3,7 @@ import { getMessages } from 'next-intl/server';
 import { notFound } from 'next/navigation';
 import { routing } from '@/i18n/routing';
 import { Geist, Geist_Mono } from "next/font/google";
+import SessionProvider from '@/components/providers/SessionProvider';
 import '../globals.css';
 
 const geistSans = Geist({
@@ -38,9 +39,11 @@ export default async function LocaleLayout({
   return (
     <html lang={locale} className="h-full w-full">
       <body className={`${geistSans.variable} ${geistMono.variable} antialiased min-h-full w-full bg-white overflow-x-hidden`}>
-        <NextIntlClientProvider messages={messages}>
-          {children}
-        </NextIntlClientProvider>
+        <SessionProvider>
+          <NextIntlClientProvider messages={messages}>
+            {children}
+          </NextIntlClientProvider>
+        </SessionProvider>
       </body>
     </html>
   );

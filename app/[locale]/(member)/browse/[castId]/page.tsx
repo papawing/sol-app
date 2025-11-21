@@ -1,7 +1,8 @@
 import { auth } from "@/lib/auth";
 import { prisma } from "@/lib/prisma";
-import { redirect, notFound } from "next/navigation";
-import { getTranslations } from "next-intl/server";
+import { notFound } from "next/navigation";
+import { redirect, Link } from "@/i18n/routing";
+import { getTranslations, getLocale } from "next-intl/server";
 import Navbar from "@/components/shared/Navbar";
 import PhotoGallery from "@/components/cast/PhotoGallery";
 import BookmarkButton from "@/components/cast/BookmarkButton";
@@ -11,7 +12,6 @@ import PersonalitySection from "@/components/cast/PersonalitySection";
 import LifestyleCard from "@/components/cast/LifestyleCard";
 import { Badge } from "@/components/ui/badge";
 import { ArrowLeft } from "lucide-react";
-import Link from "next/link";
 import { getLocalizedText } from "@/lib/cast-helpers";
 import type { LocalizedText } from "@/types/cast";
 
@@ -20,18 +20,19 @@ type PageProps = {
 };
 
 export default async function CastDetailPage({ params }: PageProps) {
-  const { locale, castId } = await params;
+  const { castId } = await params;
+  const locale = await getLocale();
   const session = await auth();
   const t = await getTranslations();
 
   // Require authentication
   if (!session?.user) {
-    redirect(`/${locale}/login`);
+    redirect("/login");
   }
 
   // Require member or admin role
   if (session.user.role !== "MEMBER" && session.user.role !== "ADMIN") {
-    redirect(`/${locale}`);
+    redirect("/");
   }
 
   // Get member tier (not required for admins)
@@ -42,7 +43,7 @@ export default async function CastDetailPage({ params }: PageProps) {
     });
 
     if (!member) {
-      redirect(`/${locale}`);
+      redirect("/");
     }
   }
 
@@ -76,7 +77,7 @@ export default async function CastDetailPage({ params }: PageProps) {
     member.tier === "BASIC" &&
     cast.tierClassification === "HIGH_CLASS"
   ) {
-    redirect(`/${locale}/browse`);
+    redirect("/browse");
   }
 
   const isBookmarked = cast.bookmarks ? cast.bookmarks.length > 0 : false;
@@ -100,7 +101,7 @@ export default async function CastDetailPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           {/* Back Button */}
           <Link
-            href={`/${locale}/browse`}
+            href="/browse"
             className="inline-flex items-center gap-2 text-light hover:text-deep transition-colors mb-6"
           >
             <ArrowLeft className="w-5 h-5" />
