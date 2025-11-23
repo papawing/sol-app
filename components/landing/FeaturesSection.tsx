@@ -9,20 +9,20 @@ export default function FeaturesSection() {
   const features = [
     {
       icon: Sparkles,
-      title: t("curated"),
-      description: t("curatedDesc"),
+      title: t("feature1Title"),
+      description: t("feature1Desc"),
       delay: "0ms",
     },
     {
       icon: Lock,
-      title: t("secure"),
-      description: t("secureDesc"),
+      title: t("feature2Title"),
+      description: t("feature2Desc"),
       delay: "200ms",
     },
     {
       icon: MapPin,
-      title: t("experience"),
-      description: t("experienceDesc"),
+      title: t("feature3Title"),
+      description: t("feature3Desc"),
       delay: "400ms",
     },
   ];

@@ -5,7 +5,9 @@ import { Link } from "@/i18n/routing";
 import Navbar from "@/components/shared/Navbar";
 import HeroSection from "@/components/landing/HeroSection";
 import FeaturesSection from "@/components/landing/FeaturesSection";
+import DiscretionSection from "@/components/landing/DiscretionSection";
 import HowItWorksSection from "@/components/landing/HowItWorksSection";
+import WhyLuneSection from "@/components/landing/WhyLuneSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 
 export default function HomePage() {
@@ -16,7 +18,9 @@ export default function HomePage() {
       <Navbar />
       <HeroSection />
       <FeaturesSection />
+      <DiscretionSection />
       <HowItWorksSection />
+      <WhyLuneSection />
       <FinalCTASection />
 
       {/* Footer */}

@@ -40,7 +40,7 @@ export default function FinalCTASection() {
               <ArrowRight className="ml-2 w-5 h-5" />
             </Button>
           </Link>
-          <Link href="/browse">
+          <Link href="/login">
             <Button
               size="lg"
               variant="outline"

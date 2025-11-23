@@ -61,7 +61,7 @@ export default function HeroSection() {
           className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in-up"
           style={{ animationDelay: "600ms" }}
         >
-          <Link href="/browse">
+          <Link href="/login">
             <Button
               size="lg"
               className="min-w-[220px] bg-gradient-rausch text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
@@ -69,7 +69,7 @@ export default function HeroSection() {
               {t("ctaPrimary")}
             </Button>
           </Link>
-          <Link href="#features">
+          <Link href="#how-it-works">
             <Button
               size="lg"
               variant="outline"

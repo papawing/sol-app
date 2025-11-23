@@ -1,7 +1,7 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import { Search, MessageCircle, Users, Star } from "lucide-react";
+import { Search, Calendar, Wine, Moon } from "lucide-react";
 
 export default function HowItWorksSection() {
   const t = useTranslations("landing.howItWorks");
@@ -15,26 +15,26 @@ export default function HowItWorksSection() {
     },
     {
       number: "02",
-      icon: MessageCircle,
+      icon: Calendar,
       title: t("step2Title"),
       description: t("step2Desc"),
     },
     {
       number: "03",
-      icon: Users,
+      icon: Wine,
       title: t("step3Title"),
       description: t("step3Desc"),
     },
     {
       number: "04",
-      icon: Star,
+      icon: Moon,
       title: t("step4Title"),
       description: t("step4Desc"),
     },
   ];
 
   return (
-    <section className="py-24 bg-gradient-to-br from-gray-50 to-white">
+    <section id="how-it-works" className="py-24 bg-gradient-to-br from-gray-50 to-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Section Header */}
         <div className="text-center mb-16">

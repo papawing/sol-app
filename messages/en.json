@@ -1,7 +1,7 @@
 {
   "common": {
     "appName": "LUNE PRIVÉ",
-    "tagline": "Exclusive Connections",
+    "tagline": "Where Nights Begin",
     "loading": "Loading...",
     "error": "Error",
     "success": "Success",
@@ -20,46 +20,49 @@
   "nav": {
     "home": "Home",
     "browse": "Browse",
-    "bookmarks": "Bookmarks",
+    "bookmarks": "Favorites",
     "messages": "Messages",
     "profile": "Profile",
     "admin": "Admin",
     "logout": "Logout",
-    "becomeCast": "Become a Cast"
+    "about": "About",
+    "howItWorks": "How It Works",
+    "becomeCast": "Become a Companion",
+    "becomeMember": "Membership"
   },
   "auth": {
     "login": "Login",
-    "register": "Register",
-    "email": "Email",
+    "register": "Join",
+    "email": "Email Address",
     "password": "Password",
-    "nickname": "Nickname",
+    "nickname": "Display Name",
     "forgotPassword": "Forgot Password?",
-    "noAccount": "Don't have an account?",
-    "hasAccount": "Already have an account?",
+    "noAccount": "New to LUNE PRIVÉ?",
+    "hasAccount": "Already a member?",
     "welcomeBack": "Welcome back",
     "loginPrompt": "Enter your credentials to continue",
-    "secureLogin": "Your information is secure and encrypted",
-    "loginSuccess": "Login successful",
+    "secureLogin": "Your information is encrypted and secure",
+    "loginSuccess": "Welcome back",
     "loginError": "Invalid email or password",
-    "registerSuccess": "Registration successful. Please wait for verification.",
-    "pending": "Pending Verification",
-    "approved": "Approved",
-    "rejected": "Rejected"
+    "registerSuccess": "Application submitted. We'll review your details shortly.",
+    "pending": "Under Review",
+    "approved": "Verified",
+    "rejected": "Application Declined"
   },
   "member": {
-    "tier": "Membership Tier",
-    "basic": "Basic",
+    "tier": "Membership",
+    "basic": "Standard",
     "premium": "Premium",
     "upgrade": "Upgrade to Premium",
     "verification": "Verification",
     "uploadId": "Upload ID Document",
-    "uploadIncome": "Upload Income Proof",
-    "verificationPending": "Your account is pending verification",
-    "verificationApproved": "Your account has been verified"
+    "uploadIncome": "Upload Income Verification",
+    "verificationPending": "Your application is under review",
+    "verificationApproved": "You're verified"
   },
   "cast": {
     "profile": "Profile",
-    "photos": "Photos",
+    "photos": "Gallery",
     "age": "Age",
     "location": "Location",
     "languages": "Languages",
@@ -69,229 +72,253 @@
     "bio": "About",
     "tier": "Tier",
     "standard": "Standard",
-    "highClass": "High Class",
+    "highClass": "Premium",
     "verified": "Verified",
     "featured": "Featured",
-    "physicalAttributes": "Physical Attributes",
-    "bustSize": "Bust Size",
+    "physicalAttributes": "Physical",
+    "bustSize": "Bust",
     "height": "Height",
-    "weight": "Weight",
-    "englishLevel": "English Level",
+    "weight": "Build",
+    "englishLevel": "English",
     "birthday": "Birthday",
     "about": "About",
     "personality": "Personality",
     "appearance": "Appearance",
-    "serviceStyle": "Service Style",
+    "serviceStyle": "Style",
     "preferences": "Preferences",
-    "preferredType": "Preferred Type",
+    "preferredType": "Ideal Connection",
     "lifestyle": "Lifestyle",
     "hobbies": "Hobbies",
-    "holidayStyle": "Holiday Style"
-  },
-  "browse": {
-    "title": "Discover",
-    "featuredTitle": "Featured",
-    "allCasts": "All Members",
-    "premiumAccess": "You have access to all premium members",
-    "basicAccess": "Upgrade to Premium to access High-Class members",
-    "noCasts": "No members available at this time",
-    "tryDifferentFilters": "Try adjusting your filters",
-    "featured": "Featured Members",
-    "filters": "Filters",
-    "ageRange": "Age Range",
-    "languages": "Languages",
-    "location": "Location",
-    "allLocations": "All Locations",
-    "interests": "Interests",
-    "applyFilters": "Apply Filters",
-    "clear": "Clear",
-    "noResults": "No casts found",
-    "loadMore": "Load More",
-    "bookmark": "Save",
-    "bookmarked": "Saved",
-    "viewProfile": "View Profile",
-    "upgradeCTA": {
-      "title": "Unlock Premium Access",
-      "description": "Access our exclusive High-Class members and enjoy premium features",
-      "button": "Upgrade to Premium"
-    },
-    "searchPlaceholder": "Search by name...",
-    "sortBy": "Sort by",
-    "sortFeatured": "Featured First",
-    "sortNewest": "Newest First",
-    "sortYoungest": "Age: Youngest",
-    "sortOldest": "Age: Oldest",
-    "activeFilters": "Active Filters",
-    "clearAllFilters": "Clear All Filters",
-    "castsFound": "{count} casts",
-    "filterAge": "Age",
-    "filterLanguages": "Languages",
-    "filterLocation": "Location",
-    "filterInterests": "Interests"
-  },
-  "bookmarks": {
-    "title": "Saved",
-    "description": "Your saved members",
-    "emptyDescription": "Start saving your favorite members",
-    "empty": "No saved members yet",
-    "emptyHint": "Browse members and save your favorites",
-    "browseCasts": "Browse Members",
-    "totalSaved": "saved members"
-  },
-  "requests": {
-    "title": "Meeting Requests",
-    "description": "Your meeting requests",
-    "emptyDescription": "No meeting requests yet",
-    "empty": "No meeting requests",
-    "emptyHint": "Browse members and request a meeting",
-    "browseCasts": "Browse Members",
-    "pending": "Pending",
-    "confirmed": "Confirmed",
-    "history": "History",
-    "requestedOn": "Requested",
-    "awaitingAdmin": "Awaiting admin coordination"
-  },
-  "meeting": {
-    "request": "Request Meeting",
-    "requestSuccess": "Meeting request sent successfully",
-    "firstMeeting": "First meeting at Lune Roppongi",
-    "safeEnvironment": "Safe & luxurious environment",
-    "pending": "Pending",
-    "confirmed": "Confirmed",
-    "cancelled": "Cancelled",
-    "completed": "Completed",
-    "scheduledDate": "Scheduled Date",
-    "location": "Location",
-    "adminNotes": "Notes"
-  },
-  "admin": {
-    "dashboard": "Dashboard",
-    "members": "Members",
-    "casts": "Casts",
-    "requests": "Meeting Requests",
-    "activityLog": "Activity Log",
-    "pendingMembers": "Pending Members",
-    "activeCasts": "Active Casts",
-    "pendingRequests": "Pending Requests",
-    "approve": "Approve",
-    "reject": "Reject",
-    "createCast": "Create Cast Profile",
-    "editCast": "Edit Cast Profile",
-    "activate": "Activate",
-    "deactivate": "Deactivate",
-    "setFeatured": "Set as Featured",
-    "assignTier": "Assign Tier",
-    "markPaid": "Mark as Paid",
-    "coordinateMeeting": "Coordinate Meeting",
-    "confirmBooking": "Confirm Booking"
+    "holidayStyle": "How She Unwinds"
   },
   "dashboard": {
     "welcome": "Welcome to LUNE PRIVÉ",
-    "welcomeName": "Welcome to LUNE PRIVÉ, {name}",
-    "tagline": "Find your perfect drinking companion tonight",
-    "discoverCasts": "Discover Casts",
-    "yourBookmarks": "Your Bookmarks",
+    "welcomeName": "Welcome back, {name}",
+    "tagline": "Find your perfect companion tonight",
+    "discoverCasts": "Discover Companions",
+    "yourBookmarks": "Your Favorites",
     "stats": {
-      "castsAvailable": "Casts Available",
-      "savedFavorites": "Saved Favorites",
-      "pendingRequests": "Pending Requests"
+      "castsAvailable": "Available Tonight",
+      "savedFavorites": "Saved",
+      "pendingRequests": "Pending"
     },
     "featuredTonight": "Featured Tonight",
     "yourFavorites": "Your Favorites",
     "yourRequests": "Your Requests",
     "viewAll": "View All",
     "discoverMore": "Discover More",
-    "readyToMeet": "Ready to Meet Someone?",
-    "browseCollection": "Browse our full collection of casts",
-    "exploreAll": "Explore All Casts",
-    "upgradeAccess": "Premium Access: High-Class Casts",
-    "upgradeNow": "Upgrade to Premium",
-    "noCastsYet": "Start exploring our members",
+    "readyToMeet": "Ready to Meet Someone Special?",
+    "browseCollection": "Browse our curated collection",
+    "exploreAll": "Explore All Companions",
+    "upgradeAccess": "Unlock Premium Companions",
+    "upgradeNow": "Upgrade Now",
+    "noCastsYet": "Start exploring",
     "requestedOn": "Requested"
+  },
+  "browse": {
+    "title": "Discover",
+    "featuredTitle": "Featured",
+    "allCasts": "All Companions",
+    "premiumAccess": "You have access to all premium companions",
+    "basicAccess": "Upgrade to unlock premium companions",
+    "noCasts": "No companions available right now",
+    "tryDifferentFilters": "Try adjusting your filters",
+    "featured": "Featured Companions",
+    "filters": "Filters",
+    "ageRange": "Age",
+    "languages": "Languages",
+    "location": "Location",
+    "allLocations": "All Areas",
+    "interests": "Interests",
+    "applyFilters": "Apply",
+    "clear": "Clear",
+    "noResults": "No matches found",
+    "loadMore": "Load More",
+    "bookmark": "Save",
+    "bookmarked": "Saved",
+    "viewProfile": "View Profile",
+    "upgradeCTA": {
+      "title": "Unlock Premium Access",
+      "description": "Access our most exclusive companions and premium features",
+      "button": "Upgrade to Premium"
+    },
+    "searchPlaceholder": "Search by name...",
+    "sortBy": "Sort",
+    "sortFeatured": "Featured",
+    "sortNewest": "Newest",
+    "sortYoungest": "Age: Youngest",
+    "sortOldest": "Age: Oldest",
+    "activeFilters": "Active",
+    "clearAllFilters": "Clear Filters",
+    "castsFound": "{count} companions",
+    "filterAge": "Age",
+    "filterLanguages": "Languages",
+    "filterLocation": "Location",
+    "filterInterests": "Interests"
+  },
+  "bookmarks": {
+    "title": "Favorites",
+    "description": "Your saved companions",
+    "emptyDescription": "Save your favorites here",
+    "empty": "No favorites yet",
+    "emptyHint": "Browse companions and save the ones you like",
+    "browseCasts": "Browse Companions",
+    "totalSaved": "saved"
+  },
+  "requests": {
+    "title": "Meeting Requests",
+    "description": "Your upcoming and past meetings",
+    "emptyDescription": "No meeting requests yet",
+    "empty": "No meetings",
+    "emptyHint": "Browse companions and request a meeting",
+    "browseCasts": "Browse Companions",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "history": "Past",
+    "requestedOn": "Requested",
+    "awaitingAdmin": "Being coordinated by our team"
+  },
+  "meeting": {
+    "request": "Request Meeting",
+    "requestSuccess": "Meeting request sent",
+    "firstMeeting": "First meeting at LUNE Roppongi",
+    "safeEnvironment": "Safe, elegant environment",
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "cancelled": "Cancelled",
+    "completed": "Complete",
+    "scheduledDate": "Date",
+    "location": "Location",
+    "adminNotes": "Details"
+  },
+  "admin": {
+    "dashboard": "Dashboard",
+    "members": "Members",
+    "casts": "Companions",
+    "requests": "Meetings",
+    "activityLog": "Activity",
+    "pendingMembers": "Pending Members",
+    "activeCasts": "Active Companions",
+    "pendingRequests": "Pending Meetings",
+    "approve": "Approve",
+    "reject": "Decline",
+    "createCast": "Add Companion",
+    "editCast": "Edit Profile",
+    "activate": "Activate",
+    "deactivate": "Deactivate",
+    "setFeatured": "Feature",
+    "assignTier": "Assign Tier",
+    "markPaid": "Mark Paid",
+    "coordinateMeeting": "Coordinate",
+    "confirmBooking": "Confirm"
   },
   "landing": {
     "hero": {
-      "title": "Find Your Perfect Japanese Companion",
-      "subtitle": "Luxury Drinking Experiences. Curated Companions. Enjoy Tokyo Nights.",
-      "ctaPrimary": "Explore Companions",
+      "title": "Where Tokyo Nights Begin",
+      "subtitle": "Meet captivating Japanese companions over drinks. Where the night takes you... is entirely up to you.",
+      "ctaPrimary": "Start Your Evening",
       "ctaSecondary": "Learn More",
       "trustBadge1": "Verified Profiles",
-      "trustBadge2": "Secure Platform",
+      "trustBadge2": "Absolute Discretion",
       "trustBadge3": "Multilingual"
     },
     "features": {
       "title": "Why Choose LUNE PRIVÉ",
-      "curated": "Curated Selection",
-      "curatedDesc": "Meet verified companions fluent in English, Chinese & Japanese",
-      "secure": "Discreet & Secure",
-      "secureDesc": "Your privacy is our priority. Verified profiles, encrypted communication",
-      "experience": "Roppongi Experience",
-      "experienceDesc": "Experience Tokyo's most vibrant nightlife district with local expertise"
+      "feature1Title": "Chemistry First",
+      "feature1Desc": "Beautiful, sophisticated companions fluent in English, Japanese & Chinese. The spark between you? That's what matters most.",
+      "feature2Title": "What Stays at LUNE",
+      "feature2Desc": "Absolute discretion guaranteed. No judgment. Your evening—and whatever follows—remains completely private.",
+      "feature3Title": "Beyond the Bar",
+      "feature3Desc": "Start with drinks at LUNE Roppongi. Where you take the connection from there is yours to explore."
+    },
+    "discretion": {
+      "title": "Discretion You Can Trust",
+      "intro": "At LUNE PRIVÉ, we understand that some moments are meant to stay private. What happens between you and your companion—whether at LUNE or beyond—is your business alone.",
+      "private": "Private Profiles",
+      "privateDesc": "Your information stays confidential",
+      "encrypted": "Encrypted Messages",
+      "encryptedDesc": "All communication is secure",
+      "noJudgment": "No Judgment",
+      "noJudgmentDesc": "Your choices are respected",
+      "yourTerms": "Your Terms",
+      "yourTermsDesc": "Companions decide for themselves"
     },
     "howItWorks": {
       "title": "How It Works",
-      "subtitle": "Simple steps to elevate your evening",
-      "step1Title": "Browse",
-      "step1Desc": "View verified companion profiles with detailed information and photos",
-      "step2Title": "Connect",
-      "step2Desc": "Send booking request with your preferences and desired meeting time",
-      "step3Title": "Meet",
-      "step3Desc": "Enjoy your curated evening at premium venues in Roppongi",
-      "step4Title": "Review",
-      "step4Desc": "Share your experience to help our community grow"
+      "subtitle": "Four simple steps to an unforgettable evening",
+      "step1Title": "Choose Your Companion",
+      "step1Desc": "Browse profiles of captivating Japanese women. Find someone who truly intrigues you.",
+      "step2Title": "Reserve Your Evening",
+      "step2Desc": "Select your preferred companion and time. First meeting at LUNE Roppongi—our exclusive lounge.",
+      "step3Title": "Connect Over Drinks",
+      "step3Desc": "Meet in LUNE's sophisticated setting. Share conversation, laughter, champagne. See where the chemistry leads.",
+      "step4Title": "Continue the Night",
+      "step4Desc": "If the connection is there, the evening doesn't have to end at LUNE. What happens next is between consenting adults."
+    },
+    "whyLune": {
+      "title": "Why Meet at LUNE First?",
+      "subtitle": "Safety, Sophistication, Then... Spontaneity",
+      "description": "Every first meeting takes place at our exclusive LUNE Roppongi lounge. It's a beautiful, public space where you can connect over premium drinks in a relaxed atmosphere. Once you've established a connection and mutual comfort, where the night goes from there is entirely up to both of you.\n\nThink of LUNE as your elegant starting point—not your destination.",
+      "benefit1Title": "Safe & Public",
+      "benefit1Desc": "Beautiful lounge environment",
+      "benefit2Title": "Premium Setting",
+      "benefit2Desc": "Luxury drinks & atmosphere",
+      "benefit3Title": "Central Roppongi",
+      "benefit3Desc": "Heart of Tokyo nightlife",
+      "quote": "\"Your elegant starting point—not your destination.\""
     },
     "featuredCasts": {
       "title": "Featured Companions",
-      "subtitle": "Meet some of our most popular companions",
+      "subtitle": "Meet some of our most captivating companions",
       "viewAll": "View All Companions"
     },
     "membership": {
       "title": "Choose Your Membership",
-      "subtitle": "Select the tier that matches your lifestyle",
+      "subtitle": "Select the experience that matches your lifestyle",
       "standard": {
         "name": "Standard",
-        "price": "From ¥10,000/month",
+        "price": "¥10,000/month",
         "feature1": "Access to standard companions",
-        "feature2": "Basic profile browsing",
+        "feature2": "Profile browsing",
         "feature3": "Secure messaging",
         "feature4": "Standard support",
         "cta": "Get Started"
       },
       "gold": {
         "name": "Gold",
-        "price": "From ¥25,000/month",
+        "price": "¥25,000/month",
         "feature1": "All Standard features",
         "feature2": "Priority booking",
-        "feature3": "Extended companion profiles",
+        "feature3": "Extended profiles",
         "feature4": "Priority support",
         "cta": "Choose Gold",
         "popular": "Most Popular"
       },
       "vip": {
         "name": "VIP",
-        "price": "From ¥50,000/month",
+        "price": "¥50,000/month",
         "feature1": "All Gold features",
-        "feature2": "Access to high-class companions",
-        "feature3": "Personal concierge service",
+        "feature2": "Premium companions",
+        "feature3": "Personal concierge",
         "feature4": "24/7 VIP support",
         "cta": "Go VIP"
       }
     },
     "testimonials": {
-      "title": "What Our Members Say",
-      "subtitle": "Real experiences from our verified members",
+      "title": "Member Experiences",
+      "subtitle": "What our verified members say",
       "testimonial1": {
-        "text": "The level of discretion and professionalism exceeded my expectations. Every detail was carefully handled.",
+        "text": "The discretion and professionalism exceeded every expectation. Every detail handled perfectly.",
         "author": "M.T.",
         "location": "Tokyo"
       },
       "testimonial2": {
-        "text": "I found the perfect companion for business dinners. Fluent in English and very sophisticated.",
+        "text": "Found the perfect companion for business dinners. Fluent in English, sophisticated, captivating.",
         "author": "J.K.",
         "location": "Singapore"
       },
       "testimonial3": {
-        "text": "The verification process made me feel secure. Quality over quantity - exactly what I needed.",
+        "text": "The verification process gave me complete confidence. Quality over quantity—exactly what I needed.",
         "author": "R.L.",
         "location": "New York"
       }
@@ -299,47 +326,301 @@
     "location": {
       "title": "Why Roppongi?",
       "subtitle": "Tokyo's premier nightlife destination",
-      "feature1": "International atmosphere with multilingual venues",
-      "feature2": "Premium bars, restaurants, and exclusive lounges",
-      "feature3": "Safe, accessible, and well-connected location",
-      "feature4": "Heart of Tokyo's sophisticated entertainment scene"
+      "feature1": "International atmosphere, multilingual venues",
+      "feature2": "Premium bars, restaurants, exclusive lounges",
+      "feature3": "Safe, accessible, perfectly connected",
+      "feature4": "The heart of Tokyo's sophisticated scene"
     },
     "trust": {
       "title": "Trust & Safety",
-      "subtitle": "Your security is our top priority",
+      "subtitle": "Your security is our priority",
       "verification": {
         "title": "ID Verification Required",
-        "desc": "All members undergo thorough verification"
+        "desc": "Every member thoroughly verified"
       },
       "payment": {
-        "title": "Secure Payment Processing",
-        "desc": "Bank-level encryption for all transactions"
+        "title": "Secure Payment",
+        "desc": "Bank-level encryption"
       },
       "support": {
-        "title": "24/7 Support Team",
-        "desc": "Always here when you need assistance"
+        "title": "24/7 Support",
+        "desc": "Always here for you"
       },
       "privacy": {
-        "title": "Privacy Guaranteed",
-        "desc": "Your information is never shared"
+        "title": "Absolute Privacy",
+        "desc": "Your information never shared"
       }
     },
     "finalCTA": {
-      "title": "Ready to Elevate Your Evening?",
-      "subtitle": "Join Tokyo's most exclusive companion platform",
+      "title": "Begin Your Evening at LUNE",
+      "subtitle": "Meet her over drinks. What unfolds from there... that's your story to write.",
       "ctaPrimary": "Join Now",
-      "ctaSecondary": "Browse Companions",
-      "note": "Verification required • Discreet & Professional"
+      "ctaSecondary": "View Companions",
+      "note": "Verification required • Absolute discretion • 18+ only"
     },
     "footer": {
-      "about": "About Us",
+      "about": "About",
       "howItWorks": "How It Works",
       "safety": "Safety & Privacy",
-      "terms": "Terms of Service",
-      "privacy": "Privacy Policy",
-      "contact": "Contact Us",
+      "terms": "Terms",
+      "privacy": "Privacy",
+      "contact": "Contact",
       "copyright": "© 2025 LUNE PRIVÉ. All rights reserved.",
       "location": "Roppongi, Tokyo"
+    }
+  },
+  "about": {
+    "hero": {
+      "title": "About LUNE PRIVÉ",
+      "subtitle": "Where sophistication meets connection in Tokyo's most vibrant district"
+    },
+    "lune": {
+      "title": "LUNE Roppongi",
+      "description": "LUNE is our exclusive lounge in the heart of Roppongi, Tokyo's premier nightlife district. Designed with elegance and discretion in mind, LUNE provides the perfect setting for first meetings—a beautiful, sophisticated space where connections begin.",
+      "feature1": "Luxury interior with private seating",
+      "feature2": "Premium drinks, impeccable service",
+      "feature3": "Discreet, safe, central Roppongi"
+    },
+    "platform": {
+      "title": "LUNE PRIVÉ Platform",
+      "description": "LUNE PRIVÉ connects discerning members with verified Japanese companions. We've created a seamless experience from browsing to booking, with safety and quality at the forefront.",
+      "feature1": "Curated, verified companions",
+      "feature2": "Secure, encrypted communication",
+      "feature3": "First meetings always at LUNE"
+    },
+    "values": {
+      "title": "Our Values",
+      "subtitle": "What sets LUNE PRIVÉ apart",
+      "value1Title": "Discretion & Privacy",
+      "value1Desc": "Your information and activities remain completely confidential. What happens at LUNE stays at LUNE.",
+      "value2Title": "Quality over Quantity",
+      "value2Desc": "We carefully curate every companion, ensuring sophistication and charm in every profile.",
+      "value3Title": "Safety & Verification",
+      "value3Desc": "All members and companions thoroughly verified. First meetings at LUNE ensure safety and comfort.",
+      "value4Title": "Unforgettable Experiences",
+      "value4Desc": "We're not just facilitating introductions—we're creating memorable evenings in Tokyo's most vibrant district."
+    },
+    "cta": {
+      "title": "Ready to Begin Your LUNE Experience?",
+      "subtitle": "Join Tokyo's most exclusive companion platform",
+      "button": "Become a Member"
+    }
+  },
+  "howItWorksPage": {
+    "hero": {
+      "title": "How LUNE PRIVÉ Works",
+      "subtitle": "A sophisticated journey from browsing to connection—and beyond"
+    },
+    "step1Title": "Browse & Discover",
+    "step1Desc": "Explore our curated selection of verified Japanese companions. Each profile showcases personality, interests, and what makes her unique.",
+    "step1Detail1": "Filter by age, language, interests, location",
+    "step1Detail2": "View detailed profiles with verified photos",
+    "step1Detail3": "Save your favorites to revisit",
+    "step2Title": "Request Your Meeting",
+    "step2Desc": "Found someone intriguing? Request a meeting through our secure platform. All first encounters take place at LUNE Roppongi.",
+    "step2Detail1": "Select your preferred companion and propose a time",
+    "step2Detail2": "Our team coordinates and confirms availability",
+    "step2Detail3": "Receive confirmation with meeting details at LUNE",
+    "step3Title": "Meet at LUNE",
+    "step3Desc": "Your evening begins at our exclusive Roppongi lounge. Connect over premium drinks in a sophisticated, safe environment.",
+    "step3Detail1": "Arrive at LUNE's discreet entrance in central Roppongi",
+    "step3Detail2": "Enjoy complimentary champagne and conversation",
+    "step3Detail3": "Take your time—no rush, no pressure",
+    "step4Title": "Where the Night Takes You",
+    "step4Desc": "If the chemistry is right, the evening doesn't have to end at LUNE. What happens next is entirely between two consenting adults.",
+    "step4Detail1": "Decide together if you'd like to continue elsewhere",
+    "step4Detail2": "Your companion makes her own choices",
+    "step4Detail3": "Whatever you decide remains private and discreet",
+    "different": {
+      "title": "What Makes LUNE Different?",
+      "subtitle": "We're not just another dating app or escort service",
+      "description1": "LUNE PRIVÉ is designed for discerning individuals who appreciate sophistication, discretion, and genuine connection. We facilitate introductions between verified members and captivating Japanese companions—but what makes us truly unique is our approach.",
+      "description2": "Every first meeting happens at our exclusive LUNE Roppongi lounge. This isn't arbitrary—it's intentional. Meeting in a beautiful, public space ensures safety and comfort for everyone. It gives you both the opportunity to connect naturally over drinks, see if there's chemistry, and decide together what comes next.",
+      "quote": "Think of LUNE as your elegant starting point—not your destination.",
+      "description3": "We don't dictate what happens after that initial meeting. If you both choose to continue the evening elsewhere—whether for dinner, karaoke, or simply more private conversation—that's entirely up to you. We respect the autonomy of everyone on our platform."
+    },
+    "safety": {
+      "title": "Safety & Trust First",
+      "subtitle": "How we ensure a secure experience",
+      "feature1Title": "Verified Identities",
+      "feature1Desc": "All members and companions undergo thorough ID verification.",
+      "feature2Title": "Public First Meetings",
+      "feature2Desc": "LUNE lounge provides a safe, elegant environment—never meet strangers privately.",
+      "feature3Title": "Secure Communication",
+      "feature3Desc": "All messages encrypted end-to-end. Your conversations stay private.",
+      "feature4Title": "Professional Support",
+      "feature4Desc": "Our team available 24/7 to coordinate meetings and ensure everything runs smoothly."
+    },
+    "cta": {
+      "title": "Ready to Begin?",
+      "subtitle": "Join LUNE PRIVÉ and discover Tokyo's most sophisticated companions",
+      "button": "Become a Member"
+    }
+  },
+  "safetyPage": {
+    "hero": {
+      "title": "Safety & Privacy",
+      "subtitle": "Your security, discretion, and peace of mind are our highest priorities"
+    },
+    "intro": {
+      "paragraph1": "At LUNE PRIVÉ, we've built our platform on a foundation of trust, transparency, and uncompromising safety. We understand that discretion isn't just a preference—it's essential. Whether meeting someone for the first time at LUNE or continuing an evening elsewhere, you deserve to feel secure every step of the way.",
+      "paragraph2": "Below, you'll find detailed information about our safety measures, privacy protocols, and the steps we take to ensure a secure, respectful experience for everyone."
+    },
+    "features": {
+      "title": "Our Safety Measures",
+      "subtitle": "Comprehensive protection at every level"
+    },
+    "feature1Title": "Rigorous Identity Verification",
+    "feature1Desc": "All members and companions undergo thorough ID verification before accessing the platform. No anonymous accounts—everyone is who they say they are.",
+    "feature2Title": "Secure, Encrypted Communication",
+    "feature2Desc": "All messages between members and companions are end-to-end encrypted. Your conversations remain completely private and confidential.",
+    "feature3Title": "Public First Meetings Only",
+    "feature3Desc": "Every initial meeting takes place at our LUNE Roppongi lounge—a safe, elegant public space. Never meet strangers in private locations.",
+    "feature4Title": "In-Platform Messaging Only",
+    "feature4Desc": "All communication happens through our secure platform until after your first meeting. No pressure to share personal contact information prematurely.",
+    "feature5Title": "Background Checks & Screening",
+    "feature5Desc": "Companions undergo additional screening to ensure quality and safety. Members verified through ID and payment method validation.",
+    "feature6Title": "24/7 Support & Reporting",
+    "feature6Desc": "Our support team available around the clock. Report concerns instantly through the platform—we respond immediately.",
+    "privacy": {
+      "title": "Privacy & Data Protection",
+      "subtitle": "Your information protected with industry-leading security",
+      "dataTitle": "How We Protect Your Data",
+      "data1": "Bank-level encryption (256-bit SSL) for all data transmission and storage",
+      "data2": "GDPR and CCPA compliant—you control your information",
+      "data3": "No selling or sharing of personal data with third parties, ever",
+      "data4": "Secure payment processing through verified, PCI-compliant providers",
+      "data5": "Automatic data anonymization and regular security audits",
+      "gdprNote": "As a platform operating in Japan with international members, we adhere to the strictest global privacy standards including GDPR (EU) and CCPA (California). You have the right to access, modify, or delete your personal data at any time."
+    },
+    "guidelines": {
+      "title": "Safety Guidelines for Members",
+      "subtitle": "Best practices for a secure, enjoyable experience"
+    },
+    "guideline1": "Always meet first at LUNE Roppongi—never agree to meet strangers in private locations initially.",
+    "guideline2": "Keep all communication on-platform until after you've met in person and feel comfortable sharing personal contact information.",
+    "guideline3": "Trust your instincts. If something feels off, you're under no obligation to continue the meeting.",
+    "guideline4": "Inform a trusted friend of your plans. Share general details (who, where, when) for added safety.",
+    "guideline5": "Respect boundaries and consent. What happens after the initial meeting is mutual—both parties must enthusiastically agree.",
+    "guideline6": "Report suspicious behavior immediately. Our team investigates all reports seriously.",
+    "support": {
+      "title": "Need Help or Want to Report a Concern?",
+      "subtitle": "We're here 24/7",
+      "description": "If you experience any safety concerns, inappropriate behavior, or have questions about our policies, our support team is standing by. Contact us anytime—your safety is our responsibility.",
+      "button": "Contact Support"
+    },
+    "cta": {
+      "title": "Feel Safe. Feel Respected. Feel Free.",
+      "subtitle": "Join a platform where your security and discretion come first",
+      "button": "Become a Member"
+    }
+  },
+  "termsPage": {
+    "hero": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: January 2025"
+    },
+    "intro": "Welcome to LUNE PRIVÉ. These Terms of Service govern your access to and use of the LUNE PRIVÉ platform. By registering for an account, you agree to be bound by these Terms.",
+    "section1Title": "Acceptance of Terms",
+    "section1Content": "By creating an account on LUNE PRIVÉ, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. We reserve the right to modify these Terms at any time.",
+    "section2Title": "Eligibility",
+    "section2Content": "You must be at least 18 years of age to use LUNE PRIVÉ. By registering, you represent and warrant that you are of legal age and have the legal capacity to enter into these Terms.",
+    "section3Title": "Account Registration & Verification",
+    "section3Content": "To access the Platform, you must create an account and provide accurate, complete information. You agree to:\n\n• Provide valid government-issued identification for verification\n• Maintain the confidentiality of your account credentials\n• Notify us immediately of any unauthorized use\n• Accept responsibility for all activities under your account",
+    "section4Title": "Nature of Services",
+    "section4Content": "LUNE PRIVÉ is a companion introduction platform that facilitates connections between verified members and Japanese companions. We provide:\n\n• A platform to browse companion profiles and request meetings\n• Coordination of initial meetings at our LUNE Roppongi lounge\n• Secure messaging and communication tools\n• Verification and safety features\n\nIMPORTANT: LUNE PRIVÉ facilitates introductions only. We do not control or have responsibility for what happens between consenting adults after the initial introduction.",
+    "section5Title": "User Conduct & Prohibited Activities",
+    "section5Content": "You agree NOT to:\n\n• Use the Platform for any illegal activities\n• Harass, threaten, or abuse other users\n• Share personal contact information without consent\n• Misrepresent your identity, age, or intentions\n• Attempt to bypass verification or security measures\n• Violate the privacy, safety, or rights of others",
+    "section6Title": "Payments & Subscriptions",
+    "section6Content": "Access to LUNE PRIVÉ requires a paid membership subscription. By subscribing, you agree to:\n\n• Pay all applicable fees according to your chosen tier\n• Automatic renewal unless you cancel before renewal date\n• Our refund policy (no refunds for partial months)\n• Price changes with 30 days' notice",
+    "section7Title": "Privacy & Data Protection",
+    "section7Content": "We take your privacy seriously. Our collection, use, and protection of your personal data is governed by our Privacy Policy.\n\nKey points:\n• We use encryption to protect your data\n• We do not sell your personal information\n• You have the right to access, modify, or delete your data\n• We comply with GDPR, CCPA, and Japanese privacy laws",
+    "section8Title": "Disclaimer of Warranties & Limitation of Liability",
+    "section8Content": "LUNE PRIVÉ is provided \"as is\" without warranties of any kind. We do not guarantee:\n\n• Uninterrupted or error-free operation\n• Accuracy of user-provided information\n• Specific outcomes from using the Platform\n\nTo the maximum extent permitted by law, LUNE PRIVÉ shall not be liable for indirect, incidental, or consequential damages. You acknowledge that meetings with other users are at your own risk.",
+    "section9Title": "Indemnification",
+    "section9Content": "You agree to indemnify and hold harmless LUNE PRIVÉ from any claims, damages, losses, and expenses arising from:\n\n• Your use of the Platform\n• Your violation of these Terms\n• Your violation of any rights of another user\n• Any content you submit",
+    "section10Title": "Termination",
+    "section10Content": "We reserve the right to suspend or terminate your account at any time for:\n\n• Violation of these Terms\n• Fraudulent, abusive, or illegal activity\n• Non-payment of fees\n• Any reason necessary to protect the Platform or other users",
+    "contact": {
+      "title": "Questions About These Terms?",
+      "description": "If you have questions about these Terms of Service, please contact us at:"
+    }
+  },
+  "privacyPage": {
+    "hero": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: January 2025"
+    },
+    "intro": "At LUNE PRIVÉ, your privacy is paramount. This Privacy Policy explains how we collect, use, store, and protect your personal information. We are committed to transparency and compliance with global privacy standards, including GDPR (EU), CCPA (California), and Japan's APPI.",
+    "section1Title": "Information We Collect",
+    "section1Content": "We collect:\n\n**Account Information:**\n• Full name, email, phone number\n• Date of birth (for age verification)\n• Government-issued ID (for identity verification)\n• Payment information (processed through secure third-party providers)\n\n**Profile Information:**\n• Photos you upload\n• Preferences, interests, biographical information\n• Saved favorites and bookmarks\n\n**Usage Data:**\n• Pages visited, features used, time spent\n• Device information (IP address, browser type, OS)\n• Cookies and similar tracking technologies\n\n**Communications:**\n• Messages exchanged on the platform (encrypted)\n• Support requests and correspondence",
+    "section2Title": "How We Use Your Information",
+    "section2Content": "We use your information to:\n\n• Provide and improve our services\n• Verify your identity and prevent fraud\n• Process payments and manage subscriptions\n• Facilitate connections between members and companions\n• Communicate important updates and security alerts\n• Ensure safety and enforce our Terms of Service\n• Comply with legal obligations\n\nWe do NOT:\n• Sell your personal information to third parties\n• Share your data with advertisers\n• Use your information for unrelated purposes",
+    "section3Title": "Data Sharing & Disclosure",
+    "section3Content": "We may share your information only in limited circumstances:\n\n**With Other Users:**\n• Your profile information is visible to other verified members\n• Messages you send are visible only to the recipient (encrypted)\n\n**With Service Providers:**\n• Payment processors (e.g., Stripe)\n• Cloud storage providers (e.g., AWS)\n• Email service providers\n• All providers contractually obligated to protect your data\n\n**For Legal Compliance:**\n• When required by law (court orders, subpoenas)\n• To protect safety and rights of LUNE PRIVÉ, users, or public",
+    "section4Title": "Data Security",
+    "section4Content": "We implement industry-leading security measures:\n\n• 256-bit SSL encryption for all data transmission\n• End-to-end encryption for in-platform messaging\n• Secure, encrypted storage of sensitive information\n• Regular security audits and penetration testing\n• Restricted access to personal data (authorized personnel only)\n• Multi-factor authentication for admin accounts",
+    "section5Title": "Data Retention",
+    "section5Content": "We retain your personal data for as long as your account is active or as needed to provide services. After account deletion:\n\n• Immediately remove your profile from public view\n• Delete or anonymize personal data within 30 days\n• Retain certain data longer only if required by law",
+    "section6Title": "Cookies & Tracking Technologies",
+    "section6Content": "We use cookies to:\n\n• Remember your login session and preferences\n• Analyze usage patterns and improve the platform\n• Provide personalized content\n\nYou can control cookie settings through your browser. We do NOT use third-party advertising cookies.",
+    "section7Title": "Your Privacy Rights",
+    "section7Content": "Depending on your location, you have rights including:\n\n**GDPR (EU Residents):**\n• Right to access your data\n• Right to rectification (correction)\n• Right to erasure (\"right to be forgotten\")\n• Right to data portability\n• Right to object to processing\n\n**CCPA (California Residents):**\n• Right to know what data we collect\n• Right to delete personal information\n• Right to opt-out of data sales (we don't sell data)\n\n**APPI (Japan Residents):**\n• Right to disclosure of purpose\n• Right to request correction or deletion\n\nTo exercise these rights, contact us at hello@lune-roppongi.jp. We will respond within 30 days.",
+    "section8Title": "International Data Transfers",
+    "section8Content": "LUNE PRIVÉ operates globally, and your data may be transferred to countries outside your own, including Japan, the United States, and the European Union. We ensure all transfers comply with applicable privacy laws through Standard Contractual Clauses (SCCs) and other lawful mechanisms.",
+    "section9Title": "Children's Privacy",
+    "section9Content": "LUNE PRIVÉ is strictly for adults 18 years and older. We do not knowingly collect information from anyone under 18. If we discover a minor has created an account, we will immediately terminate it and delete all associated data.",
+    "section10Title": "Changes to This Privacy Policy",
+    "section10Content": "We may update this Privacy Policy to reflect changes in our practices or legal requirements. When we make significant changes:\n\n• We'll notify you via email\n• Display a prominent notice on the platform\n• Update the \"Last Updated\" date\n\nContinued use after changes constitutes acceptance of the updated policy.",
+    "gdpr": {
+      "title": "Your Data Rights Summary",
+      "description": "Under GDPR, CCPA, and APPI, you have the following rights:",
+      "right1": "Access: Request a copy of all personal data we hold",
+      "right2": "Correction: Update or correct inaccurate information",
+      "right3": "Deletion: Request permanent deletion of your account and data",
+      "right4": "Portability: Receive your data in a machine-readable format",
+      "right5": "Objection: Opt out of certain data processing activities",
+      "right6": "Withdrawal: Withdraw consent for data processing at any time"
+    },
+    "contact": {
+      "title": "Questions or Privacy Concerns?",
+      "description": "If you have questions about this Privacy Policy or want to exercise your privacy rights, contact us:",
+      "contactForm": "Or use our Contact Form"
+    }
+  },
+  "contactPage": {
+    "hero": {
+      "title": "Get in Touch",
+      "subtitle": "Questions, concerns, or feedback? We're here to help."
+    },
+    "form": {
+      "title": "Send Us a Message",
+      "subtitle": "Fill out the form below and we'll get back to you within 24 hours.",
+      "name": "Your Name",
+      "namePlaceholder": "Enter your full name",
+      "email": "Email Address",
+      "emailPlaceholder": "your.email@example.com",
+      "subject": "Subject",
+      "subjectPlaceholder": "What is this regarding?",
+      "message": "Message",
+      "messagePlaceholder": "Tell us how we can help you...",
+      "submit": "Send Message",
+      "sending": "Sending...",
+      "successTitle": "Message Sent",
+      "successMessage": "Thank you for contacting us. We'll respond within 24 hours.",
+      "errorTitle": "Error",
+      "errorMessage": "Failed to send message. Please try again or email us directly."
+    },
+    "info": {
+      "title": "Contact Information",
+      "subtitle": "Prefer to reach out directly? Here's how to find us.",
+      "emailTitle": "Email Us",
+      "locationTitle": "Location",
+      "locationContent": "Roppongi, Minato-ku, Tokyo, Japan",
+      "hoursTitle": "Response Time",
+      "hoursContent": "We typically respond within 24 hours (Monday-Sunday)",
+      "responseTitle": "Quick Response Guarantee",
+      "responseContent": "We aim to respond to all inquiries within 24 hours. For urgent matters, please mention 'URGENT' in your subject line."
     }
   }
 }

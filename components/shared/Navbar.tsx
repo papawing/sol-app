@@ -36,23 +36,36 @@ export default function Navbar() {
             </span>
           </Link>
 
-          {/* Center - Search (hidden on mobile) */}
-          <div className="hidden lg:flex flex-1 max-w-2xl mx-12">
-            {/* SearchBar component will go here */}
-          </div>
+          {/* Center - Navigation Links (hidden on mobile) */}
+          <nav className="hidden lg:flex flex-1 items-center justify-center gap-6 mx-12">
+            <Link
+              href="/about"
+              className="text-[#222222] font-medium hover:text-teal transition-colors"
+            >
+              {t("nav.about") || "About Us"}
+            </Link>
+            <Link
+              href="/how-it-works"
+              className="text-[#222222] font-medium hover:text-teal transition-colors"
+            >
+              {t("nav.howItWorks") || "How It Works"}
+            </Link>
+            <Link
+              href="/become-cast"
+              className="text-[#222222] font-medium hover:text-teal transition-colors"
+            >
+              {t("nav.becomeCast") || "Become Cast"}
+            </Link>
+            <Link
+              href="/register"
+              className="text-[#222222] font-medium hover:text-teal transition-colors"
+            >
+              {t("nav.becomeMember") || "Become Member"}
+            </Link>
+          </nav>
 
           {/* Right Side - Navigation & Auth */}
           <div className="flex items-center gap-3">
-            {/* Become a Cast - Only show for non-logged-in users or non-members */}
-            {(!session?.user || (session.user.role !== "MEMBER" && session.user.role !== "CAST")) && (
-              <Link
-                href="/become-cast"
-                className="hidden md:block text-[#222222] font-semibold hover:bg-gray-50 px-4 py-2 rounded-lg transition-colors"
-              >
-                {t("nav.becomeCast") || "Become a Cast"}
-              </Link>
-            )}
-
             {/* Language Switcher */}
             <DropdownMenu>
               <DropdownMenuTrigger asChild>
@@ -167,10 +180,35 @@ export default function Navbar() {
         </div>
       </div>
 
-      {/* Mobile Search Bar (visible only on mobile) */}
-      <div className="lg:hidden px-4 pb-4">
-        {/* Compact SearchBar component will go here */}
-      </div>
+      {/* Mobile Navigation (visible only on mobile) */}
+      <nav className="lg:hidden border-t border-gray-100 px-4 py-3">
+        <div className="flex items-center justify-around gap-2 text-sm">
+          <Link
+            href="/about"
+            className="text-[#222222] font-medium hover:text-teal transition-colors"
+          >
+            {t("nav.about") || "About"}
+          </Link>
+          <Link
+            href="/how-it-works"
+            className="text-[#222222] font-medium hover:text-teal transition-colors"
+          >
+            {t("nav.howItWorks") || "How It Works"}
+          </Link>
+          <Link
+            href="/become-cast"
+            className="text-[#222222] font-medium hover:text-teal transition-colors"
+          >
+            {t("nav.becomeCast") || "Cast"}
+          </Link>
+          <Link
+            href="/register"
+            className="text-[#222222] font-medium hover:text-teal transition-colors"
+          >
+            {t("nav.becomeMember") || "Member"}
+          </Link>
+        </div>
+      </nav>
     </header>
   )
 }
