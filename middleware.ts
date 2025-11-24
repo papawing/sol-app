@@ -18,7 +18,7 @@ export default function middleware(request: NextRequest) {
       request.nextUrl.pathname === '/api/verify-password' ||
       request.nextUrl.pathname.startsWith('/_next') ||
       request.nextUrl.pathname.startsWith('/images') ||
-      request.nextUrl.pathname === '/password-gate'
+      request.nextUrl.pathname.includes('/password-gate')
     ) {
       return intlMiddleware(request);
     }
@@ -28,9 +28,9 @@ export default function middleware(request: NextRequest) {
 
     // Check if user has valid password cookie
     if (!passwordCookie || passwordCookie.value !== SITE_PASSWORD) {
-      // Redirect to password page if not authenticated
+      // Redirect to password page if not authenticated (with locale)
       const url = request.nextUrl.clone();
-      url.pathname = '/password-gate';
+      url.pathname = '/en/password-gate';
       return NextResponse.redirect(url);
     }
   }
