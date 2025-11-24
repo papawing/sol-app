@@ -5,15 +5,14 @@ import type { NextRequest } from 'next/server';
 
 const intlMiddleware = createMiddleware(routing);
 
-// Simple password protection (only enable in production)
+// Simple password protection - ALWAYS ENABLED
 const SITE_PASSWORD = '123456';
 const PASSWORD_COOKIE = 'site-access';
+const ENABLE_PASSWORD = true; // Set to false to disable
 
 export default function middleware(request: NextRequest) {
   // Apply password protection if enabled
-  const isPasswordProtectionEnabled = process.env.ENABLE_PASSWORD_PROTECTION === 'true';
-
-  if (isPasswordProtectionEnabled) {
+  if (ENABLE_PASSWORD) {
     // Allow access to password verification API and static assets
     if (
       request.nextUrl.pathname === '/api/verify-password' ||
