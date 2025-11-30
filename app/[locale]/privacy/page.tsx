@@ -133,7 +133,7 @@ export default function PrivacyPage() {
       <footer className="bg-deep border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-white/50 text-sm text-center">
-            © 2025 LUNE PRIVÉ. All rights reserved.
+            © 2025 LIEN. All rights reserved.
           </p>
         </div>
       </footer>

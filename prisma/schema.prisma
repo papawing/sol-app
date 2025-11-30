@@ -155,6 +155,20 @@ model Cast {
   hobbies      String[] @default([]) // ["gourmet", "beauty", "music", "travel", ...]
   holidayStyle String[] @default([]) @map("holiday_style") // ["home", "cafe", "shopping", "travel", ...]
 
+  // New Checkbox Fields - Structured Data
+  personalityTypes     String[] @default([]) @map("personality_types") // ["bright_energetic", "healing_calm", ...]
+  appearanceTypes      String[] @default([]) @map("appearance_types") // ["beautiful_elegant", "cute", ...]
+  serviceTypes         String[] @default([]) @map("service_types") // ["energetic_lively", "healing_listener", ...]
+  preferredMemberTypes String[] @default([]) @map("preferred_member_types") // ["kind", "funny", ...]
+
+  // "Other" text fields for custom entries
+  personalityOther     String? @map("personality_other")
+  appearanceOther      String? @map("appearance_other")
+  serviceOther         String? @map("service_other")
+  preferredMemberOther String? @map("preferred_member_other")
+  hobbiesOther         String? @map("hobbies_other")
+  holidayStyleOther    String? @map("holiday_style_other")
+
   // Legacy/Additional
   interests         String[] @default([]) // Keep for backward compatibility
   availabilityNotes String?  @map("availability_notes")

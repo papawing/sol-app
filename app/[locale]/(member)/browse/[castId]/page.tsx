@@ -225,8 +225,16 @@ export default async function CastDetailPage({ params }: PageProps) {
                 </div>
               )}
 
-              {/* Personality Section - New multilingual content */}
+              {/* Personality Section - New checkbox fields + legacy multilingual fallback */}
               <PersonalitySection
+                personalityTypes={cast.personalityTypes || undefined}
+                personalityOther={cast.personalityOther}
+                appearanceTypes={cast.appearanceTypes || undefined}
+                appearanceOther={cast.appearanceOther}
+                serviceTypes={cast.serviceTypes || undefined}
+                serviceOther={cast.serviceOther}
+                preferredMemberTypes={cast.preferredMemberTypes || undefined}
+                preferredMemberOther={cast.preferredMemberOther}
                 personality={cast.personality as LocalizedText}
                 appearance={cast.appearance as LocalizedText}
                 serviceStyle={cast.serviceStyle as LocalizedText}
@@ -281,7 +289,7 @@ export default async function CastDetailPage({ params }: PageProps) {
                 </p>
                 <div className="flex items-center gap-2 text-sm">
                   <span>📍</span>
-                  <span>Lune Roppongi, Tokyo</span>
+                  <span>Roppongi, Tokyo</span>
                 </div>
               </div>
             </div>

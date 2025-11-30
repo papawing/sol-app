@@ -79,6 +79,17 @@ export async function PUT(
       appearance,
       serviceStyle,
       preferredType,
+      // New checkbox fields
+      personalityTypes,
+      personalityOther,
+      appearanceTypes,
+      appearanceOther,
+      serviceTypes,
+      serviceOther,
+      preferredMemberTypes,
+      preferredMemberOther,
+      hobbiesOther,
+      holidayStyleOther,
       hobbies,
       holidayStyle,
       interests,
@@ -169,6 +180,37 @@ export async function PUT(
     }
     if (preferredType !== undefined) {
       updateData.preferredType = preferredType
+    }
+    // New checkbox fields
+    if (personalityTypes !== undefined) {
+      updateData.personalityTypes = personalityTypes
+    }
+    if (personalityOther !== undefined) {
+      updateData.personalityOther = personalityOther || null
+    }
+    if (appearanceTypes !== undefined) {
+      updateData.appearanceTypes = appearanceTypes
+    }
+    if (appearanceOther !== undefined) {
+      updateData.appearanceOther = appearanceOther || null
+    }
+    if (serviceTypes !== undefined) {
+      updateData.serviceTypes = serviceTypes
+    }
+    if (serviceOther !== undefined) {
+      updateData.serviceOther = serviceOther || null
+    }
+    if (preferredMemberTypes !== undefined) {
+      updateData.preferredMemberTypes = preferredMemberTypes
+    }
+    if (preferredMemberOther !== undefined) {
+      updateData.preferredMemberOther = preferredMemberOther || null
+    }
+    if (hobbiesOther !== undefined) {
+      updateData.hobbiesOther = hobbiesOther || null
+    }
+    if (holidayStyleOther !== undefined) {
+      updateData.holidayStyleOther = holidayStyleOther || null
     }
     if (hobbies !== undefined) {
       updateData.hobbies = hobbies

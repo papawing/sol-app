@@ -4,6 +4,14 @@ import { useState } from "react"
 import { useRouter } from "next/navigation"
 import { useLocale, useTranslations } from "next-intl"
 import { Link } from "@/i18n/routing"
+import {
+  PERSONALITY_OPTIONS,
+  APPEARANCE_OPTIONS,
+  SERVICE_OPTIONS,
+  PREFERRED_MEMBER_OPTIONS,
+  ENHANCED_HOBBY_OPTIONS,
+  ENHANCED_HOLIDAY_OPTIONS,
+} from "@/lib/cast-options"
 
 const LANGUAGES = [
   { code: "en", label: "English" },
@@ -13,15 +21,6 @@ const LANGUAGES = [
 ]
 
 const ENGLISH_LEVELS = ["Native", "Fluent", "Conversational", "Basic", "None"]
-
-const HOBBIES = [
-  "gourmet", "beauty", "music", "travel", "fashion", "art",
-  "sports", "reading", "movies", "gaming", "cooking", "photography"
-]
-
-const HOLIDAY_STYLES = [
-  "home", "cafe", "shopping", "travel", "outdoor", "spa", "dining"
-]
 
 export default function CreateCastPage() {
   const router = useRouter()
@@ -46,12 +45,24 @@ export default function CreateCastPage() {
     bodyMeasurements: "",
     englishLevel: "",
     bio: { en: "", zh: "", ja: "" },
+    // New checkbox fields
+    personalityTypes: [] as string[],
+    personalityOther: "",
+    appearanceTypes: [] as string[],
+    appearanceOther: "",
+    serviceTypes: [] as string[],
+    serviceOther: "",
+    preferredMemberTypes: [] as string[],
+    preferredMemberOther: "",
+    hobbies: [] as string[],
+    hobbiesOther: "",
+    holidayStyle: [] as string[],
+    holidayStyleOther: "",
+    // Keep old fields for backward compatibility
     personality: { en: "", zh: "", ja: "" },
     appearance: { en: "", zh: "", ja: "" },
     serviceStyle: { en: "", zh: "", ja: "" },
     preferredType: { en: "", zh: "", ja: "" },
-    hobbies: [] as string[],
-    holidayStyle: [] as string[],
     interests: [] as string[],
     availabilityNotes: "",
     tierClassification: "STANDARD",
@@ -368,9 +379,9 @@ export default function CreateCastPage() {
             </div>
           </section>
 
-          {/* Multilingual Content */}
+          {/* Bio/About - Multilingual */}
           <section className="bg-white rounded-lg p-6 border border-gray-200">
-            <h2 className="text-lg font-semibold text-deep mb-4">Profile Content (Multilingual)</h2>
+            <h2 className="text-lg font-semibold text-deep mb-4">💬 Bio / About (Multilingual)</h2>
 
             {/* Language Tabs */}
             <div className="flex border-b border-gray-200 mb-4">
@@ -390,99 +401,206 @@ export default function CreateCastPage() {
               ))}
             </div>
 
-            <div className="space-y-4">
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Bio / About</label>
-                <textarea
-                  value={(formData.bio as Record<string, string>)[activeTab]}
-                  onChange={(e) => handleMultilingualChange("bio", e.target.value)}
-                  rows={3}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
-                  placeholder={`Enter bio in ${activeTab === "en" ? "English" : activeTab === "zh" ? "Chinese" : "Japanese"}`}
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Personality</label>
-                <textarea
-                  value={(formData.personality as Record<string, string>)[activeTab]}
-                  onChange={(e) => handleMultilingualChange("personality", e.target.value)}
-                  rows={2}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Appearance</label>
-                <textarea
-                  value={(formData.appearance as Record<string, string>)[activeTab]}
-                  onChange={(e) => handleMultilingualChange("appearance", e.target.value)}
-                  rows={2}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Service Style</label>
-                <textarea
-                  value={(formData.serviceStyle as Record<string, string>)[activeTab]}
-                  onChange={(e) => handleMultilingualChange("serviceStyle", e.target.value)}
-                  rows={2}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
-                />
-              </div>
-              <div>
-                <label className="block text-sm font-medium text-gray-700 mb-1">Preferred Type</label>
-                <textarea
-                  value={(formData.preferredType as Record<string, string>)[activeTab]}
-                  onChange={(e) => handleMultilingualChange("preferredType", e.target.value)}
-                  rows={2}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
-                />
-              </div>
+            <div>
+              <label className="block text-sm font-medium text-gray-700 mb-1">About / Self Introduction</label>
+              <textarea
+                value={(formData.bio as Record<string, string>)[activeTab]}
+                onChange={(e) => handleMultilingualChange("bio", e.target.value)}
+                rows={4}
+                className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                placeholder={`Enter bio in ${activeTab === "en" ? "English" : activeTab === "zh" ? "Chinese" : "Japanese"}`}
+              />
             </div>
           </section>
 
-          {/* Lifestyle */}
+          {/* Personality Types - Checkboxes */}
           <section className="bg-white rounded-lg p-6 border border-gray-200">
-            <h2 className="text-lg font-semibold text-deep mb-4">Lifestyle</h2>
+            <h2 className="text-lg font-semibold text-deep mb-4">✨ 性格 (Personality)</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {PERSONALITY_OPTIONS.map(option => (
+                <label key={option.value} className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-2 rounded">
+                  <input
+                    type="checkbox"
+                    checked={formData.personalityTypes.includes(option.value)}
+                    onChange={() => handleArrayToggle("personalityTypes", option.value)}
+                    className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  />
+                  <span className="text-sm">{option.label.ja}</span>
+                </label>
+              ))}
+            </div>
+            {formData.personalityTypes.includes('other') && (
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">その他の詳細</label>
+                <textarea
+                  name="personalityOther"
+                  value={formData.personalityOther}
+                  onChange={handleChange}
+                  rows={2}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  placeholder="その他の性格タイプについて説明してください"
+                />
+              </div>
+            )}
+          </section>
+
+          {/* Appearance Types - Checkboxes */}
+          <section className="bg-white rounded-lg p-6 border border-gray-200">
+            <h2 className="text-lg font-semibold text-deep mb-4">👗 見た目の特徴 (Appearance)</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {APPEARANCE_OPTIONS.map(option => (
+                <label key={option.value} className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-2 rounded">
+                  <input
+                    type="checkbox"
+                    checked={formData.appearanceTypes.includes(option.value)}
+                    onChange={() => handleArrayToggle("appearanceTypes", option.value)}
+                    className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  />
+                  <span className="text-sm">{option.label.ja}</span>
+                </label>
+              ))}
+            </div>
+            {formData.appearanceTypes.includes('other') && (
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">その他の詳細</label>
+                <textarea
+                  name="appearanceOther"
+                  value={formData.appearanceOther}
+                  onChange={handleChange}
+                  rows={2}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  placeholder="その他の見た目について説明してください"
+                />
+              </div>
+            )}
+          </section>
+
+          {/* Service Types - Checkboxes */}
+          <section className="bg-white rounded-lg p-6 border border-gray-200">
+            <h2 className="text-lg font-semibold text-deep mb-4">💝 得意な接客 (Service Style)</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {SERVICE_OPTIONS.map(option => (
+                <label key={option.value} className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-2 rounded">
+                  <input
+                    type="checkbox"
+                    checked={formData.serviceTypes.includes(option.value)}
+                    onChange={() => handleArrayToggle("serviceTypes", option.value)}
+                    className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  />
+                  <span className="text-sm">{option.label.ja}</span>
+                </label>
+              ))}
+            </div>
+            {formData.serviceTypes.includes('other') && (
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">その他の詳細</label>
+                <textarea
+                  name="serviceOther"
+                  value={formData.serviceOther}
+                  onChange={handleChange}
+                  rows={2}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  placeholder="その他の接客スタイルについて説明してください"
+                />
+              </div>
+            )}
+          </section>
+
+          {/* Preferred Member Types - Checkboxes */}
+          <section className="bg-white rounded-lg p-6 border border-gray-200">
+            <h2 className="text-lg font-semibold text-deep mb-4">💖 好きな男性のタイプ (Preferred Member Type)</h2>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {PREFERRED_MEMBER_OPTIONS.map(option => (
+                <label key={option.value} className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-2 rounded">
+                  <input
+                    type="checkbox"
+                    checked={formData.preferredMemberTypes.includes(option.value)}
+                    onChange={() => handleArrayToggle("preferredMemberTypes", option.value)}
+                    className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  />
+                  <span className="text-sm">{option.label.ja}</span>
+                </label>
+              ))}
+            </div>
+            {formData.preferredMemberTypes.includes('other') && (
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">その他の詳細</label>
+                <textarea
+                  name="preferredMemberOther"
+                  value={formData.preferredMemberOther}
+                  onChange={handleChange}
+                  rows={2}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  placeholder="その他の好みについて説明してください"
+                />
+              </div>
+            )}
+          </section>
+
+          {/* Hobbies & Lifestyle */}
+          <section className="bg-white rounded-lg p-6 border border-gray-200">
+            <h2 className="text-lg font-semibold text-deep mb-4">🎨 趣味 (Hobbies)</h2>
 
             <div className="mb-4">
-              <label className="block text-sm font-medium text-gray-700 mb-2">Hobbies</label>
-              <div className="flex flex-wrap gap-2">
-                {HOBBIES.map(hobby => (
-                  <button
-                    key={hobby}
-                    type="button"
-                    onClick={() => handleArrayToggle("hobbies", hobby)}
-                    className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors capitalize ${
-                      formData.hobbies.includes(hobby)
-                        ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
-                        : "bg-white text-gray-700 border-gray-300 hover:border-gray-400"
-                    }`}
-                  >
-                    {hobby}
-                  </button>
+              <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+                {ENHANCED_HOBBY_OPTIONS.map(option => (
+                  <label key={option.value} className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-2 rounded">
+                    <input
+                      type="checkbox"
+                      checked={formData.hobbies.includes(option.value)}
+                      onChange={() => handleArrayToggle("hobbies", option.value)}
+                      className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                    />
+                    <span className="text-sm">{option.label.ja}</span>
+                  </label>
                 ))}
               </div>
             </div>
 
-            <div>
-              <label className="block text-sm font-medium text-gray-700 mb-2">Holiday Style</label>
-              <div className="flex flex-wrap gap-2">
-                {HOLIDAY_STYLES.map(style => (
-                  <button
-                    key={style}
-                    type="button"
-                    onClick={() => handleArrayToggle("holidayStyle", style)}
-                    className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors capitalize ${
-                      formData.holidayStyle.includes(style)
-                        ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
-                        : "bg-white text-gray-700 border-gray-300 hover:border-gray-400"
-                    }`}
-                  >
-                    {style}
-                  </button>
-                ))}
+            {formData.hobbies.includes('other') && (
+              <div className="mb-6">
+                <label className="block text-sm font-medium text-gray-700 mb-1">趣味詳細</label>
+                <textarea
+                  name="hobbiesOther"
+                  value={formData.hobbiesOther}
+                  onChange={handleChange}
+                  rows={2}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  placeholder="その他の趣味について説明してください"
+                />
               </div>
+            )}
+
+            <div className="border-t border-gray-200 my-6"></div>
+
+            <h3 className="text-base font-semibold text-deep mb-3">🌴 休日の過ごし方 (Holiday Style)</h3>
+            <div className="grid grid-cols-2 md:grid-cols-3 gap-3">
+              {ENHANCED_HOLIDAY_OPTIONS.map(option => (
+                <label key={option.value} className="flex items-center gap-2 cursor-pointer hover:bg-gray-50 p-2 rounded">
+                  <input
+                    type="checkbox"
+                    checked={formData.holidayStyle.includes(option.value)}
+                    onChange={() => handleArrayToggle("holidayStyle", option.value)}
+                    className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  />
+                  <span className="text-sm">{option.label.ja}</span>
+                </label>
+              ))}
             </div>
+
+            {formData.holidayStyle.includes('other') && (
+              <div className="mt-4">
+                <label className="block text-sm font-medium text-gray-700 mb-1">休日の過ごし方詳細</label>
+                <textarea
+                  name="holidayStyleOther"
+                  value={formData.holidayStyleOther}
+                  onChange={handleChange}
+                  rows={2}
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  placeholder="その他の過ごし方について説明してください"
+                />
+              </div>
+            )}
           </section>
 
           {/* Photos */}

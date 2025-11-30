@@ -29,7 +29,7 @@ export async function POST(request: NextRequest) {
     const mailOptions = {
       from: process.env.SMTP_FROM || email,
       to: "hello@lune-roppongi.jp",
-      subject: `LUNE PRIVÉ Contact Form: ${subject}`,
+      subject: `LIEN Contact Form: ${subject}`,
       text: `
 Name: ${name}
 Email: ${email}
@@ -39,7 +39,7 @@ Message:
 ${message}
       `,
       html: `
-        <h2>New Contact Form Submission - LUNE PRIVÉ</h2>
+        <h2>New Contact Form Submission - LIEN</h2>
         <p><strong>Name:</strong> ${name}</p>
         <p><strong>Email:</strong> ${email}</p>
         <p><strong>Subject:</strong> ${subject}</p>

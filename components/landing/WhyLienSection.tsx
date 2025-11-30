@@ -3,7 +3,7 @@
 import { useTranslations } from "next-intl";
 import { MapPin, Shield, Sparkles } from "lucide-react";
 
-export default function WhyLuneSection() {
+export default function WhyLienSection() {
   const t = useTranslations("landing.whyLune");
 
   return (

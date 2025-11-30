@@ -32,11 +32,11 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0">
             <Image
-              src="/images/lune-prive-logo.jpg"
-              alt="LUNE PRIVÉ"
+              src="/images/lien-logo.svg"
+              alt="LIEN"
               width={120}
               height={40}
-              className="object-contain sm:w-[150px] sm:h-[50px]"
+              className="object-contain sm:w-[140px] sm:h-[40px]"
               priority
             />
           </Link>

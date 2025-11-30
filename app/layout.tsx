@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LUNE PRIVÉ - Exclusive Luxury Matching",
-  description: "High-end matching platform for Lune Roppongi",
+  title: "LIEN - Exclusive Connections",
+  description: "High-end matching platform connecting discerning members in Tokyo",
 };
 
 export default function RootLayout({

@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "LUNE PRIVÉ",
+    "appName": "LIEN",
     "tagline": "Where Nights Begin",
     "loading": "Loading...",
     "error": "Error",
@@ -37,7 +37,7 @@
     "password": "Password",
     "nickname": "Display Name",
     "forgotPassword": "Forgot Password?",
-    "noAccount": "New to LUNE PRIVÉ?",
+    "noAccount": "New to LIEN?",
     "hasAccount": "Already a member?",
     "welcomeBack": "Welcome back",
     "loginPrompt": "Enter your credentials to continue",
@@ -92,7 +92,7 @@
     "holidayStyle": "How She Unwinds"
   },
   "dashboard": {
-    "welcome": "Welcome to LUNE PRIVÉ",
+    "welcome": "Welcome to LIEN",
     "welcomeName": "Welcome back, {name}",
     "tagline": "Find your perfect companion tonight",
     "discoverCasts": "Discover Companions",
@@ -229,17 +229,17 @@
       "trustBadge3": "Multilingual"
     },
     "features": {
-      "title": "Why Choose LUNE PRIVÉ",
+      "title": "Why Choose LIEN",
       "feature1Title": "Chemistry First",
       "feature1Desc": "Beautiful, sophisticated companions fluent in English, Japanese & Chinese. The spark between you? That's what matters most.",
-      "feature2Title": "What Stays at LUNE",
+      "feature2Title": "What Stays Private",
       "feature2Desc": "Absolute discretion guaranteed. No judgment. Your evening—and whatever follows—remains completely private.",
       "feature3Title": "Beyond the Bar",
-      "feature3Desc": "Start with drinks at LUNE Roppongi. Where you take the connection from there is yours to explore."
+      "feature3Desc": "Start with drinks at our Roppongi lounge. Where you take the connection from there is yours to explore."
     },
     "discretion": {
       "title": "Discretion You Can Trust",
-      "intro": "At LUNE PRIVÉ, we understand that some moments are meant to stay private. What happens between you and your companion—whether at LUNE or beyond—is your business alone.",
+      "intro": "At LIEN, we understand that some moments are meant to stay private. What happens between you and your companion—whether at our lounge or beyond—is your business alone.",
       "private": "Private Profiles",
       "privateDesc": "Your information stays confidential",
       "encrypted": "Encrypted Messages",
@@ -255,16 +255,16 @@
       "step1Title": "Choose Your Companion",
       "step1Desc": "Browse profiles of captivating Japanese women. Find someone who truly intrigues you.",
       "step2Title": "Reserve Your Evening",
-      "step2Desc": "Select your preferred companion and time. First meeting at LUNE Roppongi—our exclusive lounge.",
+      "step2Desc": "Select your preferred companion and time. First meeting at our exclusive Roppongi lounge.",
       "step3Title": "Connect Over Drinks",
-      "step3Desc": "Meet in LUNE's sophisticated setting. Share conversation, laughter, champagne. See where the chemistry leads.",
+      "step3Desc": "Meet in our sophisticated Roppongi setting. Share conversation, laughter, champagne. See where the chemistry leads.",
       "step4Title": "Continue the Night",
-      "step4Desc": "If the connection is there, the evening doesn't have to end at LUNE. What happens next is between consenting adults."
+      "step4Desc": "If the connection is there, the evening doesn't have to end at our lounge. What happens next is between consenting adults."
     },
     "whyLune": {
-      "title": "Why Meet at LUNE First?",
+      "title": "Why Meet at Our Lounge First?",
       "subtitle": "Safety, Sophistication, Then... Spontaneity",
-      "description": "Every first meeting takes place at our exclusive LUNE Roppongi lounge. It's a beautiful, public space where you can connect over premium drinks in a relaxed atmosphere. Once you've established a connection and mutual comfort, where the night goes from there is entirely up to both of you.\n\nThink of LUNE as your elegant starting point—not your destination.",
+      "description": "Every first meeting takes place at our exclusive Roppongi lounge. It's a beautiful, public space where you can connect over premium drinks in a relaxed atmosphere. Once you've established a connection and mutual comfort, where the night goes from there is entirely up to both of you.\n\nThink of our lounge as your elegant starting point—not your destination.",
       "benefit1Title": "Safe & Public",
       "benefit1Desc": "Beautiful lounge environment",
       "benefit2Title": "Premium Setting",
@@ -358,7 +358,7 @@
       }
     },
     "finalCTA": {
-      "title": "Begin Your Evening at LUNE",
+      "title": "Begin Your Evening",
       "subtitle": "Meet her over drinks. What unfolds from there... that's your story to write.",
       "ctaPrimary": "Join Now",
       "ctaSecondary": "View Companions",
@@ -371,50 +371,50 @@
       "terms": "Terms",
       "privacy": "Privacy",
       "contact": "Contact",
-      "copyright": "© 2025 LUNE PRIVÉ. All rights reserved.",
+      "copyright": "© 2025 LIEN. All rights reserved.",
       "location": "Roppongi, Tokyo"
     }
   },
   "about": {
     "hero": {
-      "title": "About LUNE PRIVÉ",
+      "title": "About LIEN",
       "subtitle": "Where sophistication meets connection in Tokyo's most vibrant district"
     },
     "lune": {
-      "title": "LUNE Roppongi",
-      "description": "LUNE is our exclusive lounge in the heart of Roppongi, Tokyo's premier nightlife district. Designed with elegance and discretion in mind, LUNE provides the perfect setting for first meetings—a beautiful, sophisticated space where connections begin.",
+      "title": "Our Roppongi Lounge",
+      "description": "Our exclusive lounge is located in the heart of Roppongi, Tokyo's premier nightlife district. Designed with elegance and discretion in mind, it provides the perfect setting for first meetings—a beautiful, sophisticated space where connections begin.",
       "feature1": "Luxury interior with private seating",
       "feature2": "Premium drinks, impeccable service",
       "feature3": "Discreet, safe, central Roppongi"
     },
     "platform": {
-      "title": "LUNE PRIVÉ Platform",
-      "description": "LUNE PRIVÉ connects discerning members with verified Japanese companions. We've created a seamless experience from browsing to booking, with safety and quality at the forefront.",
+      "title": "LIEN Platform",
+      "description": "LIEN connects discerning members with verified Japanese companions. We've created a seamless experience from browsing to booking, with safety and quality at the forefront.",
       "feature1": "Curated, verified companions",
       "feature2": "Secure, encrypted communication",
-      "feature3": "First meetings always at LUNE"
+      "feature3": "First meetings always at our Roppongi lounge"
     },
     "values": {
       "title": "Our Values",
-      "subtitle": "What sets LUNE PRIVÉ apart",
+      "subtitle": "What sets LIEN apart",
       "value1Title": "Discretion & Privacy",
-      "value1Desc": "Your information and activities remain completely confidential. What happens at LUNE stays at LUNE.",
+      "value1Desc": "Your information and activities remain completely confidential. What happens at our lounge stays private.",
       "value2Title": "Quality over Quantity",
       "value2Desc": "We carefully curate every companion, ensuring sophistication and charm in every profile.",
       "value3Title": "Safety & Verification",
-      "value3Desc": "All members and companions thoroughly verified. First meetings at LUNE ensure safety and comfort.",
+      "value3Desc": "All members and companions thoroughly verified. First meetings at our lounge ensure safety and comfort.",
       "value4Title": "Unforgettable Experiences",
       "value4Desc": "We're not just facilitating introductions—we're creating memorable evenings in Tokyo's most vibrant district."
     },
     "cta": {
-      "title": "Ready to Begin Your LUNE Experience?",
+      "title": "Ready to Begin Your LIEN Experience?",
       "subtitle": "Join Tokyo's most exclusive companion platform",
       "button": "Become a Member"
     }
   },
   "howItWorksPage": {
     "hero": {
-      "title": "How LUNE PRIVÉ Works",
+      "title": "How LIEN Works",
       "subtitle": "A sophisticated journey from browsing to connection—and beyond"
     },
     "step1Title": "Browse & Discover",
@@ -423,26 +423,26 @@
     "step1Detail2": "View detailed profiles with verified photos",
     "step1Detail3": "Save your favorites to revisit",
     "step2Title": "Request Your Meeting",
-    "step2Desc": "Found someone intriguing? Request a meeting through our secure platform. All first encounters take place at LUNE Roppongi.",
+    "step2Desc": "Found someone intriguing? Request a meeting through our secure platform. All first encounters take place at our Roppongi lounge.",
     "step2Detail1": "Select your preferred companion and propose a time",
     "step2Detail2": "Our team coordinates and confirms availability",
-    "step2Detail3": "Receive confirmation with meeting details at LUNE",
-    "step3Title": "Meet at LUNE",
+    "step2Detail3": "Receive confirmation with meeting details",
+    "step3Title": "Meet at Our Lounge",
     "step3Desc": "Your evening begins at our exclusive Roppongi lounge. Connect over premium drinks in a sophisticated, safe environment.",
-    "step3Detail1": "Arrive at LUNE's discreet entrance in central Roppongi",
+    "step3Detail1": "Arrive at our discreet entrance in central Roppongi",
     "step3Detail2": "Enjoy complimentary champagne and conversation",
     "step3Detail3": "Take your time—no rush, no pressure",
     "step4Title": "Where the Night Takes You",
-    "step4Desc": "If the chemistry is right, the evening doesn't have to end at LUNE. What happens next is entirely between two consenting adults.",
+    "step4Desc": "If the chemistry is right, the evening doesn't have to end at our lounge. What happens next is entirely between two consenting adults.",
     "step4Detail1": "Decide together if you'd like to continue elsewhere",
     "step4Detail2": "Your companion makes her own choices",
     "step4Detail3": "Whatever you decide remains private and discreet",
     "different": {
-      "title": "What Makes LUNE Different?",
+      "title": "What Makes LIEN Different?",
       "subtitle": "We're not just another dating app or escort service",
-      "description1": "LUNE PRIVÉ is designed for discerning individuals who appreciate sophistication, discretion, and genuine connection. We facilitate introductions between verified members and captivating Japanese companions—but what makes us truly unique is our approach.",
-      "description2": "Every first meeting happens at our exclusive LUNE Roppongi lounge. This isn't arbitrary—it's intentional. Meeting in a beautiful, public space ensures safety and comfort for everyone. It gives you both the opportunity to connect naturally over drinks, see if there's chemistry, and decide together what comes next.",
-      "quote": "Think of LUNE as your elegant starting point—not your destination.",
+      "description1": "LIEN is designed for discerning individuals who appreciate sophistication, discretion, and genuine connection. We facilitate introductions between verified members and captivating Japanese companions—but what makes us truly unique is our approach.",
+      "description2": "Every first meeting happens at our exclusive Roppongi lounge. This isn't arbitrary—it's intentional. Meeting in a beautiful, public space ensures safety and comfort for everyone. It gives you both the opportunity to connect naturally over drinks, see if there's chemistry, and decide together what comes next.",
+      "quote": "Think of our lounge as your elegant starting point—not your destination.",
       "description3": "We don't dictate what happens after that initial meeting. If you both choose to continue the evening elsewhere—whether for dinner, karaoke, or simply more private conversation—that's entirely up to you. We respect the autonomy of everyone on our platform."
     },
     "safety": {
@@ -451,7 +451,7 @@
       "feature1Title": "Verified Identities",
       "feature1Desc": "All members and companions undergo thorough ID verification.",
       "feature2Title": "Public First Meetings",
-      "feature2Desc": "LUNE lounge provides a safe, elegant environment—never meet strangers privately.",
+      "feature2Desc": "Our Roppongi lounge provides a safe, elegant environment—never meet strangers privately.",
       "feature3Title": "Secure Communication",
       "feature3Desc": "All messages encrypted end-to-end. Your conversations stay private.",
       "feature4Title": "Professional Support",
@@ -459,7 +459,7 @@
     },
     "cta": {
       "title": "Ready to Begin?",
-      "subtitle": "Join LUNE PRIVÉ and discover Tokyo's most sophisticated companions",
+      "subtitle": "Join LIEN and discover Tokyo's most sophisticated companions",
       "button": "Become a Member"
     }
   },
@@ -469,7 +469,7 @@
       "subtitle": "Your security, discretion, and peace of mind are our highest priorities"
     },
     "intro": {
-      "paragraph1": "At LUNE PRIVÉ, we've built our platform on a foundation of trust, transparency, and uncompromising safety. We understand that discretion isn't just a preference—it's essential. Whether meeting someone for the first time at LUNE or continuing an evening elsewhere, you deserve to feel secure every step of the way.",
+      "paragraph1": "At LIEN, we've built our platform on a foundation of trust, transparency, and uncompromising safety. We understand that discretion isn't just a preference—it's essential. Whether meeting someone for the first time at our lounge or continuing an evening elsewhere, you deserve to feel secure every step of the way.",
       "paragraph2": "Below, you'll find detailed information about our safety measures, privacy protocols, and the steps we take to ensure a secure, respectful experience for everyone."
     },
     "features": {
@@ -481,7 +481,7 @@
     "feature2Title": "Secure, Encrypted Communication",
     "feature2Desc": "All messages between members and companions are end-to-end encrypted. Your conversations remain completely private and confidential.",
     "feature3Title": "Public First Meetings Only",
-    "feature3Desc": "Every initial meeting takes place at our LUNE Roppongi lounge—a safe, elegant public space. Never meet strangers in private locations.",
+    "feature3Desc": "Every initial meeting takes place at our Roppongi lounge—a safe, elegant public space. Never meet strangers in private locations.",
     "feature4Title": "In-Platform Messaging Only",
     "feature4Desc": "All communication happens through our secure platform until after your first meeting. No pressure to share personal contact information prematurely.",
     "feature5Title": "Background Checks & Screening",
@@ -503,7 +503,7 @@
       "title": "Safety Guidelines for Members",
       "subtitle": "Best practices for a secure, enjoyable experience"
     },
-    "guideline1": "Always meet first at LUNE Roppongi—never agree to meet strangers in private locations initially.",
+    "guideline1": "Always meet first at our Roppongi lounge—never agree to meet strangers in private locations initially.",
     "guideline2": "Keep all communication on-platform until after you've met in person and feel comfortable sharing personal contact information.",
     "guideline3": "Trust your instincts. If something feels off, you're under no obligation to continue the meeting.",
     "guideline4": "Inform a trusted friend of your plans. Share general details (who, where, when) for added safety.",
@@ -526,25 +526,25 @@
       "title": "Terms of Service",
       "lastUpdated": "Last Updated: January 2025"
     },
-    "intro": "Welcome to LUNE PRIVÉ. These Terms of Service govern your access to and use of the LUNE PRIVÉ platform. By registering for an account, you agree to be bound by these Terms.",
+    "intro": "Welcome to LIEN. These Terms of Service govern your access to and use of the LIEN platform. By registering for an account, you agree to be bound by these Terms.",
     "section1Title": "Acceptance of Terms",
-    "section1Content": "By creating an account on LUNE PRIVÉ, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. We reserve the right to modify these Terms at any time.",
+    "section1Content": "By creating an account on LIEN, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. We reserve the right to modify these Terms at any time.",
     "section2Title": "Eligibility",
-    "section2Content": "You must be at least 18 years of age to use LUNE PRIVÉ. By registering, you represent and warrant that you are of legal age and have the legal capacity to enter into these Terms.",
+    "section2Content": "You must be at least 18 years of age to use LIEN. By registering, you represent and warrant that you are of legal age and have the legal capacity to enter into these Terms.",
     "section3Title": "Account Registration & Verification",
     "section3Content": "To access the Platform, you must create an account and provide accurate, complete information. You agree to:\n\n• Provide valid government-issued identification for verification\n• Maintain the confidentiality of your account credentials\n• Notify us immediately of any unauthorized use\n• Accept responsibility for all activities under your account",
     "section4Title": "Nature of Services",
-    "section4Content": "LUNE PRIVÉ is a companion introduction platform that facilitates connections between verified members and Japanese companions. We provide:\n\n• A platform to browse companion profiles and request meetings\n• Coordination of initial meetings at our LUNE Roppongi lounge\n• Secure messaging and communication tools\n• Verification and safety features\n\nIMPORTANT: LUNE PRIVÉ facilitates introductions only. We do not control or have responsibility for what happens between consenting adults after the initial introduction.",
+    "section4Content": "LIEN is a companion introduction platform that facilitates connections between verified members and Japanese companions. We provide:\n\n• A platform to browse companion profiles and request meetings\n• Coordination of initial meetings at our Roppongi lounge\n• Secure messaging and communication tools\n• Verification and safety features\n\nIMPORTANT: LIEN facilitates introductions only. We do not control or have responsibility for what happens between consenting adults after the initial introduction.",
     "section5Title": "User Conduct & Prohibited Activities",
     "section5Content": "You agree NOT to:\n\n• Use the Platform for any illegal activities\n• Harass, threaten, or abuse other users\n• Share personal contact information without consent\n• Misrepresent your identity, age, or intentions\n• Attempt to bypass verification or security measures\n• Violate the privacy, safety, or rights of others",
     "section6Title": "Payments & Subscriptions",
-    "section6Content": "Access to LUNE PRIVÉ requires a paid membership subscription. By subscribing, you agree to:\n\n• Pay all applicable fees according to your chosen tier\n• Automatic renewal unless you cancel before renewal date\n• Our refund policy (no refunds for partial months)\n• Price changes with 30 days' notice",
+    "section6Content": "Access to LIEN requires a paid membership subscription. By subscribing, you agree to:\n\n• Pay all applicable fees according to your chosen tier\n• Automatic renewal unless you cancel before renewal date\n• Our refund policy (no refunds for partial months)\n• Price changes with 30 days' notice",
     "section7Title": "Privacy & Data Protection",
     "section7Content": "We take your privacy seriously. Our collection, use, and protection of your personal data is governed by our Privacy Policy.\n\nKey points:\n• We use encryption to protect your data\n• We do not sell your personal information\n• You have the right to access, modify, or delete your data\n• We comply with GDPR, CCPA, and Japanese privacy laws",
     "section8Title": "Disclaimer of Warranties & Limitation of Liability",
-    "section8Content": "LUNE PRIVÉ is provided \"as is\" without warranties of any kind. We do not guarantee:\n\n• Uninterrupted or error-free operation\n• Accuracy of user-provided information\n• Specific outcomes from using the Platform\n\nTo the maximum extent permitted by law, LUNE PRIVÉ shall not be liable for indirect, incidental, or consequential damages. You acknowledge that meetings with other users are at your own risk.",
+    "section8Content": "LIEN is provided \"as is\" without warranties of any kind. We do not guarantee:\n\n• Uninterrupted or error-free operation\n• Accuracy of user-provided information\n• Specific outcomes from using the Platform\n\nTo the maximum extent permitted by law, LIEN shall not be liable for indirect, incidental, or consequential damages. You acknowledge that meetings with other users are at your own risk.",
     "section9Title": "Indemnification",
-    "section9Content": "You agree to indemnify and hold harmless LUNE PRIVÉ from any claims, damages, losses, and expenses arising from:\n\n• Your use of the Platform\n• Your violation of these Terms\n• Your violation of any rights of another user\n• Any content you submit",
+    "section9Content": "You agree to indemnify and hold harmless LIEN from any claims, damages, losses, and expenses arising from:\n\n• Your use of the Platform\n• Your violation of these Terms\n• Your violation of any rights of another user\n• Any content you submit",
     "section10Title": "Termination",
     "section10Content": "We reserve the right to suspend or terminate your account at any time for:\n\n• Violation of these Terms\n• Fraudulent, abusive, or illegal activity\n• Non-payment of fees\n• Any reason necessary to protect the Platform or other users",
     "contact": {
@@ -557,13 +557,13 @@
       "title": "Privacy Policy",
       "lastUpdated": "Last Updated: January 2025"
     },
-    "intro": "At LUNE PRIVÉ, your privacy is paramount. This Privacy Policy explains how we collect, use, store, and protect your personal information. We are committed to transparency and compliance with global privacy standards, including GDPR (EU), CCPA (California), and Japan's APPI.",
+    "intro": "At LIEN, your privacy is paramount. This Privacy Policy explains how we collect, use, store, and protect your personal information. We are committed to transparency and compliance with global privacy standards, including GDPR (EU), CCPA (California), and Japan's APPI.",
     "section1Title": "Information We Collect",
     "section1Content": "We collect:\n\n**Account Information:**\n• Full name, email, phone number\n• Date of birth (for age verification)\n• Government-issued ID (for identity verification)\n• Payment information (processed through secure third-party providers)\n\n**Profile Information:**\n• Photos you upload\n• Preferences, interests, biographical information\n• Saved favorites and bookmarks\n\n**Usage Data:**\n• Pages visited, features used, time spent\n• Device information (IP address, browser type, OS)\n• Cookies and similar tracking technologies\n\n**Communications:**\n• Messages exchanged on the platform (encrypted)\n• Support requests and correspondence",
     "section2Title": "How We Use Your Information",
     "section2Content": "We use your information to:\n\n• Provide and improve our services\n• Verify your identity and prevent fraud\n• Process payments and manage subscriptions\n• Facilitate connections between members and companions\n• Communicate important updates and security alerts\n• Ensure safety and enforce our Terms of Service\n• Comply with legal obligations\n\nWe do NOT:\n• Sell your personal information to third parties\n• Share your data with advertisers\n• Use your information for unrelated purposes",
     "section3Title": "Data Sharing & Disclosure",
-    "section3Content": "We may share your information only in limited circumstances:\n\n**With Other Users:**\n• Your profile information is visible to other verified members\n• Messages you send are visible only to the recipient (encrypted)\n\n**With Service Providers:**\n• Payment processors (e.g., Stripe)\n• Cloud storage providers (e.g., AWS)\n• Email service providers\n• All providers contractually obligated to protect your data\n\n**For Legal Compliance:**\n• When required by law (court orders, subpoenas)\n• To protect safety and rights of LUNE PRIVÉ, users, or public",
+    "section3Content": "We may share your information only in limited circumstances:\n\n**With Other Users:**\n• Your profile information is visible to other verified members\n• Messages you send are visible only to the recipient (encrypted)\n\n**With Service Providers:**\n• Payment processors (e.g., Stripe)\n• Cloud storage providers (e.g., AWS)\n• Email service providers\n• All providers contractually obligated to protect your data\n\n**For Legal Compliance:**\n• When required by law (court orders, subpoenas)\n• To protect safety and rights of LIEN, users, or public",
     "section4Title": "Data Security",
     "section4Content": "We implement industry-leading security measures:\n\n• 256-bit SSL encryption for all data transmission\n• End-to-end encryption for in-platform messaging\n• Secure, encrypted storage of sensitive information\n• Regular security audits and penetration testing\n• Restricted access to personal data (authorized personnel only)\n• Multi-factor authentication for admin accounts",
     "section5Title": "Data Retention",
@@ -571,11 +571,11 @@
     "section6Title": "Cookies & Tracking Technologies",
     "section6Content": "We use cookies to:\n\n• Remember your login session and preferences\n• Analyze usage patterns and improve the platform\n• Provide personalized content\n\nYou can control cookie settings through your browser. We do NOT use third-party advertising cookies.",
     "section7Title": "Your Privacy Rights",
-    "section7Content": "Depending on your location, you have rights including:\n\n**GDPR (EU Residents):**\n• Right to access your data\n• Right to rectification (correction)\n• Right to erasure (\"right to be forgotten\")\n• Right to data portability\n• Right to object to processing\n\n**CCPA (California Residents):**\n• Right to know what data we collect\n• Right to delete personal information\n• Right to opt-out of data sales (we don't sell data)\n\n**APPI (Japan Residents):**\n• Right to disclosure of purpose\n• Right to request correction or deletion\n\nTo exercise these rights, contact us at hello@lune-roppongi.jp. We will respond within 30 days.",
+    "section7Content": "Depending on your location, you have rights including:\n\n**GDPR (EU Residents):**\n• Right to access your data\n• Right to rectification (correction)\n• Right to erasure (\"right to be forgotten\")\n• Right to data portability\n• Right to object to processing\n\n**CCPA (California Residents):**\n• Right to know what data we collect\n• Right to delete personal information\n• Right to opt-out of data sales (we don't sell data)\n\n**APPI (Japan Residents):**\n• Right to disclosure of purpose\n• Right to request correction or deletion\n\nTo exercise these rights, contact us at hello@lien.com. We will respond within 30 days.",
     "section8Title": "International Data Transfers",
-    "section8Content": "LUNE PRIVÉ operates globally, and your data may be transferred to countries outside your own, including Japan, the United States, and the European Union. We ensure all transfers comply with applicable privacy laws through Standard Contractual Clauses (SCCs) and other lawful mechanisms.",
+    "section8Content": "LIEN operates globally, and your data may be transferred to countries outside your own, including Japan, the United States, and the European Union. We ensure all transfers comply with applicable privacy laws through Standard Contractual Clauses (SCCs) and other lawful mechanisms.",
     "section9Title": "Children's Privacy",
-    "section9Content": "LUNE PRIVÉ is strictly for adults 18 years and older. We do not knowingly collect information from anyone under 18. If we discover a minor has created an account, we will immediately terminate it and delete all associated data.",
+    "section9Content": "LIEN is strictly for adults 18 years and older. We do not knowingly collect information from anyone under 18. If we discover a minor has created an account, we will immediately terminate it and delete all associated data.",
     "section10Title": "Changes to This Privacy Policy",
     "section10Content": "We may update this Privacy Policy to reflect changes in our practices or legal requirements. When we make significant changes:\n\n• We'll notify you via email\n• Display a prominent notice on the platform\n• Update the \"Last Updated\" date\n\nContinued use after changes constitutes acceptance of the updated policy.",
     "gdpr": {

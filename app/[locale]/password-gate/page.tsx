@@ -41,10 +41,10 @@ export default function PasswordGate() {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <Image
-            src="/images/lune-prive-logo.jpg"
-            alt="LUNE PRIVÉ"
+            src="/images/lien-logo.svg"
+            alt="LIEN"
             width={200}
-            height={67}
+            height={57}
             className="object-contain"
             priority
           />

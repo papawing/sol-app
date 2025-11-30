@@ -27,7 +27,7 @@ export default async function AboutPage({ params }: PageProps) {
           <div className="mb-6 animate-fade-in-up flex justify-center">
             <Image
               src="/images/lune-icon.png"
-              alt="LUNE Icon"
+              alt="LIEN Icon"
               width={96}
               height={96}
               className="object-contain"
@@ -43,7 +43,7 @@ export default async function AboutPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* Our Story - LUNE Roppongi */}
+      {/* Our Story - Roppongi Lounge */}
       <section className="py-20 bg-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -82,7 +82,7 @@ export default async function AboutPage({ params }: PageProps) {
               <div className="relative aspect-video">
                 <Image
                   src="/images/main-1.jpeg"
-                  alt="LUNE Roppongi - Main Venue"
+                  alt="Our Roppongi Lounge - Main Venue"
                   fill
                   className="object-cover"
                   sizes="(max-width: 768px) 100vw, 50vw"
@@ -93,7 +93,7 @@ export default async function AboutPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* LUNE PRIVÉ Platform */}
+      {/* LIEN Platform */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -103,7 +103,7 @@ export default async function AboutPage({ params }: PageProps) {
                   <div className="relative aspect-square rounded-airbnb-md overflow-hidden">
                     <Image
                       src="/images/vip-1.jpeg"
-                      alt="LUNE PRIVÉ - VIP Area"
+                      alt="LIEN - VIP Area"
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -112,7 +112,7 @@ export default async function AboutPage({ params }: PageProps) {
                   <div className="relative aspect-square rounded-airbnb-md overflow-hidden">
                     <Image
                       src="/images/vip-2.jpeg"
-                      alt="LUNE PRIVÉ - VIP Lounge"
+                      alt="LIEN - VIP Lounge"
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -238,7 +238,7 @@ export default async function AboutPage({ params }: PageProps) {
       {/* Footer */}
       <footer className="bg-deep border-t border-white/10 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-white/50 text-sm">© 2025 LUNE PRIVÉ. All rights reserved.</p>
+          <p className="text-white/50 text-sm">© 2025 LIEN. All rights reserved.</p>
         </div>
       </footer>
     </div>
