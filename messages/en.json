@@ -1,7 +1,7 @@
 {
   "common": {
     "appName": "LIEN",
-    "tagline": "Where Nights Begin",
+    "tagline": "Connect. Drink. Explore Tokyo.",
     "loading": "Loading...",
     "error": "Error",
     "success": "Success",
@@ -220,63 +220,63 @@
   },
   "landing": {
     "hero": {
-      "title": "Where Tokyo Nights Begin",
-      "subtitle": "Meet captivating Japanese companions over drinks. Where the night takes you... is entirely up to you.",
-      "ctaPrimary": "Start Your Evening",
+      "title": "Discover Tokyo's Nightlife with Local Japanese Guides",
+      "subtitle": "Connect with friendly Japanese locals who'll show you the real Tokyo. Experience authentic izakayas, hidden bars, and unforgettable nights out.",
+      "ctaPrimary": "Find Your Drinking Partner",
       "ctaSecondary": "Learn More",
-      "trustBadge1": "Verified Profiles",
-      "trustBadge2": "Absolute Discretion",
-      "trustBadge3": "Multilingual"
+      "trustBadge1": "Verified Locals",
+      "trustBadge2": "Authentic Experiences",
+      "trustBadge3": "English Friendly"
     },
     "features": {
       "title": "Why Choose LIEN",
-      "feature1Title": "Chemistry First",
-      "feature1Desc": "Beautiful, sophisticated companions fluent in English, Japanese & Chinese. The spark between you? That's what matters most.",
-      "feature2Title": "What Stays Private",
-      "feature2Desc": "Absolute discretion guaranteed. No judgment. Your evening—and whatever follows—remains completely private.",
-      "feature3Title": "Beyond the Bar",
-      "feature3Desc": "Start with drinks at our Roppongi lounge. Where you take the connection from there is yours to explore."
+      "feature1Title": "Real Local Connections",
+      "feature1Desc": "Meet genuine Japanese locals who love showing foreigners the best of Tokyo's drinking scene. English-friendly guides make every night easy and fun.",
+      "feature2Title": "Safe & Curated Partners",
+      "feature2Desc": "All drinking partners are verified locals. No language barriers, no awkward moments—just great company and authentic Tokyo experiences.",
+      "feature3Title": "Partner Venues Across Tokyo",
+      "feature3Desc": "Start at our partner lounges in Roppongi, Shibuya, and Shinjuku. Your local guide knows the hidden gems and best spots for an unforgettable night."
     },
     "discretion": {
-      "title": "Discretion You Can Trust",
-      "intro": "At LIEN, we understand that some moments are meant to stay private. What happens between you and your companion—whether at our lounge or beyond—is your business alone.",
-      "private": "Private Profiles",
-      "privateDesc": "Your information stays confidential",
-      "encrypted": "Encrypted Messages",
-      "encryptedDesc": "All communication is secure",
-      "noJudgment": "No Judgment",
-      "noJudgmentDesc": "Your choices are respected",
-      "yourTerms": "Your Terms",
-      "yourTermsDesc": "Companions decide for themselves"
+      "title": "Safe, Friendly & Authentic",
+      "intro": "LIEN connects travelers and foreigners with verified local Japanese who genuinely enjoy showing visitors the best of Tokyo nightlife. Meet at trusted partner venues, enjoy authentic experiences, and make real connections.",
+      "private": "Verified Locals",
+      "privateDesc": "All partners are real Tokyo residents",
+      "encrypted": "Secure Platform",
+      "encryptedDesc": "Safe booking and communication",
+      "noJudgment": "Language Support",
+      "noJudgmentDesc": "English-friendly local guides",
+      "yourTerms": "Quality Venues",
+      "yourTermsDesc": "Partner bars and lounges citywide"
     },
     "howItWorks": {
       "title": "How It Works",
-      "subtitle": "Four simple steps to an unforgettable evening",
-      "step1Title": "Choose Your Companion",
-      "step1Desc": "Browse profiles of captivating Japanese women. Find someone who truly intrigues you.",
-      "step2Title": "Reserve Your Evening",
-      "step2Desc": "Select your preferred companion and time. First meeting at our exclusive Roppongi lounge.",
-      "step3Title": "Connect Over Drinks",
-      "step3Desc": "Meet in our sophisticated Roppongi setting. Share conversation, laughter, champagne. See where the chemistry leads.",
-      "step4Title": "Continue the Night",
-      "step4Desc": "If the connection is there, the evening doesn't have to end at our lounge. What happens next is between consenting adults."
+      "subtitle": "Four simple steps to experiencing Tokyo like a local",
+      "step1Title": "Browse Local Guides",
+      "step1Desc": "Explore profiles of friendly Japanese locals who love meeting foreigners and sharing Tokyo's best drinking spots.",
+      "step2Title": "Request a Meet-Up",
+      "step2Desc": "Choose your preferred local guide and suggest a time. They'll confirm and recommend the perfect starting venue.",
+      "step3Title": "Meet at a Partner Venue",
+      "step3Desc": "Connect at a LIEN partner bar or lounge. Your local guide will help you navigate the menu, order in Japanese, and break the ice.",
+      "step4Title": "Explore Tokyo Together",
+      "step4Desc": "Bar hop to hidden izakayas, karaoke rooms, or late-night ramen spots. Your guide knows where locals actually go—no tourist traps."
     },
     "whyLune": {
-      "title": "Why Meet at Our Lounge First?",
-      "subtitle": "Safety, Sophistication, Then... Spontaneity",
-      "description": "Every first meeting takes place at our exclusive Roppongi lounge. It's a beautiful, public space where you can connect over premium drinks in a relaxed atmosphere. Once you've established a connection and mutual comfort, where the night goes from there is entirely up to both of you.\n\nThink of our lounge as your elegant starting point—not your destination.",
-      "benefit1Title": "Safe & Public",
-      "benefit1Desc": "Beautiful lounge environment",
-      "benefit2Title": "Premium Setting",
-      "benefit2Desc": "Luxury drinks & atmosphere",
-      "benefit3Title": "Central Roppongi",
-      "benefit3Desc": "Heart of Tokyo nightlife",
-      "quote": "\"Your elegant starting point—not your destination.\""
+      "title": "Why Start at Partner Venues?",
+      "subtitle": "Safe, Friendly, and Authentically Tokyo",
+      "description": "All first meet-ups begin at verified LIEN partner bars and lounges across Tokyo. These are real local spots—not tourist traps—where your Japanese guide is comfortable and the staff knows LIEN members. Start somewhere safe and welcoming, then let your guide take you to their favorite hidden gems.\n\nThink of our partner venues as your safe meeting point—where authentic Tokyo adventures begin.",
+      "benefit1Title": "Verified Safe Venues",
+      "benefit1Desc": "Trusted local bars & lounges",
+      "benefit2Title": "Local Atmosphere",
+      "benefit2Desc": "Real Tokyo, not tourist spots",
+      "benefit3Title": "Citywide Locations",
+      "benefit3Desc": "Roppongi, Shibuya, Shinjuku & more",
+      "quote": "\"Where authentic Tokyo nights begin.\""
     },
     "featuredCasts": {
-      "title": "Featured Companions",
-      "subtitle": "Meet some of our most captivating companions",
-      "viewAll": "View All Companions"
+      "title": "Popular Local Guides",
+      "subtitle": "Meet some of Tokyo's friendliest drinking partners",
+      "viewAll": "View All Local Guides"
     },
     "membership": {
       "title": "Choose Your Membership",
@@ -358,11 +358,11 @@
       }
     },
     "finalCTA": {
-      "title": "Begin Your Evening",
-      "subtitle": "Meet her over drinks. What unfolds from there... that's your story to write.",
-      "ctaPrimary": "Join Now",
-      "ctaSecondary": "View Companions",
-      "note": "Verification required • Absolute discretion • 18+ only"
+      "title": "Start Your Tokyo Adventure",
+      "subtitle": "Connect with a local guide. Discover the real Tokyo nightlife together.",
+      "ctaPrimary": "Find a Local Guide",
+      "ctaSecondary": "Learn More",
+      "note": "Verified locals only • Safe partner venues • 18+ only"
     },
     "footer": {
       "about": "About",
@@ -378,89 +378,89 @@
   "about": {
     "hero": {
       "title": "About LIEN",
-      "subtitle": "Where sophistication meets connection in Tokyo's most vibrant district"
+      "subtitle": "Connecting travelers with local Japanese for authentic Tokyo nightlife experiences"
     },
     "lune": {
-      "title": "Our Roppongi Lounge",
-      "description": "Our exclusive lounge is located in the heart of Roppongi, Tokyo's premier nightlife district. Designed with elegance and discretion in mind, it provides the perfect setting for first meetings—a beautiful, sophisticated space where connections begin.",
-      "feature1": "Luxury interior with private seating",
-      "feature2": "Premium drinks, impeccable service",
-      "feature3": "Discreet, safe, central Roppongi"
+      "title": "Our Partner Venues",
+      "description": "LIEN partners with carefully selected bars, izakayas, and lounges across Tokyo where locals actually drink. From cozy Roppongi hideaways to vibrant Shibuya hot spots, our partner venues provide safe, welcoming meeting points where foreigners and Japanese locals connect over drinks.",
+      "feature1": "Authentic local bars & izakayas",
+      "feature2": "English-friendly staff at all venues",
+      "feature3": "Located across Tokyo's best nightlife districts"
     },
     "platform": {
-      "title": "LIEN Platform",
-      "description": "LIEN connects discerning members with verified Japanese companions. We've created a seamless experience from browsing to booking, with safety and quality at the forefront.",
-      "feature1": "Curated, verified companions",
-      "feature2": "Secure, encrypted communication",
-      "feature3": "First meetings always at our Roppongi lounge"
+      "title": "The LIEN Platform",
+      "description": "LIEN is a community-driven platform connecting travelers and foreigners with friendly Japanese locals who love sharing Tokyo's incredible drinking culture. No language barriers, no tourist traps—just genuine connections and unforgettable nights out.",
+      "feature1": "Verified local Japanese drinking partners",
+      "feature2": "Safe booking at trusted partner venues",
+      "feature3": "Real Tokyo experiences, not tourist tours"
     },
     "values": {
-      "title": "Our Values",
-      "subtitle": "What sets LIEN apart",
-      "value1Title": "Discretion & Privacy",
-      "value1Desc": "Your information and activities remain completely confidential. What happens at our lounge stays private.",
-      "value2Title": "Quality over Quantity",
-      "value2Desc": "We carefully curate every companion, ensuring sophistication and charm in every profile.",
-      "value3Title": "Safety & Verification",
-      "value3Desc": "All members and companions thoroughly verified. First meetings at our lounge ensure safety and comfort.",
-      "value4Title": "Unforgettable Experiences",
-      "value4Desc": "We're not just facilitating introductions—we're creating memorable evenings in Tokyo's most vibrant district."
+      "title": "What Makes LIEN Special",
+      "subtitle": "Why travelers choose us",
+      "value1Title": "Authentic Local Connections",
+      "value1Desc": "Meet real Japanese locals who genuinely enjoy showing foreigners around. Not professional guides—just friendly people who love their city's nightlife.",
+      "value2Title": "Safety First",
+      "value2Desc": "All drinking partners verified. All first meet-ups at trusted partner venues. Secure booking and communication through our platform.",
+      "value3Title": "English-Friendly Experience",
+      "value3Desc": "Our local guides speak English and are comfortable with foreigners. They'll help you order, explain the culture, and make you feel welcome.",
+      "value4Title": "Hidden Gems & Real Tokyo",
+      "value4Desc": "Skip the tourist traps. Your local guide knows the izakayas, bars, and late-night spots where Tokyo locals actually go."
     },
     "cta": {
-      "title": "Ready to Begin Your LIEN Experience?",
-      "subtitle": "Join Tokyo's most exclusive companion platform",
-      "button": "Become a Member"
+      "title": "Ready to Experience Real Tokyo Nightlife?",
+      "subtitle": "Join LIEN and connect with friendly local Japanese drinking partners",
+      "button": "Find Your Local Guide"
     }
   },
   "howItWorksPage": {
     "hero": {
       "title": "How LIEN Works",
-      "subtitle": "A sophisticated journey from browsing to connection—and beyond"
+      "subtitle": "Your guide to connecting with local Japanese for authentic Tokyo nights out"
     },
-    "step1Title": "Browse & Discover",
-    "step1Desc": "Explore our curated selection of verified Japanese companions. Each profile showcases personality, interests, and what makes her unique.",
-    "step1Detail1": "Filter by age, language, interests, location",
-    "step1Detail2": "View detailed profiles with verified photos",
-    "step1Detail3": "Save your favorites to revisit",
-    "step2Title": "Request Your Meeting",
-    "step2Desc": "Found someone intriguing? Request a meeting through our secure platform. All first encounters take place at our Roppongi lounge.",
-    "step2Detail1": "Select your preferred companion and propose a time",
-    "step2Detail2": "Our team coordinates and confirms availability",
-    "step2Detail3": "Receive confirmation with meeting details",
-    "step3Title": "Meet at Our Lounge",
-    "step3Desc": "Your evening begins at our exclusive Roppongi lounge. Connect over premium drinks in a sophisticated, safe environment.",
-    "step3Detail1": "Arrive at our discreet entrance in central Roppongi",
-    "step3Detail2": "Enjoy complimentary champagne and conversation",
-    "step3Detail3": "Take your time—no rush, no pressure",
-    "step4Title": "Where the Night Takes You",
-    "step4Desc": "If the chemistry is right, the evening doesn't have to end at our lounge. What happens next is entirely between two consenting adults.",
-    "step4Detail1": "Decide together if you'd like to continue elsewhere",
-    "step4Detail2": "Your companion makes her own choices",
-    "step4Detail3": "Whatever you decide remains private and discreet",
+    "step1Title": "Browse Local Guides",
+    "step1Desc": "Explore profiles of verified Japanese locals who love meeting foreigners and sharing Tokyo's best nightlife. Each profile shows their favorite areas, drinking spots, and what they're like to hang out with.",
+    "step1Detail1": "Filter by neighborhood, language skills, and interests",
+    "step1Detail2": "View detailed profiles with verified photos and reviews",
+    "step1Detail3": "Read about their favorite bars and what makes them great guides",
+    "step2Title": "Request a Meet-Up",
+    "step2Desc": "Found someone who seems like a great match? Send them a meet-up request through our secure platform. Suggest a date and time, and they'll recommend the perfect starting venue.",
+    "step2Detail1": "Choose your preferred local guide and propose when you're free",
+    "step2Detail2": "They'll suggest a LIEN partner venue that matches your vibe",
+    "step2Detail3": "Receive confirmation with venue address and meeting details",
+    "step3Title": "Meet at a Partner Venue",
+    "step3Desc": "Your evening begins at a verified LIEN partner bar or lounge. These are real local spots where your guide is comfortable and knows the staff—not tourist traps.",
+    "step3Detail1": "Arrive at the agreed partner venue in your chosen neighborhood",
+    "step3Detail2": "Your local guide helps you order, explains the menu in English",
+    "step3Detail3": "Relax and enjoy drinks in a safe, friendly environment",
+    "step4Title": "Explore Tokyo's Nightlife Together",
+    "step4Desc": "After breaking the ice, let your local guide show you the real Tokyo. Bar hop to hidden izakayas, karaoke rooms, late-night ramen spots, or wherever the night naturally leads.",
+    "step4Detail1": "Discover places only locals know—no Google Maps tours",
+    "step4Detail2": "Your guide handles ordering, translations, and cultural context",
+    "step4Detail3": "Experience Tokyo nightlife like a local, not a tourist",
     "different": {
       "title": "What Makes LIEN Different?",
-      "subtitle": "We're not just another dating app or escort service",
-      "description1": "LIEN is designed for discerning individuals who appreciate sophistication, discretion, and genuine connection. We facilitate introductions between verified members and captivating Japanese companions—but what makes us truly unique is our approach.",
-      "description2": "Every first meeting happens at our exclusive Roppongi lounge. This isn't arbitrary—it's intentional. Meeting in a beautiful, public space ensures safety and comfort for everyone. It gives you both the opportunity to connect naturally over drinks, see if there's chemistry, and decide together what comes next.",
-      "quote": "Think of our lounge as your elegant starting point—not your destination.",
-      "description3": "We don't dictate what happens after that initial meeting. If you both choose to continue the evening elsewhere—whether for dinner, karaoke, or simply more private conversation—that's entirely up to you. We respect the autonomy of everyone on our platform."
+      "subtitle": "Not a tour company. Not a dating app. A real connection platform.",
+      "description1": "LIEN is designed for travelers and foreigners who want to experience Tokyo's incredible drinking culture the way locals do. We connect you with verified Japanese locals who genuinely enjoy meeting international visitors—not professional tour guides, just friendly people who love their city's nightlife.",
+      "description2": "Every first meet-up happens at verified partner venues across Tokyo. This isn't random—it's intentional. Meeting at trusted bars and lounges where your Japanese guide knows the staff ensures safety and comfort. It's a real local spot where you can relax, break the ice over drinks, and see if you vibe together.",
+      "quote": "Real locals. Real venues. Real Tokyo nightlife.",
+      "description3": "What happens after that first round of drinks? That's up to you both. If you're having a great time, your guide might take you to their favorite hidden izakaya, a karaoke room, or a late-night ramen spot. It's spontaneous, authentic, and exactly how Tokyo locals actually hang out."
     },
     "safety": {
       "title": "Safety & Trust First",
-      "subtitle": "How we ensure a secure experience",
-      "feature1Title": "Verified Identities",
-      "feature1Desc": "All members and companions undergo thorough ID verification.",
-      "feature2Title": "Public First Meetings",
-      "feature2Desc": "Our Roppongi lounge provides a safe, elegant environment—never meet strangers privately.",
-      "feature3Title": "Secure Communication",
-      "feature3Desc": "All messages encrypted end-to-end. Your conversations stay private.",
-      "feature4Title": "Professional Support",
-      "feature4Desc": "Our team available 24/7 to coordinate meetings and ensure everything runs smoothly."
+      "subtitle": "How we ensure a secure experience for everyone",
+      "feature1Title": "Verified Local Guides",
+      "feature1Desc": "All Japanese drinking partners undergo identity verification. Real locals, real profiles.",
+      "feature2Title": "Partner Venue Meetings",
+      "feature2Desc": "First meet-ups always at verified LIEN partner bars and lounges. Safe, public, and comfortable.",
+      "feature3Title": "Secure Platform",
+      "feature3Desc": "All communication and booking happens through our secure platform. Your data is protected.",
+      "feature4Title": "Community Support",
+      "feature4Desc": "Our team reviews all guides and venues. Rate your experience, help keep the community safe."
     },
     "cta": {
-      "title": "Ready to Begin?",
-      "subtitle": "Join LIEN and discover Tokyo's most sophisticated companions",
-      "button": "Become a Member"
+      "title": "Ready to Experience Real Tokyo?",
+      "subtitle": "Join LIEN and connect with friendly local Japanese guides",
+      "button": "Find Your Local Guide"
     }
   },
   "safetyPage": {

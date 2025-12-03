@@ -1,7 +1,7 @@
 {
   "common": {
     "appName": "LIEN",
-    "tagline": "東京の夜は、ここから始まる",
+    "tagline": "繋がる。飲む。東京を探索する。",
     "loading": "読み込み中...",
     "error": "エラー",
     "success": "完了しました",
@@ -214,13 +214,13 @@
   },
   "landing": {
     "hero": {
-      "title": "東京の夜は、ここから始まる",
+      "title": "地元の日本人ガイドと東京のナイトライフを発見",
       "subtitle": "魅惑的な日本人コンパニオンと、上質なひとときを。そこから先は、お二人だけの物語。",
       "ctaPrimary": "今夜を始めましょう",
       "ctaSecondary": "詳しく見る",
       "trustBadge1": "本人確認済み",
       "trustBadge2": "完全守秘",
-      "trustBadge3": "多言語対応"
+      "trustBadge3": "英語対応"
     },
     "features": {
       "title": "LIENが選ばれる理由",
@@ -270,7 +270,7 @@
     "featuredCasts": {
       "title": "おすすめのコンパニオン",
       "subtitle": "最も魅力的なコンパニオンをご紹介",
-      "viewAll": "すべてのコンパニオンを見る"
+      "viewAll": "すべてのガイドを見る"
     },
     "membership": {
       "title": "会員プランをお選びください",

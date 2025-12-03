@@ -26,10 +26,10 @@ export default async function AboutPage({ params }: PageProps) {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-6 animate-fade-in-up flex justify-center">
             <Image
-              src="/images/lune-icon.png"
+              src="/images/lien-logo.svg"
               alt="LIEN Icon"
-              width={96}
-              height={96}
+              width={140}
+              height={40}
               className="object-contain"
               priority
             />
