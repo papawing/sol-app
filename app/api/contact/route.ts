@@ -28,7 +28,7 @@ export async function POST(request: NextRequest) {
     // Email content
     const mailOptions = {
       from: process.env.SMTP_FROM || email,
-      to: "hello@lune-roppongi.jp",
+      to: "hello@sol-tokyo.jp",
       subject: `SOL Contact Form: ${subject}`,
       text: `
 Name: ${name}

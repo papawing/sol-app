@@ -47,8 +47,8 @@ export default function HowItWorksPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-deep via-hof to-deep py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-5"></div>
-        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-mint/30 to-transparent blur-3xl rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-teal/30 to-transparent blur-3xl rounded-full"></div>
+        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-rose/30 to-transparent blur-3xl rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-coral/30 to-transparent blur-3xl rounded-full"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl mb-6 animate-fade-in-up">✨</div>
@@ -110,7 +110,7 @@ export default function HowItWorksPage() {
 
                 {/* Connector Line */}
                 {index < steps.length - 1 && (
-                  <div className="mt-12 ml-12 h-16 w-0.5 bg-gradient-to-b from-teal via-mint to-transparent"></div>
+                  <div className="mt-12 ml-12 h-16 w-0.5 bg-gradient-to-b from-coral via-rose to-transparent"></div>
                 )}
               </div>
             );
@@ -138,7 +138,7 @@ export default function HowItWorksPage() {
               <p className="text-lg text-light leading-relaxed mb-6">
                 {t("different.description2")}
               </p>
-              <div className="bg-gradient-to-br from-mint/10 to-teal/10 rounded-airbnb-lg p-6 my-8">
+              <div className="bg-gradient-to-br from-rose/10 to-coral/10 rounded-airbnb-lg p-6 my-8">
                 <p className="text-xl md:text-2xl font-display text-deep italic text-center">
                   "{t("different.quote")}"
                 </p>
@@ -198,7 +198,7 @@ export default function HowItWorksPage() {
           <Link href="/register">
             <Button
               size="lg"
-              className="min-w-[220px] bg-white text-deep-teal text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:bg-mint hover:text-deep hover:scale-105 transition-all duration-base font-semibold"
+              className="min-w-[220px] bg-white text-deep-coral text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:bg-rose hover:text-deep hover:scale-105 transition-all duration-base font-semibold"
             >
               {t("cta.button")}
               <ArrowRight className="ml-2 w-5 h-5" />

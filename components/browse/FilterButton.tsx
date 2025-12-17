@@ -17,7 +17,7 @@ export default function FilterButton({
   return (
     <button
       onClick={onClick}
-      className="fixed bottom-6 right-6 z-50 bg-[#FF5A5F] hover:bg-[#E61E4D] text-white rounded-full shadow-airbnb-lg hover:shadow-airbnb-xl transition-all duration-200 hover:scale-105 active:scale-95 flex items-center gap-2 px-5 py-3.5 font-medium"
+      className="fixed bottom-6 right-6 z-50 bg-coral hover:bg-deep-coral text-white rounded-full shadow-airbnb-lg hover:shadow-airbnb-xl transition-all duration-200 hover:scale-105 active:scale-95 flex items-center gap-2 px-5 py-3.5 font-medium"
       aria-label={t("browse.filters")}
     >
       <SlidersHorizontal className="w-5 h-5" />

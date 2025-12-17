@@ -94,7 +94,7 @@ export default function PrivacyPage() {
           </div>
 
           {/* GDPR Rights Notice */}
-          <div className="mt-16 p-8 bg-gradient-to-br from-teal/10 to-mint/10 rounded-airbnb-xl border border-teal/20">
+          <div className="mt-16 p-8 bg-gradient-to-br from-coral/10 to-rose/10 rounded-airbnb-xl border border-coral/20">
             <h3 className="text-xl font-semibold text-deep mb-4">
               {t("gdpr.title")}
             </h3>
@@ -119,10 +119,10 @@ export default function PrivacyPage() {
             <p className="text-light mb-4">
               {t("contact.description")}
             </p>
-            <p className="text-teal font-medium mb-2">
-              hello@lune-roppongi.jp
+            <p className="text-coral font-medium mb-2">
+              hello@sol-tokyo.jp
             </p>
-            <Link href="/contact" className="text-teal hover:text-deep-teal underline">
+            <Link href="/contact" className="text-coral hover:text-deep-coral underline">
               {t("contact.contactForm")}
             </Link>
           </div>

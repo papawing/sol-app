@@ -87,7 +87,7 @@ export default function PersonalitySection({
               <Badge
                 key={type}
                 variant="secondary"
-                className="px-3 py-1.5 bg-purple-50 text-purple-700 border-purple-200"
+                className="px-3 py-1.5 bg-coral/10 text-coral border-coral/30"
               >
                 {getLabel(type, PERSONALITY_OPTIONS)}
               </Badge>
@@ -95,7 +95,7 @@ export default function PersonalitySection({
             {personalityOther && (
               <Badge
                 variant="secondary"
-                className="px-3 py-1.5 bg-purple-50 text-purple-700 border-purple-200"
+                className="px-3 py-1.5 bg-coral/10 text-coral border-coral/30"
               >
                 {personalityOther}
               </Badge>
@@ -133,7 +133,7 @@ export default function PersonalitySection({
               <Badge
                 key={type}
                 variant="secondary"
-                className="px-3 py-1.5 bg-pink-50 text-pink-700 border-pink-200"
+                className="px-3 py-1.5 bg-rose/20 text-rose-gold border-rose/30"
               >
                 {getLabel(type, APPEARANCE_OPTIONS)}
               </Badge>
@@ -141,7 +141,7 @@ export default function PersonalitySection({
             {appearanceOther && (
               <Badge
                 variant="secondary"
-                className="px-3 py-1.5 bg-pink-50 text-pink-700 border-pink-200"
+                className="px-3 py-1.5 bg-rose/20 text-rose-gold border-rose/30"
               >
                 {appearanceOther}
               </Badge>
@@ -179,7 +179,7 @@ export default function PersonalitySection({
               <Badge
                 key={type}
                 variant="secondary"
-                className="px-3 py-1.5 bg-blue-50 text-blue-700 border-blue-200"
+                className="px-3 py-1.5 bg-info/10 text-info border-info/30"
               >
                 {getLabel(type, SERVICE_OPTIONS)}
               </Badge>
@@ -187,7 +187,7 @@ export default function PersonalitySection({
             {serviceOther && (
               <Badge
                 variant="secondary"
-                className="px-3 py-1.5 bg-blue-50 text-blue-700 border-blue-200"
+                className="px-3 py-1.5 bg-info/10 text-info border-info/30"
               >
                 {serviceOther}
               </Badge>

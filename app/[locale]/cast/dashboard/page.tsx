@@ -106,7 +106,7 @@ export default async function CastDashboardPage({ params }: PageProps) {
             <div className="text-sm text-gray-600">Pending Requests</div>
           </div>
           <div className="bg-white p-6 rounded-airbnb-md shadow-airbnb-md border border-gray-100">
-            <div className="text-2xl font-bold text-teal-600">{confirmedCount}</div>
+            <div className="text-2xl font-bold text-coral-600">{confirmedCount}</div>
             <div className="text-sm text-gray-600">Upcoming Meetings</div>
           </div>
           <div className="bg-white p-6 rounded-airbnb-md shadow-airbnb-md border border-gray-100">
@@ -114,7 +114,7 @@ export default async function CastDashboardPage({ params }: PageProps) {
             <div className="text-sm text-gray-600">Completed</div>
           </div>
           <div className="bg-white p-6 rounded-airbnb-md shadow-airbnb-md border border-gray-100">
-            <div className="text-2xl font-bold text-teal">{totalBookmarks}</div>
+            <div className="text-2xl font-bold text-coral">{totalBookmarks}</div>
             <div className="text-sm text-gray-600">Bookmarks</div>
           </div>
         </div>
@@ -129,7 +129,7 @@ export default async function CastDashboardPage({ params }: PageProps) {
                 <Link
                   href="/cast/requests"
                   locale={locale}
-                  className="text-sm text-teal hover:text-red-700 font-semibold"
+                  className="text-sm text-coral hover:text-red-700 font-semibold"
                 >
                   View All →
                 </Link>
@@ -152,7 +152,7 @@ export default async function CastDashboardPage({ params }: PageProps) {
                                 request.status === "PENDING"
                                   ? "bg-yellow-100 text-yellow-800"
                                   : request.status === "CONFIRMED"
-                                  ? "bg-teal-100 text-teal-800"
+                                  ? "bg-teal-100 text-coral-800"
                                   : request.status === "COMPLETED"
                                   ? "bg-green-100 text-green-800"
                                   : "bg-gray-100 text-gray-800"
@@ -188,7 +188,7 @@ export default async function CastDashboardPage({ params }: PageProps) {
                 <Link
                   href="/cast/requests"
                   locale={locale}
-                  className="block w-full px-4 py-3 bg-[#FF5A5F] hover:bg-[#E61E4D] text-white font-semibold rounded-lg hover:scale-[1.02] transition-transform text-center"
+                  className="block w-full px-4 py-3 bg-coral hover:bg-deep-coral text-white font-semibold rounded-lg hover:scale-[1.02] transition-transform text-center"
                 >
                   📅 View Requests
                 </Link>

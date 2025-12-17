@@ -83,7 +83,7 @@ export default function FilterContent({
             placeholder={t("browse.searchPlaceholder")}
             value={searchQuery}
             onChange={(e) => onSearchChange(e.target.value)}
-            className="w-full pl-12 pr-4 py-3 rounded-full border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors text-base"
+            className="w-full pl-12 pr-4 py-3 rounded-full border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors text-base"
           />
         </div>
       </div>
@@ -98,7 +98,7 @@ export default function FilterContent({
             🎂 {t("browse.filterAge")}
           </h4>
           {(filters.ageRange[0] !== 18 || filters.ageRange[1] !== 35) && (
-            <span className="text-xs font-medium text-teal">
+            <span className="text-xs font-medium text-coral">
               {filters.ageRange[0]}-{filters.ageRange[1]}
             </span>
           )}
@@ -116,7 +116,7 @@ export default function FilterContent({
               onChange={(e) =>
                 handleAgeChange("min", parseInt(e.target.value) || 18)
               }
-              className="w-full px-4 py-2.5 rounded-lg border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors text-base"
+              className="w-full px-4 py-2.5 rounded-lg border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors text-base"
             />
           </div>
           <span className="text-gray-400 mt-6">–</span>
@@ -132,7 +132,7 @@ export default function FilterContent({
               onChange={(e) =>
                 handleAgeChange("max", parseInt(e.target.value) || 35)
               }
-              className="w-full px-4 py-2.5 rounded-lg border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors text-base"
+              className="w-full px-4 py-2.5 rounded-lg border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors text-base"
             />
           </div>
         </div>
@@ -148,7 +148,7 @@ export default function FilterContent({
             🗣️ {t("browse.filterLanguages")}
           </h4>
           {filters.languages.length > 0 && (
-            <span className="text-xs font-medium text-teal">
+            <span className="text-xs font-medium text-coral">
               {filters.languages.length}
             </span>
           )}
@@ -163,7 +163,7 @@ export default function FilterContent({
                 type="checkbox"
                 checked={filters.languages.includes(lang.code)}
                 onChange={() => toggleLanguage(lang.code)}
-                className="w-5 h-5 text-teal border-gray-300 rounded focus:ring-teal"
+                className="w-5 h-5 text-coral border-gray-300 rounded focus:ring-coral"
               />
               <span className="text-2xl">{lang.emoji}</span>
               <span className="text-base font-medium text-deep">
@@ -184,7 +184,7 @@ export default function FilterContent({
             📍 {t("browse.filterLocation")}
           </h4>
           {filters.location && (
-            <span className="text-xs font-medium text-teal">
+            <span className="text-xs font-medium text-coral">
               {filters.location}
             </span>
           )}
@@ -196,7 +196,7 @@ export default function FilterContent({
               name="location"
               checked={filters.location === ""}
               onChange={() => onFilterChange({ ...filters, location: "" })}
-              className="w-5 h-5 text-teal border-gray-300 focus:ring-teal"
+              className="w-5 h-5 text-coral border-gray-300 focus:ring-coral"
             />
             <span className="text-base font-medium text-deep">
               {t("browse.allLocations")}
@@ -212,7 +212,7 @@ export default function FilterContent({
                 name="location"
                 checked={filters.location === location}
                 onChange={() => onFilterChange({ ...filters, location })}
-                className="w-5 h-5 text-teal border-gray-300 focus:ring-teal"
+                className="w-5 h-5 text-coral border-gray-300 focus:ring-coral"
               />
               <span className="text-base font-medium text-deep">
                 {location}
@@ -235,7 +235,7 @@ export default function FilterContent({
               ✨ {t("browse.filterInterests")}
             </h4>
             {filters.interests.length > 0 && (
-              <span className="text-xs font-medium text-teal">
+              <span className="text-xs font-medium text-coral">
                 {filters.interests.length}
               </span>
             )}
@@ -247,7 +247,7 @@ export default function FilterContent({
                 onClick={() => toggleInterest(interest)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   filters.interests.includes(interest)
-                    ? "bg-[#FF5A5F] text-white shadow-sm"
+                    ? "bg-coral text-white shadow-sm"
                     : "bg-gray-100 text-deep hover:bg-gray-200"
                 }`}
               >
@@ -270,7 +270,7 @@ export default function FilterContent({
         )}
         <button
           onClick={onApply}
-          className="flex-1 bg-[#FF5A5F] hover:bg-[#E61E4D] text-white rounded-full px-6 py-3.5 font-semibold hover:shadow-lg transition-all"
+          className="flex-1 bg-coral hover:bg-deep-coral text-white rounded-full px-6 py-3.5 font-semibold hover:shadow-lg transition-all"
         >
           {t("browse.showResults") || "Show"} {resultCount}{" "}
           {resultCount === 1

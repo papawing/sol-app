@@ -19,8 +19,8 @@ export default async function AboutPage({ params }: PageProps) {
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-deep via-hof to-deep py-24 overflow-hidden">
         <div className="absolute inset-0 opacity-10">
-          <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-radial from-mint/40 to-transparent blur-3xl rounded-full"></div>
-          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-radial from-teal/40 to-transparent blur-3xl rounded-full"></div>
+          <div className="absolute top-0 left-1/4 w-96 h-96 bg-gradient-radial from-rose/40 to-transparent blur-3xl rounded-full"></div>
+          <div className="absolute bottom-0 right-1/4 w-96 h-96 bg-gradient-radial from-coral/40 to-transparent blur-3xl rounded-full"></div>
         </div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -49,7 +49,7 @@ export default async function AboutPage({ params }: PageProps) {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="flex items-center gap-3 mb-4">
-                <MapPin className="w-8 h-8 text-teal" />
+                <MapPin className="w-8 h-8 text-coral" />
                 <h2 className="font-display text-3xl md:text-4xl font-bold text-deep">
                   {t("lune.title")}
                 </h2>
@@ -59,20 +59,20 @@ export default async function AboutPage({ params }: PageProps) {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-teal/10 flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 rounded-full bg-teal"></div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-coral/10 flex items-center justify-center mt-1">
+                    <div className="w-2 h-2 rounded-full bg-coral"></div>
                   </div>
                   <p className="text-light">{t("lune.feature1")}</p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-teal/10 flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 rounded-full bg-teal"></div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-coral/10 flex items-center justify-center mt-1">
+                    <div className="w-2 h-2 rounded-full bg-coral"></div>
                   </div>
                   <p className="text-light">{t("lune.feature2")}</p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-teal/10 flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 rounded-full bg-teal"></div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-coral/10 flex items-center justify-center mt-1">
+                    <div className="w-2 h-2 rounded-full bg-coral"></div>
                   </div>
                   <p className="text-light">{t("lune.feature3")}</p>
                 </li>
@@ -123,7 +123,7 @@ export default async function AboutPage({ params }: PageProps) {
             </div>
             <div className="order-1 md:order-2">
               <div className="flex items-center gap-3 mb-4">
-                <Sparkles className="w-8 h-8 text-teal" />
+                <Sparkles className="w-8 h-8 text-coral" />
                 <h2 className="font-display text-3xl md:text-4xl font-bold text-deep">
                   {t("platform.title")}
                 </h2>
@@ -133,20 +133,20 @@ export default async function AboutPage({ params }: PageProps) {
               </p>
               <ul className="space-y-3">
                 <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-teal/10 flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 rounded-full bg-teal"></div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-coral/10 flex items-center justify-center mt-1">
+                    <div className="w-2 h-2 rounded-full bg-coral"></div>
                   </div>
                   <p className="text-light">{t("platform.feature1")}</p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-teal/10 flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 rounded-full bg-teal"></div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-coral/10 flex items-center justify-center mt-1">
+                    <div className="w-2 h-2 rounded-full bg-coral"></div>
                   </div>
                   <p className="text-light">{t("platform.feature2")}</p>
                 </li>
                 <li className="flex items-start gap-3">
-                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-teal/10 flex items-center justify-center mt-1">
-                    <div className="w-2 h-2 rounded-full bg-teal"></div>
+                  <div className="flex-shrink-0 w-6 h-6 rounded-full bg-coral/10 flex items-center justify-center mt-1">
+                    <div className="w-2 h-2 rounded-full bg-coral"></div>
                   </div>
                   <p className="text-light">{t("platform.feature3")}</p>
                 </li>
@@ -172,8 +172,8 @@ export default async function AboutPage({ params }: PageProps) {
             {/* Value 1: Discretion */}
             <div className="text-center group">
               <div className="mb-6 flex justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal/10 to-mint/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
-                  <Shield className="w-10 h-10 text-teal" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-coral/10 to-rose/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
+                  <Shield className="w-10 h-10 text-coral" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-deep mb-3">{t("values.value1Title")}</h3>
@@ -183,8 +183,8 @@ export default async function AboutPage({ params }: PageProps) {
             {/* Value 2: Quality */}
             <div className="text-center group">
               <div className="mb-6 flex justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal/10 to-mint/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
-                  <Sparkles className="w-10 h-10 text-teal" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-coral/10 to-rose/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
+                  <Sparkles className="w-10 h-10 text-coral" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-deep mb-3">{t("values.value2Title")}</h3>
@@ -194,8 +194,8 @@ export default async function AboutPage({ params }: PageProps) {
             {/* Value 3: Safety */}
             <div className="text-center group">
               <div className="mb-6 flex justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal/10 to-mint/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
-                  <MapPin className="w-10 h-10 text-teal" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-coral/10 to-rose/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
+                  <MapPin className="w-10 h-10 text-coral" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-deep mb-3">{t("values.value3Title")}</h3>
@@ -205,8 +205,8 @@ export default async function AboutPage({ params }: PageProps) {
             {/* Value 4: Experience */}
             <div className="text-center group">
               <div className="mb-6 flex justify-center">
-                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-teal/10 to-mint/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
-                  <Heart className="w-10 h-10 text-teal" />
+                <div className="w-20 h-20 rounded-full bg-gradient-to-br from-coral/10 to-rose/10 flex items-center justify-center group-hover:scale-110 transition-transform duration-base">
+                  <Heart className="w-10 h-10 text-coral" />
                 </div>
               </div>
               <h3 className="text-xl font-semibold text-deep mb-3">{t("values.value4Title")}</h3>
@@ -227,7 +227,7 @@ export default async function AboutPage({ params }: PageProps) {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/register">
-              <button className="min-w-[200px] bg-white text-deep text-lg px-8 py-4 rounded-airbnb-lg shadow-airbnb-xl hover:bg-mint hover:scale-105 transition-all duration-base font-semibold">
+              <button className="min-w-[200px] bg-white text-deep text-lg px-8 py-4 rounded-airbnb-lg shadow-airbnb-xl hover:bg-rose hover:scale-105 transition-all duration-base font-semibold">
                 {t("cta.button")}
               </button>
             </Link>

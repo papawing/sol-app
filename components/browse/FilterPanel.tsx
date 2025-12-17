@@ -77,7 +77,7 @@ export default function FilterPanel({
               variant="outline"
               className={`rounded-full px-4 py-2 text-sm font-medium border-2 transition-all ${
                 hasAgeFilter
-                  ? "border-teal bg-teal/5 text-teal hover:bg-teal/10"
+                  ? "border-coral bg-coral/5 text-coral hover:bg-coral/10"
                   : "border-gray-200 hover:border-gray-300"
               }`}
             >
@@ -102,7 +102,7 @@ export default function FilterPanel({
                     onChange={(e) =>
                       handleAgeChange("min", parseInt(e.target.value) || 18)
                     }
-                    className="w-full px-3 py-2 rounded-lg border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors text-sm"
+                    className="w-full px-3 py-2 rounded-lg border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors text-sm"
                   />
                 </div>
                 <span className="text-gray-400 mt-6">–</span>
@@ -116,7 +116,7 @@ export default function FilterPanel({
                     onChange={(e) =>
                       handleAgeChange("max", parseInt(e.target.value) || 35)
                     }
-                    className="w-full px-3 py-2 rounded-lg border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors text-sm"
+                    className="w-full px-3 py-2 rounded-lg border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors text-sm"
                   />
                 </div>
               </div>
@@ -131,7 +131,7 @@ export default function FilterPanel({
               variant="outline"
               className={`rounded-full px-4 py-2 text-sm font-medium border-2 transition-all ${
                 hasLanguageFilter
-                  ? "border-teal bg-teal/5 text-teal hover:bg-teal/10"
+                  ? "border-coral bg-coral/5 text-coral hover:bg-coral/10"
                   : "border-gray-200 hover:border-gray-300"
               }`}
             >
@@ -155,7 +155,7 @@ export default function FilterPanel({
                       type="checkbox"
                       checked={filters.languages.includes(lang.code)}
                       onChange={() => toggleLanguage(lang.code)}
-                      className="w-4 h-4 text-teal border-gray-300 rounded focus:ring-teal"
+                      className="w-4 h-4 text-coral border-gray-300 rounded focus:ring-coral"
                     />
                     <span className="text-xl">{lang.emoji}</span>
                     <span className="text-sm font-medium text-deep">
@@ -175,7 +175,7 @@ export default function FilterPanel({
               variant="outline"
               className={`rounded-full px-4 py-2 text-sm font-medium border-2 transition-all ${
                 hasLocationFilter
-                  ? "border-teal bg-teal/5 text-teal hover:bg-teal/10"
+                  ? "border-coral bg-coral/5 text-coral hover:bg-coral/10"
                   : "border-gray-200 hover:border-gray-300"
               }`}
             >
@@ -198,7 +198,7 @@ export default function FilterPanel({
                     onChange={() =>
                       onFilterChange({ ...filters, location: "" })
                     }
-                    className="w-4 h-4 text-teal border-gray-300 focus:ring-teal"
+                    className="w-4 h-4 text-coral border-gray-300 focus:ring-coral"
                   />
                   <span className="text-sm font-medium text-deep">
                     {t("browse.allLocations")}
@@ -216,7 +216,7 @@ export default function FilterPanel({
                       onChange={() =>
                         onFilterChange({ ...filters, location })
                       }
-                      className="w-4 h-4 text-teal border-gray-300 focus:ring-teal"
+                      className="w-4 h-4 text-coral border-gray-300 focus:ring-coral"
                     />
                     <span className="text-sm font-medium text-deep">
                       {location}
@@ -236,7 +236,7 @@ export default function FilterPanel({
                 variant="outline"
                 className={`rounded-full px-4 py-2 text-sm font-medium border-2 transition-all ${
                   hasInterestFilter
-                    ? "border-teal bg-teal/5 text-teal hover:bg-teal/10"
+                    ? "border-coral bg-coral/5 text-coral hover:bg-coral/10"
                     : "border-gray-200 hover:border-gray-300"
                 }`}
               >
@@ -257,7 +257,7 @@ export default function FilterPanel({
                       onClick={() => toggleInterest(interest)}
                       className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
                         filters.interests.includes(interest)
-                          ? "bg-[#FF5A5F] text-white shadow-sm"
+                          ? "bg-coral text-white shadow-sm"
                           : "bg-gray-100 text-deep hover:bg-gray-200"
                       }`}
                     >

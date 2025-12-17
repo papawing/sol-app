@@ -46,25 +46,25 @@ export default function Navbar() {
             <nav className="hidden lg:flex flex-1 items-center justify-center gap-6 mx-12">
               <Link
                 href="/about"
-                className="text-[#222222] font-medium hover:text-teal transition-colors"
+                className="text-deep font-medium hover:text-coral transition-colors"
               >
                 {t("nav.about") || "About Us"}
               </Link>
               <Link
                 href="/how-it-works"
-                className="text-[#222222] font-medium hover:text-teal transition-colors"
+                className="text-deep font-medium hover:text-coral transition-colors"
               >
                 {t("nav.howItWorks") || "How It Works"}
               </Link>
               <Link
                 href="/become-cast"
-                className="text-[#222222] font-medium hover:text-teal transition-colors"
+                className="text-deep font-medium hover:text-coral transition-colors"
               >
                 {t("nav.becomeCast") || "Become Cast"}
               </Link>
               <Link
                 href="/register"
-                className="text-[#222222] font-medium hover:text-teal transition-colors"
+                className="text-deep font-medium hover:text-coral transition-colors"
               >
                 {t("nav.becomeMember") || "Become Member"}
               </Link>
@@ -103,7 +103,7 @@ export default function Navbar() {
                   <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-deep flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
-                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-white flex-shrink-0 ${session?.user ? "bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D]" : "bg-gray-400"}`}>
+                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-white flex-shrink-0 ${session?.user ? "bg-gradient-to-r from-coral to-deep-coral" : "bg-gray-400"}`}>
                     {session?.user?.nickname ? (
                       <span className="text-xs sm:text-sm font-semibold">{session.user.nickname[0].toUpperCase()}</span>
                     ) : (
@@ -169,7 +169,7 @@ export default function Navbar() {
                     <DropdownMenuSeparator />
                     <DropdownMenuItem
                       onClick={handleLogout}
-                      className="cursor-pointer text-[#FF5A5F] focus:text-[#FF5A5F]"
+                      className="cursor-pointer text-coral focus:text-coral"
                     >
                       Log out
                     </DropdownMenuItem>
@@ -196,25 +196,25 @@ export default function Navbar() {
           <div className="flex items-center justify-between gap-1 text-xs sm:text-sm">
             <Link
               href="/about"
-              className="text-[#222222] font-medium hover:text-teal transition-colors text-center flex-1 px-1"
+              className="text-deep font-medium hover:text-coral transition-colors text-center flex-1 px-1"
             >
               {t("nav.about") || "About"}
             </Link>
             <Link
               href="/how-it-works"
-              className="text-[#222222] font-medium hover:text-teal transition-colors text-center flex-1 px-1"
+              className="text-deep font-medium hover:text-coral transition-colors text-center flex-1 px-1"
             >
               {t("nav.howItWorks") || "How It Works"}
             </Link>
             <Link
               href="/become-cast"
-              className="text-[#222222] font-medium hover:text-teal transition-colors text-center flex-1 px-1"
+              className="text-deep font-medium hover:text-coral transition-colors text-center flex-1 px-1"
             >
               {t("nav.becomeCast") || "Cast"}
             </Link>
             <Link
               href="/register"
-              className="text-[#222222] font-medium hover:text-teal transition-colors text-center flex-1 px-1"
+              className="text-deep font-medium hover:text-coral transition-colors text-center flex-1 px-1"
             >
               {t("nav.becomeMember") || "Member"}
             </Link>

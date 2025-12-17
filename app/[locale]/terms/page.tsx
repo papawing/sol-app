@@ -100,8 +100,8 @@ export default function TermsPage() {
             <p className="text-light mb-2">
               {t("contact.description")}
             </p>
-            <p className="text-teal font-medium">
-              hello@lune-roppongi.jp
+            <p className="text-coral font-medium">
+              hello@sol-tokyo.jp
             </p>
           </div>
         </div>

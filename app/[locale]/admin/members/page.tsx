@@ -60,7 +60,7 @@ export default async function AdminMembersPage({ params }: PageProps) {
     const styles = {
       STANDARD: "bg-blue-100 text-blue-800 border border-blue-200",
       GOLD: "bg-amber-100 text-amber-800 border border-amber-200",
-      VIP: "bg-purple-100 text-purple-800 border border-purple-200",
+      VIP: "bg-gold/20 text-rose-gold border border-gold/30",
     }
     return styles[tier as keyof typeof styles] || styles.STANDARD
   }
@@ -335,7 +335,7 @@ export default async function AdminMembersPage({ params }: PageProps) {
                   <div className="mt-3 flex gap-2">
                     <Link
                       href={`/admin/members/${user.member?.id}/edit`}
-                      className="flex-1 text-center py-2 px-4 bg-white text-teal border border-gray-300 rounded-lg hover:bg-gray-50 text-sm font-semibold transition-colors"
+                      className="flex-1 text-center py-2 px-4 bg-white text-coral border border-gray-300 rounded-lg hover:bg-gray-50 text-sm font-semibold transition-colors"
                     >
                       Edit
                     </Link>

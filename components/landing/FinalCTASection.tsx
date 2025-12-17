@@ -12,8 +12,8 @@ export default function FinalCTASection() {
     <section className="py-24 bg-gradient-to-br from-deep via-hof to-deep relative overflow-hidden">
       {/* Background decoration */}
       <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-5"></div>
-      <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-mint/30 to-transparent blur-3xl rounded-full"></div>
-      <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-teal/30 to-transparent blur-3xl rounded-full"></div>
+      <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-rose/30 to-transparent blur-3xl rounded-full"></div>
+      <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-coral/30 to-transparent blur-3xl rounded-full"></div>
 
       <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         {/* Decorative icon */}
@@ -34,7 +34,7 @@ export default function FinalCTASection() {
           <Link href="/register">
             <Button
               size="lg"
-              className="min-w-[200px] bg-white text-deep-teal text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:bg-mint hover:text-deep hover:scale-105 transition-all duration-base font-semibold"
+              className="min-w-[200px] bg-white text-deep-coral text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:bg-rose hover:text-deep hover:scale-105 transition-all duration-base font-semibold"
             >
               {t("ctaPrimary")}
               <ArrowRight className="ml-2 w-5 h-5" />

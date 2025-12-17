@@ -242,7 +242,7 @@ export default async function AdminDashboardPage({ params }: PageProps) {
                       <Link
                         href="/admin/members"
                         locale={locale}
-                        className="text-xs text-teal hover:underline font-semibold"
+                        className="text-xs text-coral hover:underline font-semibold"
                       >
                         Review →
                       </Link>
@@ -289,7 +289,7 @@ export default async function AdminDashboardPage({ params }: PageProps) {
                       <Link
                         href="/admin/meeting-requests"
                         locale={locale}
-                        className="text-xs text-teal hover:underline font-semibold"
+                        className="text-xs text-coral hover:underline font-semibold"
                       >
                         Coordinate →
                       </Link>

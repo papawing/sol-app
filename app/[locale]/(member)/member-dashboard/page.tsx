@@ -211,7 +211,7 @@ export default async function DashboardPage({ params }: PageProps) {
                 ⭐ {t("dashboard.featuredTonight")}
               </h2>
               <Link href={`/${locale}/browse`}>
-                <span className="text-sm text-teal hover:underline font-semibold">
+                <span className="text-sm text-coral hover:underline font-semibold">
                   {t("dashboard.viewAll")} →
                 </span>
               </Link>
@@ -248,7 +248,7 @@ export default async function DashboardPage({ params }: PageProps) {
                 ❤️ {t("dashboard.yourFavorites")}
               </h2>
               <Link href={`/${locale}/bookmarks`}>
-                <span className="text-sm text-teal hover:underline font-semibold">
+                <span className="text-sm text-coral hover:underline font-semibold">
                   {t("dashboard.viewAll")} {bookmarksCount} →
                 </span>
               </Link>
@@ -281,7 +281,7 @@ export default async function DashboardPage({ params }: PageProps) {
                 📅 {t("dashboard.yourRequests")}
               </h2>
               <Link href={`/${locale}/browse`}>
-                <span className="text-sm text-teal hover:underline font-semibold">
+                <span className="text-sm text-coral hover:underline font-semibold">
                   {t("dashboard.viewAll")} →
                 </span>
               </Link>

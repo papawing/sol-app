@@ -58,8 +58,8 @@ export default function SafetyPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-deep via-hof to-deep py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-5"></div>
-        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-mint/30 to-transparent blur-3xl rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-teal/30 to-transparent blur-3xl rounded-full"></div>
+        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-rose/30 to-transparent blur-3xl rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-coral/30 to-transparent blur-3xl rounded-full"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl mb-6 animate-fade-in-up">🛡️</div>
@@ -107,7 +107,7 @@ export default function SafetyPage() {
                   className="bg-white rounded-airbnb-xl shadow-airbnb-md p-8 hover:shadow-airbnb-hover hover:-translate-y-2 transition-all duration-base animate-fade-in-up"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-teal/10 to-mint/10 flex items-center justify-center mb-6">
+                  <div className="w-16 h-16 rounded-full bg-gradient-to-br from-coral/10 to-mint/10 flex items-center justify-center mb-6">
                     <Icon className="w-8 h-8 text-teal" />
                   </div>
                   <h3 className="text-xl font-semibold text-deep mb-3">
@@ -136,7 +136,7 @@ export default function SafetyPage() {
             </p>
           </div>
 
-          <div className="bg-gradient-to-br from-mint/10 to-teal/10 rounded-airbnb-xl p-8 md:p-12 mb-8">
+          <div className="bg-gradient-to-br from-rose/10 to-teal/10 rounded-airbnb-xl p-8 md:p-12 mb-8">
             <h3 className="text-2xl font-semibold text-deep mb-6">
               {t("privacy.dataTitle")}
             </h3>

@@ -31,7 +31,7 @@ export default function HeroSection() {
             {t("trustBadge1")}
           </Badge>
           <Badge variant="secondary" className="bg-white/95 text-deep border-none px-4 py-2 shadow-md hover:bg-white transition-all">
-            <Shield className="w-4 h-4 mr-2 text-teal" />
+            <Shield className="w-4 h-4 mr-2 text-coral" />
             {t("trustBadge2")}
           </Badge>
           <Badge variant="secondary" className="bg-white/95 text-deep border-none px-4 py-2 shadow-md hover:bg-white transition-all">
@@ -64,7 +64,7 @@ export default function HeroSection() {
           <Link href="/login">
             <Button
               size="lg"
-              className="min-w-[220px] bg-[#FF5A5F] hover:bg-[#E61E4D] text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
+              className="min-w-[220px] bg-coral hover:bg-deep-coral text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
             >
               {t("ctaPrimary")}
             </Button>
@@ -73,7 +73,7 @@ export default function HeroSection() {
             <Button
               size="lg"
               variant="outline"
-              className="min-w-[220px] bg-white/10 backdrop-blur-md border-2 border-mint/50 text-white text-lg px-8 py-6 rounded-airbnb-lg hover:bg-mint/20 hover:border-mint hover:scale-105 transition-all duration-base"
+              className="min-w-[220px] bg-white/10 backdrop-blur-md border-2 border-rose/50 text-white text-lg px-8 py-6 rounded-airbnb-lg hover:bg-rose/20 hover:border-rose hover:scale-105 transition-all duration-base"
             >
               {t("ctaSecondary")}
             </Button>
@@ -92,8 +92,8 @@ export default function HeroSection() {
       </div>
 
       {/* Decorative gradient orbs */}
-      <div className="absolute top-1/4 left-10 w-96 h-96 bg-gradient-radial from-mint/30 to-transparent blur-3xl rounded-full"></div>
-      <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-gradient-radial from-teal/30 to-transparent blur-3xl rounded-full"></div>
+      <div className="absolute top-1/4 left-10 w-96 h-96 bg-gradient-radial from-rose/30 to-transparent blur-3xl rounded-full"></div>
+      <div className="absolute bottom-1/4 right-10 w-96 h-96 bg-gradient-radial from-coral/30 to-transparent blur-3xl rounded-full"></div>
     </section>
   );
 }

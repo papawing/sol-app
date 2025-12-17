@@ -106,7 +106,7 @@ export default async function CastRequestsPage({ params }: PageProps) {
             <div className="text-sm text-gray-600">Pending</div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
-            <div className="text-2xl font-bold text-teal-600">{confirmedRequests.length}</div>
+            <div className="text-2xl font-bold text-coral">{confirmedRequests.length}</div>
             <div className="text-sm text-gray-600">Upcoming</div>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-sm border border-gray-200">
@@ -154,7 +154,7 @@ export default async function CastRequestsPage({ params }: PageProps) {
                                 {request.member.tierClassification === "PREMIUM" ? "Premium" : "Basic"} Member
                               </span>
                               {request.member.isVerified && (
-                                <span className="text-teal-600 text-xs font-semibold">✓ Verified</span>
+                                <span className="text-coral text-xs font-semibold">✓ Verified</span>
                               )}
                             </div>
                             <p className="text-sm text-gray-600 mt-2">
@@ -206,7 +206,7 @@ export default async function CastRequestsPage({ params }: PageProps) {
                                 {request.member.tierClassification === "PREMIUM" ? "Premium" : "Basic"} Member
                               </span>
                               {request.member.isVerified && (
-                                <span className="text-teal-600 text-xs font-semibold">✓ Verified</span>
+                                <span className="text-coral text-xs font-semibold">✓ Verified</span>
                               )}
                             </div>
                             <div className="mt-3 space-y-2">
@@ -228,7 +228,7 @@ export default async function CastRequestsPage({ params }: PageProps) {
                               )}
                             </div>
                           </div>
-                          <span className="px-3 py-1 bg-teal-100 text-teal-800 text-xs font-semibold rounded-full">
+                          <span className="px-3 py-1 bg-coral/20 text-coral text-xs font-semibold rounded-full">
                             Confirmed
                           </span>
                         </div>

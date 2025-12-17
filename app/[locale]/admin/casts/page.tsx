@@ -56,7 +56,7 @@ export default async function AdminCastsPage({ params }: PageProps) {
   const getTierBadge = (tier: string) => {
     const styles = {
       STANDARD: "bg-blue-100 text-blue-800 border-blue-200",
-      HIGH_CLASS: "bg-purple-100 text-purple-800 border-purple-200",
+      HIGH_CLASS: "bg-gold/20 text-rose-gold border-gold/30",
     }
     return styles[tier as keyof typeof styles] || styles.STANDARD
   }
@@ -95,7 +95,7 @@ export default async function AdminCastsPage({ params }: PageProps) {
           </div>
           <Link
             href="/admin/casts/new"
-            className="px-4 py-2 bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2"
+            className="px-4 py-2 bg-gradient-to-r from-coral to-deep-coral text-white rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2"
           >
             <span>+</span> Create Cast
           </Link>
@@ -268,7 +268,7 @@ export default async function AdminCastsPage({ params }: PageProps) {
                     {user.cast?.id ? (
                       <Link
                         href={`/browse/${user.cast.id}`}
-                        className="flex-1 text-center text-xs text-teal hover:underline font-semibold py-1"
+                        className="flex-1 text-center text-xs text-coral hover:underline font-semibold py-1"
                       >
                         View
                       </Link>

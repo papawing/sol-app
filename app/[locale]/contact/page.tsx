@@ -68,8 +68,8 @@ export default function ContactPage() {
     {
       icon: Mail,
       title: t("info.emailTitle"),
-      content: "hello@lune-roppongi.jp",
-      link: "mailto:hello@lune-roppongi.jp",
+      content: "hello@sol-tokyo.jp",
+      link: "mailto:hello@sol-tokyo.jp",
     },
     {
       icon: MapPin,
@@ -92,8 +92,8 @@ export default function ContactPage() {
       {/* Hero Section */}
       <section className="bg-gradient-to-br from-deep via-hof to-deep py-24 relative overflow-hidden">
         <div className="absolute inset-0 bg-[url('/images/hero-pattern.svg')] opacity-5"></div>
-        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-mint/30 to-transparent blur-3xl rounded-full"></div>
-        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-teal/30 to-transparent blur-3xl rounded-full"></div>
+        <div className="absolute top-20 left-20 w-96 h-96 bg-gradient-radial from-rose/30 to-transparent blur-3xl rounded-full"></div>
+        <div className="absolute bottom-20 right-20 w-96 h-96 bg-gradient-radial from-coral/30 to-transparent blur-3xl rounded-full"></div>
 
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="text-6xl mb-6 animate-fade-in-up">💬</div>
@@ -209,11 +209,11 @@ export default function ContactPage() {
                   return (
                     <div
                       key={index}
-                      className="bg-gradient-to-br from-gray-50 to-white rounded-airbnb-xl p-6 border border-gray-200 hover:border-teal/50 transition-colors duration-base"
+                      className="bg-gradient-to-br from-gray-50 to-white rounded-airbnb-xl p-6 border border-gray-200 hover:border-coral/50 transition-colors duration-base"
                     >
                       <div className="flex items-start gap-4">
-                        <div className="w-12 h-12 rounded-full bg-gradient-to-br from-teal/10 to-mint/10 flex items-center justify-center flex-shrink-0">
-                          <Icon className="w-6 h-6 text-teal" />
+                        <div className="w-12 h-12 rounded-full bg-gradient-to-br from-coral/10 to-rose/10 flex items-center justify-center flex-shrink-0">
+                          <Icon className="w-6 h-6 text-coral" />
                         </div>
                         <div className="flex-1">
                           <h3 className="text-lg font-semibold text-deep mb-1">
@@ -222,7 +222,7 @@ export default function ContactPage() {
                           {item.link ? (
                             <a
                               href={item.link}
-                              className="text-teal hover:text-deep-teal underline"
+                              className="text-coral hover:text-deep-coral underline"
                             >
                               {item.content}
                             </a>
@@ -237,9 +237,9 @@ export default function ContactPage() {
               </div>
 
               {/* Additional Info Box */}
-              <div className="mt-8 bg-gradient-to-br from-mint/10 to-teal/10 rounded-airbnb-xl p-6 border border-teal/20">
+              <div className="mt-8 bg-gradient-to-br from-rose/10 to-coral/10 rounded-airbnb-xl p-6 border border-coral/20">
                 <div className="flex items-start gap-3">
-                  <MessageSquare className="w-6 h-6 text-teal flex-shrink-0 mt-1" />
+                  <MessageSquare className="w-6 h-6 text-coral flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-lg font-semibold text-deep mb-2">
                       {t("info.responseTitle")}

@@ -91,7 +91,7 @@ export default function LoginPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="h-12 rounded-lg border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors"
+                  className="h-12 rounded-lg border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors"
                 />
               </div>
 
@@ -100,7 +100,7 @@ export default function LoginPage() {
                   <label htmlFor="password" className="text-sm font-semibold text-deep">
                     {t("auth.password")}
                   </label>
-                  <Link href="/forgot-password" className="text-xs text-teal hover:underline font-semibold">
+                  <Link href="/forgot-password" className="text-xs text-coral hover:underline font-semibold">
                     {t("auth.forgotPassword") || "Forgot?"}
                   </Link>
                 </div>
@@ -111,7 +111,7 @@ export default function LoginPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   required
-                  className="h-12 rounded-lg border-2 border-gray-200 focus:border-teal focus:ring-0 transition-colors"
+                  className="h-12 rounded-lg border-2 border-gray-200 focus:border-coral focus:ring-0 transition-colors"
                 />
               </div>
 
@@ -135,7 +135,7 @@ export default function LoginPage() {
             <div className="mt-8 text-center border-t border-gray-100 pt-6">
               <p className="text-sm text-light">
                 {t("auth.noAccount")}{" "}
-                <Link href="/register" className="text-teal hover:underline font-semibold">
+                <Link href="/register" className="text-coral hover:underline font-semibold">
                   {t("auth.register")}
                 </Link>
               </p>
