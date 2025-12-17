@@ -13,8 +13,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "LIEN - Exclusive Connections",
-  description: "High-end matching platform connecting discerning members in Tokyo",
+  title: "SOL - Tokyo Drinking Partners",
+  description: "Connect with local Japanese for authentic Tokyo nightlife experiences",
 };
 
 export default function RootLayout({

@@ -104,7 +104,7 @@ export default async function AdminDashboardPage({ params }: PageProps) {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-2">
-              <span className="text-2xl">🌙</span>
+              <span className="text-2xl">☀️</span>
               <span className="font-display text-xl font-bold text-deep">
                 {t("common.appName")} Admin
               </span>
@@ -174,7 +174,7 @@ export default async function AdminDashboardPage({ params }: PageProps) {
             <Link
               href="/admin/members"
               locale={locale}
-              className="p-4 border-2 border-gray-200 rounded-lg hover:border-[#4A9B8E] hover:bg-gray-50 transition-all text-center"
+              className="p-4 border-2 border-gray-200 rounded-lg hover:border-[#FF5A5F] hover:bg-gray-50 transition-all text-center"
             >
               <div className="text-2xl mb-2">👥</div>
               <div className="text-sm font-semibold text-deep">Manage Members</div>
@@ -182,7 +182,7 @@ export default async function AdminDashboardPage({ params }: PageProps) {
             <Link
               href="/admin/casts"
               locale={locale}
-              className="p-4 border-2 border-gray-200 rounded-lg hover:border-[#4A9B8E] hover:bg-gray-50 transition-all text-center"
+              className="p-4 border-2 border-gray-200 rounded-lg hover:border-[#FF5A5F] hover:bg-gray-50 transition-all text-center"
             >
               <div className="text-2xl mb-2">💃</div>
               <div className="text-sm font-semibold text-deep">Manage Casts</div>
@@ -190,7 +190,7 @@ export default async function AdminDashboardPage({ params }: PageProps) {
             <Link
               href="/admin/meeting-requests"
               locale={locale}
-              className="p-4 border-2 border-gray-200 rounded-lg hover:border-[#4A9B8E] hover:bg-gray-50 transition-all text-center"
+              className="p-4 border-2 border-gray-200 rounded-lg hover:border-[#FF5A5F] hover:bg-gray-50 transition-all text-center"
             >
               <div className="text-2xl mb-2">📅</div>
               <div className="text-sm font-semibold text-deep">Meeting Requests</div>

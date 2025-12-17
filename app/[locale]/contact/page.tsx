@@ -187,7 +187,7 @@ export default function ContactPage() {
                 <Button
                   type="submit"
                   disabled={isSubmitting}
-                  className="w-full bg-gradient-rausch text-white text-lg py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
+                  className="w-full bg-[#FF5A5F] hover:bg-[#E61E4D] text-white text-lg py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
                 >
                   {isSubmitting ? t("form.sending") : t("form.submit")}
                 </Button>
@@ -259,7 +259,7 @@ export default function ContactPage() {
       <footer className="bg-deep border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-white/50 text-sm text-center">
-            © 2025 LIEN. All rights reserved.
+            © 2025 SOL. All rights reserved.
           </p>
         </div>
       </footer>

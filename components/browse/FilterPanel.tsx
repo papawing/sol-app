@@ -257,7 +257,7 @@ export default function FilterPanel({
                       onClick={() => toggleInterest(interest)}
                       className={`px-3 py-1.5 rounded-full text-xs font-medium transition-all ${
                         filters.interests.includes(interest)
-                          ? "bg-gradient-rausch text-white shadow-sm"
+                          ? "bg-[#FF5A5F] text-white shadow-sm"
                           : "bg-gray-100 text-deep hover:bg-gray-200"
                       }`}
                     >

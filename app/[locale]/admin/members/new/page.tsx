@@ -236,7 +236,7 @@ export default function NewMemberPage() {
                   required
                   value={formData.email}
                   onChange={(e) => setFormData(prev => ({ ...prev, email: e.target.value }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div>
@@ -249,7 +249,7 @@ export default function NewMemberPage() {
                   minLength={6}
                   value={formData.password}
                   onChange={(e) => setFormData(prev => ({ ...prev, password: e.target.value }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div>
@@ -261,7 +261,7 @@ export default function NewMemberPage() {
                   required
                   value={formData.nickname}
                   onChange={(e) => setFormData(prev => ({ ...prev, nickname: e.target.value }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
             </div>
@@ -281,7 +281,7 @@ export default function NewMemberPage() {
                   max={99}
                   value={formData.age}
                   onChange={(e) => setFormData(prev => ({ ...prev, age: e.target.value ? parseInt(e.target.value) : "" }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
 
@@ -292,7 +292,7 @@ export default function NewMemberPage() {
                   placeholder="e.g., Roppongi, Shibuya"
                   value={formData.location}
                   onChange={(e) => setFormData(prev => ({ ...prev, location: e.target.value }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
 
@@ -302,7 +302,7 @@ export default function NewMemberPage() {
                   type="text"
                   value={formData.occupation}
                   onChange={(e) => setFormData(prev => ({ ...prev, occupation: e.target.value }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div className="md:col-span-3">
@@ -313,12 +313,12 @@ export default function NewMemberPage() {
                     value={formData.annualIncome}
                     onChange={(e) => setFormData(prev => ({ ...prev, annualIncome: e.target.value ? parseInt(e.target.value) : "" }))}
                     placeholder="Enter annual income"
-                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                   />
                   <select
                     value={formData.incomeCurrency}
                     onChange={(e) => setFormData(prev => ({ ...prev, incomeCurrency: e.target.value as "USD" | "JPY" }))}
-                    className="w-24 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                    className="w-24 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                   >
                     <option value="USD">USD</option>
                     <option value="JPY">JPY</option>
@@ -338,7 +338,7 @@ export default function NewMemberPage() {
                     onClick={() => handleArrayToggle("languages", lang.value)}
                     className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors ${
                       formData.languages.includes(lang.value)
-                        ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
+                        ? "bg-[#FF5A5F] text-white border-[#FF5A5F]"
                         : "bg-white text-gray-700 border-gray-300 hover:border-gray-400"
                     }`}
                   >
@@ -361,7 +361,7 @@ export default function NewMemberPage() {
                     onClick={() => setActiveTab(lang)}
                     className={`pb-2 px-1 font-semibold transition-colors ${
                       activeTab === lang
-                        ? "border-b-2 border-[#4A9B8E] text-[#4A9B8E]"
+                        ? "border-b-2 border-[#FF5A5F] text-[#FF5A5F]"
                         : "text-gray-500 hover:text-gray-700"
                     }`}
                   >
@@ -374,7 +374,7 @@ export default function NewMemberPage() {
               rows={4}
               value={(formData.bio as Record<string, string>)[activeTab]}
               onChange={(e) => handleMultilingualChange("bio", e.target.value)}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
               placeholder="Tell us about yourself..."
             />
           </div>
@@ -393,8 +393,8 @@ export default function NewMemberPage() {
                       onClick={() => handleArrayToggle("interests", interest)}
                       className={`px-3 py-1.5 rounded-full text-sm font-semibold border transition-colors ${
                         formData.interests.includes(interest)
-                          ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
-                          : "bg-white text-gray-700 border-gray-300 hover:border-[#4A9B8E]"
+                          ? "bg-[#FF5A5F] text-white border-[#FF5A5F]"
+                          : "bg-white text-gray-700 border-gray-300 hover:border-[#FF5A5F]"
                       }`}
                     >
                       {interest}
@@ -412,8 +412,8 @@ export default function NewMemberPage() {
                       onClick={() => handleArrayToggle("hobbies", hobby)}
                       className={`px-3 py-1.5 rounded-full text-sm font-semibold border transition-colors ${
                         formData.hobbies.includes(hobby)
-                          ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
-                          : "bg-white text-gray-700 border-gray-300 hover:border-[#4A9B8E]"
+                          ? "bg-[#FF5A5F] text-white border-[#FF5A5F]"
+                          : "bg-white text-gray-700 border-gray-300 hover:border-[#FF5A5F]"
                       }`}
                     >
                       {hobby}
@@ -436,7 +436,7 @@ export default function NewMemberPage() {
                     accept="image/*"
                     multiple
                     onChange={handlePhotoUpload}
-                    className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-[#4A9B8E] file:text-white hover:file:bg-[#2D7A6E] cursor-pointer"
+                    className="block w-full text-sm text-gray-500 file:mr-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-[#FF5A5F] file:text-white hover:file:bg-[#E61E4D] cursor-pointer"
                   />
                 </label>
               </div>
@@ -450,7 +450,7 @@ export default function NewMemberPage() {
                         className="w-full h-32 object-cover rounded-lg"
                       />
                       {index === 0 && (
-                        <div className="absolute top-1 left-1 bg-[#4A9B8E] text-white text-xs px-2 py-0.5 rounded">
+                        <div className="absolute top-1 left-1 bg-[#FF5A5F] text-white text-xs px-2 py-0.5 rounded">
                           Profile
                         </div>
                       )}
@@ -505,7 +505,7 @@ export default function NewMemberPage() {
                       href={formData.idDocumentUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-[#4A9B8E] hover:underline flex items-center gap-2"
+                      className="text-sm text-[#FF5A5F] hover:underline flex items-center gap-2"
                     >
                       <span>📄</span>
                       View uploaded ID document
@@ -532,7 +532,7 @@ export default function NewMemberPage() {
                 <select
                   value={formData.tier}
                   onChange={(e) => setFormData(prev => ({ ...prev, tier: e.target.value as any }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 >
                   <option value="STANDARD">Standard</option>
                   <option value="GOLD">Gold</option>
@@ -545,7 +545,7 @@ export default function NewMemberPage() {
                   id="isPaid"
                   checked={formData.isPaid}
                   onChange={(e) => setFormData(prev => ({ ...prev, isPaid: e.target.checked }))}
-                  className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  className="w-4 h-4 text-[#FF5A5F] border-gray-300 rounded focus:ring-[#FF5A5F]"
                 />
                 <label htmlFor="isPaid" className="text-sm font-medium text-gray-700">
                   Payment Received
@@ -557,7 +557,7 @@ export default function NewMemberPage() {
                   id="isActive"
                   checked={formData.isActive}
                   onChange={(e) => setFormData(prev => ({ ...prev, isActive: e.target.checked }))}
-                  className="w-4 h-4 text-[#4A9B8E] border-gray-300 rounded focus:ring-[#4A9B8E]"
+                  className="w-4 h-4 text-[#FF5A5F] border-gray-300 rounded focus:ring-[#FF5A5F]"
                 />
                 <label htmlFor="isActive" className="text-sm font-medium text-gray-700">
                   Active Member
@@ -571,7 +571,7 @@ export default function NewMemberPage() {
                   rows={3}
                   value={formData.verificationNotes}
                   onChange={(e) => setFormData(prev => ({ ...prev, verificationNotes: e.target.value }))}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                   placeholder="Internal notes about this member..."
                 />
               </div>
@@ -583,7 +583,7 @@ export default function NewMemberPage() {
             <button
               type="submit"
               disabled={loading}
-              className="flex-1 px-6 py-3 bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E] text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50"
+              className="flex-1 px-6 py-3 bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50"
             >
               {loading ? "Creating..." : "Create Member"}
             </button>

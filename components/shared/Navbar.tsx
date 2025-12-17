@@ -32,8 +32,8 @@ export default function Navbar() {
           {/* Logo */}
           <Link href="/" className="flex items-center hover:opacity-80 transition-opacity flex-shrink-0">
             <Image
-              src="/images/lien-logo.svg"
-              alt="LIEN"
+              src="/images/sol-logo.svg"
+              alt="SOL"
               width={120}
               height={40}
               className="object-contain sm:w-[140px] sm:h-[40px]"
@@ -103,7 +103,7 @@ export default function Navbar() {
                   <svg className="w-3.5 h-3.5 sm:w-4 sm:h-4 text-deep flex-shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
                   </svg>
-                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-white flex-shrink-0 ${session?.user ? "bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E]" : "bg-gray-400"}`}>
+                  <div className={`w-7 h-7 sm:w-8 sm:h-8 rounded-full flex items-center justify-center text-white flex-shrink-0 ${session?.user ? "bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D]" : "bg-gray-400"}`}>
                     {session?.user?.nickname ? (
                       <span className="text-xs sm:text-sm font-semibold">{session.user.nickname[0].toUpperCase()}</span>
                     ) : (
@@ -169,7 +169,7 @@ export default function Navbar() {
                     <DropdownMenuSeparator />
                     <DropdownMenuItem
                       onClick={handleLogout}
-                      className="cursor-pointer text-[#4A9B8E] focus:text-[#4A9B8E]"
+                      className="cursor-pointer text-[#FF5A5F] focus:text-[#FF5A5F]"
                     >
                       Log out
                     </DropdownMenuItem>

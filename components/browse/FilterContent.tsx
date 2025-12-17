@@ -247,7 +247,7 @@ export default function FilterContent({
                 onClick={() => toggleInterest(interest)}
                 className={`px-4 py-2 rounded-full text-sm font-medium transition-all ${
                   filters.interests.includes(interest)
-                    ? "bg-gradient-rausch text-white shadow-sm"
+                    ? "bg-[#FF5A5F] text-white shadow-sm"
                     : "bg-gray-100 text-deep hover:bg-gray-200"
                 }`}
               >
@@ -270,7 +270,7 @@ export default function FilterContent({
         )}
         <button
           onClick={onApply}
-          className="flex-1 bg-gradient-rausch text-white rounded-full px-6 py-3.5 font-semibold hover:shadow-lg transition-all"
+          className="flex-1 bg-[#FF5A5F] hover:bg-[#E61E4D] text-white rounded-full px-6 py-3.5 font-semibold hover:shadow-lg transition-all"
         >
           {t("browse.showResults") || "Show"} {resultCount}{" "}
           {resultCount === 1

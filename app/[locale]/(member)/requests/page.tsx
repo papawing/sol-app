@@ -100,7 +100,7 @@ export default async function RequestsPage({ params }: PageProps) {
               </p>
               <a
                 href={`/${params.locale}/browse`}
-                className="inline-flex items-center gap-2 bg-gradient-rausch text-white px-6 py-3 rounded-lg font-semibold hover:scale-[1.02] transition-transform shadow-md"
+                className="inline-flex items-center gap-2 bg-[#FF5A5F] hover:bg-[#E61E4D] text-white px-6 py-3 rounded-lg font-semibold hover:scale-[1.02] transition-transform shadow-md"
               >
                 {t("requests.browseCasts") || "Browse Members"}
               </a>

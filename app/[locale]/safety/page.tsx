@@ -220,7 +220,7 @@ export default function SafetyPage() {
             <Link href="/contact">
               <Button
                 size="lg"
-                className="bg-gradient-rausch text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
+                className="bg-[#FF5A5F] hover:bg-[#E61E4D] text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
               >
                 {t("support.button")}
                 <ArrowRight className="ml-2 w-5 h-5" />
@@ -256,7 +256,7 @@ export default function SafetyPage() {
       <footer className="bg-deep border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-white/50 text-sm text-center">
-            © 2025 LIEN. All rights reserved.
+            © 2025 SOL. All rights reserved.
           </p>
         </div>
       </footer>

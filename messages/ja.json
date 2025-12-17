@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "LIEN",
+    "appName": "SOL",
     "tagline": "繋がる。飲む。東京を探索する。",
     "loading": "読み込み中...",
     "error": "エラー",
@@ -25,7 +25,7 @@
     "profile": "プロフィール",
     "admin": "管理画面",
     "logout": "ログアウト",
-    "about": "LIENについて",
+    "about": "SOLについて",
     "howItWorks": "ご利用の流れ",
     "becomeCast": "コンパニオン登録",
     "becomeMember": "会員登録"
@@ -37,7 +37,7 @@
     "password": "パスワード",
     "nickname": "表示名",
     "forgotPassword": "パスワードをお忘れですか？",
-    "noAccount": "LIENは初めてですか？",
+    "noAccount": "SOLは初めてですか？",
     "hasAccount": "すでに会員登録済みですか？",
     "welcomeBack": "お帰りなさい",
     "loginPrompt": "ログイン情報を入力してください",
@@ -92,7 +92,7 @@
     "holidayStyle": "休日の過ごし方"
   },
   "dashboard": {
-    "welcome": "LIENへようこそ",
+    "welcome": "SOLへようこそ",
     "welcomeName": "お帰りなさい、{name}様",
     "tagline": "今夜、運命の出会いを",
     "discoverCasts": "コンパニオンを探す",
@@ -223,7 +223,7 @@
       "trustBadge3": "英語対応"
     },
     "features": {
-      "title": "LIENが選ばれる理由",
+      "title": "SOLが選ばれる理由",
       "feature1Title": "化学反応を、何よりも大切に",
       "feature1Desc": "英語・日本語・中国語を話す、美しく洗練されたコンパニオン。お二人の間に生まれる火花こそ、最も大切なものです。",
       "feature2Title": "プライベートに保たれることは、秘密に留まる",
@@ -233,7 +233,7 @@
     },
     "discretion": {
       "title": "信頼できる守秘体制",
-      "intro": "LIENは、プライベートな時間の価値を理解しています。お客様とコンパニオンの間で起こること——ラウンジでも、その先でも——それはお二人だけのものです。",
+      "intro": "SOLは、プライベートな時間の価値を理解しています。お客様とコンパニオンの間で起こること——ラウンジでも、その先でも——それはお二人だけのものです。",
       "private": "非公開プロフィール",
       "privateDesc": "お客様の情報は決して共有されません",
       "encrypted": "暗号化通信",
@@ -359,19 +359,19 @@
       "note": "本人確認必須 • 完全守秘 • 18歳以上限定"
     },
     "footer": {
-      "about": "LIENについて",
+      "about": "SOLについて",
       "howItWorks": "ご利用の流れ",
       "safety": "安全とプライバシー",
       "terms": "利用規約",
       "privacy": "プライバシーポリシー",
       "contact": "お問い合わせ",
-      "copyright": "© 2025 LIEN. All rights reserved.",
+      "copyright": "© 2025 SOL. All rights reserved.",
       "location": "東京・六本木"
     }
   },
   "about": {
     "hero": {
-      "title": "LIENについて",
+      "title": "SOLについて",
       "subtitle": "東京で最も活気あふれるエリアで、洗練と出会いが交わる場所"
     },
     "lune": {
@@ -382,7 +382,7 @@
       "feature3": "六本木中心地の、秘匿性の高い安全な環境"
     },
     "platform": {
-      "title": "LIENプラットフォーム",
+      "title": "SOLプラットフォーム",
       "description": "LUNE PRIVÉは、目の肥えた会員様と本人確認済みの日本人コンパニオンを繋ぐ専用プラットフォームです。閲覧からご予約まで、安全性と品質を最優先にしたシームレスな体験を作り上げました。",
       "feature1": "厳選された、本人確認済みのコンパニオン",
       "feature2": "安全で暗号化された通信",
@@ -520,7 +520,7 @@
       "title": "利用規約",
       "lastUpdated": "最終更新日：2025年1月"
     },
-    "intro": "LIENへようこそ。本利用規約は、LIENプラットフォームへのアクセスと使用を規定します。アカウントを登録することにより、本規約に拘束されることに同意したものとみなされます。",
+    "intro": "SOLへようこそ。本利用規約は、SOLプラットフォームへのアクセスと使用を規定します。アカウントを登録することにより、本規約に拘束されることに同意したものとみなされます。",
     "section1Title": "規約の受諾",
     "section1Content": "LUNE PRIVÉにアカウントを作成することにより、本規約およびプライバシーポリシーを読み、理解し、拘束されることに同意したことを認めます。本規約はいつでも変更する権利を留保します。",
     "section2Title": "利用資格",

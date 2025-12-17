@@ -44,7 +44,7 @@ export default function BecomeCastPage() {
 
             <div className="space-y-4 mb-8">
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E] text-white flex items-center justify-center font-semibold">
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white flex items-center justify-center font-semibold">
                   1
                 </div>
                 <div>
@@ -54,7 +54,7 @@ export default function BecomeCastPage() {
               </div>
 
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E] text-white flex items-center justify-center font-semibold">
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white flex items-center justify-center font-semibold">
                   2
                 </div>
                 <div>
@@ -64,7 +64,7 @@ export default function BecomeCastPage() {
               </div>
 
               <div className="flex gap-4">
-                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E] text-white flex items-center justify-center font-semibold">
+                <div className="flex-shrink-0 w-8 h-8 rounded-full bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white flex items-center justify-center font-semibold">
                   3
                 </div>
                 <div>
@@ -90,19 +90,19 @@ export default function BecomeCastPage() {
             </h2>
             <ul className="space-y-2 text-[#6B6B6B]">
               <li className="flex items-start">
-                <span className="text-[#4A9B8E] mr-2">•</span>
+                <span className="text-[#FF5A5F] mr-2">•</span>
                 <span>Professional appearance and sophisticated demeanor</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#4A9B8E] mr-2">•</span>
+                <span className="text-[#FF5A5F] mr-2">•</span>
                 <span>Excellent communication skills in multiple languages</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#4A9B8E] mr-2">•</span>
+                <span className="text-[#FF5A5F] mr-2">•</span>
                 <span>Commitment to discretion and confidentiality</span>
               </li>
               <li className="flex items-start">
-                <span className="text-[#4A9B8E] mr-2">•</span>
+                <span className="text-[#FF5A5F] mr-2">•</span>
                 <span>Available for premium bookings and events</span>
               </li>
             </ul>

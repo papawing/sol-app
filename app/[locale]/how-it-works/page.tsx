@@ -118,7 +118,7 @@ export default function HowItWorksPage() {
         </div>
       </section>
 
-      {/* What Makes LIEN Different Section */}
+      {/* What Makes SOL Different Section */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center mb-12">
@@ -211,7 +211,7 @@ export default function HowItWorksPage() {
       <footer className="bg-deep border-t border-white/10">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8">
           <p className="text-white/50 text-sm text-center">
-            © 2025 LIEN. All rights reserved.
+            © 2025 SOL. All rights reserved.
           </p>
         </div>
       </footer>

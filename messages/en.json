@@ -1,6 +1,6 @@
 {
   "common": {
-    "appName": "LIEN",
+    "appName": "SOL",
     "tagline": "Connect. Drink. Explore Tokyo.",
     "loading": "Loading...",
     "error": "Error",
@@ -37,7 +37,7 @@
     "password": "Password",
     "nickname": "Display Name",
     "forgotPassword": "Forgot Password?",
-    "noAccount": "New to LIEN?",
+    "noAccount": "New to SOL?",
     "hasAccount": "Already a member?",
     "welcomeBack": "Welcome back",
     "loginPrompt": "Enter your credentials to continue",
@@ -92,7 +92,7 @@
     "holidayStyle": "How She Unwinds"
   },
   "dashboard": {
-    "welcome": "Welcome to LIEN",
+    "welcome": "Welcome to SOL",
     "welcomeName": "Welcome back, {name}",
     "tagline": "Find your perfect companion tonight",
     "discoverCasts": "Discover Companions",
@@ -229,7 +229,7 @@
       "trustBadge3": "English Friendly"
     },
     "features": {
-      "title": "Why Choose LIEN",
+      "title": "Why Choose SOL",
       "feature1Title": "Real Local Connections",
       "feature1Desc": "Meet genuine Japanese locals who love showing foreigners the best of Tokyo's drinking scene. English-friendly guides make every night easy and fun.",
       "feature2Title": "Safe & Curated Partners",
@@ -239,7 +239,7 @@
     },
     "discretion": {
       "title": "Safe, Friendly & Authentic",
-      "intro": "LIEN connects travelers and foreigners with verified local Japanese who genuinely enjoy showing visitors the best of Tokyo nightlife. Meet at trusted partner venues, enjoy authentic experiences, and make real connections.",
+      "intro": "SOL connects travelers and foreigners with verified local Japanese who genuinely enjoy showing visitors the best of Tokyo nightlife. Meet at trusted partner venues, enjoy authentic experiences, and make real connections.",
       "private": "Verified Locals",
       "privateDesc": "All partners are real Tokyo residents",
       "encrypted": "Secure Platform",
@@ -257,14 +257,14 @@
       "step2Title": "Request a Meet-Up",
       "step2Desc": "Choose your preferred local guide and suggest a time. They'll confirm and recommend the perfect starting venue.",
       "step3Title": "Meet at a Partner Venue",
-      "step3Desc": "Connect at a LIEN partner bar or lounge. Your local guide will help you navigate the menu, order in Japanese, and break the ice.",
+      "step3Desc": "Connect at a SOL partner bar or lounge. Your local guide will help you navigate the menu, order in Japanese, and break the ice.",
       "step4Title": "Explore Tokyo Together",
       "step4Desc": "Bar hop to hidden izakayas, karaoke rooms, or late-night ramen spots. Your guide knows where locals actually go—no tourist traps."
     },
     "whyLune": {
       "title": "Why Start at Partner Venues?",
       "subtitle": "Safe, Friendly, and Authentically Tokyo",
-      "description": "All first meet-ups begin at verified LIEN partner bars and lounges across Tokyo. These are real local spots—not tourist traps—where your Japanese guide is comfortable and the staff knows LIEN members. Start somewhere safe and welcoming, then let your guide take you to their favorite hidden gems.\n\nThink of our partner venues as your safe meeting point—where authentic Tokyo adventures begin.",
+      "description": "All first meet-ups begin at verified SOL partner bars and lounges across Tokyo. These are real local spots—not tourist traps—where your Japanese guide is comfortable and the staff knows SOL members. Start somewhere safe and welcoming, then let your guide take you to their favorite hidden gems.\n\nThink of our partner venues as your safe meeting point—where authentic Tokyo adventures begin.",
       "benefit1Title": "Verified Safe Venues",
       "benefit1Desc": "Trusted local bars & lounges",
       "benefit2Title": "Local Atmosphere",
@@ -371,31 +371,31 @@
       "terms": "Terms",
       "privacy": "Privacy",
       "contact": "Contact",
-      "copyright": "© 2025 LIEN. All rights reserved.",
+      "copyright": "© 2025 SOL. All rights reserved.",
       "location": "Roppongi, Tokyo"
     }
   },
   "about": {
     "hero": {
-      "title": "About LIEN",
+      "title": "About SOL",
       "subtitle": "Connecting travelers with local Japanese for authentic Tokyo nightlife experiences"
     },
     "lune": {
       "title": "Our Partner Venues",
-      "description": "LIEN partners with carefully selected bars, izakayas, and lounges across Tokyo where locals actually drink. From cozy Roppongi hideaways to vibrant Shibuya hot spots, our partner venues provide safe, welcoming meeting points where foreigners and Japanese locals connect over drinks.",
+      "description": "SOL partners with carefully selected bars, izakayas, and lounges across Tokyo where locals actually drink. From cozy Roppongi hideaways to vibrant Shibuya hot spots, our partner venues provide safe, welcoming meeting points where foreigners and Japanese locals connect over drinks.",
       "feature1": "Authentic local bars & izakayas",
       "feature2": "English-friendly staff at all venues",
       "feature3": "Located across Tokyo's best nightlife districts"
     },
     "platform": {
-      "title": "The LIEN Platform",
-      "description": "LIEN is a community-driven platform connecting travelers and foreigners with friendly Japanese locals who love sharing Tokyo's incredible drinking culture. No language barriers, no tourist traps—just genuine connections and unforgettable nights out.",
+      "title": "The SOL Platform",
+      "description": "SOL is a community-driven platform connecting travelers and foreigners with friendly Japanese locals who love sharing Tokyo's incredible drinking culture. No language barriers, no tourist traps—just genuine connections and unforgettable nights out.",
       "feature1": "Verified local Japanese drinking partners",
       "feature2": "Safe booking at trusted partner venues",
       "feature3": "Real Tokyo experiences, not tourist tours"
     },
     "values": {
-      "title": "What Makes LIEN Special",
+      "title": "What Makes SOL Special",
       "subtitle": "Why travelers choose us",
       "value1Title": "Authentic Local Connections",
       "value1Desc": "Meet real Japanese locals who genuinely enjoy showing foreigners around. Not professional guides—just friendly people who love their city's nightlife.",
@@ -408,13 +408,13 @@
     },
     "cta": {
       "title": "Ready to Experience Real Tokyo Nightlife?",
-      "subtitle": "Join LIEN and connect with friendly local Japanese drinking partners",
+      "subtitle": "Join SOL and connect with friendly local Japanese drinking partners",
       "button": "Find Your Local Guide"
     }
   },
   "howItWorksPage": {
     "hero": {
-      "title": "How LIEN Works",
+      "title": "How SOL Works",
       "subtitle": "Your guide to connecting with local Japanese for authentic Tokyo nights out"
     },
     "step1Title": "Browse Local Guides",
@@ -425,10 +425,10 @@
     "step2Title": "Request a Meet-Up",
     "step2Desc": "Found someone who seems like a great match? Send them a meet-up request through our secure platform. Suggest a date and time, and they'll recommend the perfect starting venue.",
     "step2Detail1": "Choose your preferred local guide and propose when you're free",
-    "step2Detail2": "They'll suggest a LIEN partner venue that matches your vibe",
+    "step2Detail2": "They'll suggest a SOL partner venue that matches your vibe",
     "step2Detail3": "Receive confirmation with venue address and meeting details",
     "step3Title": "Meet at a Partner Venue",
-    "step3Desc": "Your evening begins at a verified LIEN partner bar or lounge. These are real local spots where your guide is comfortable and knows the staff—not tourist traps.",
+    "step3Desc": "Your evening begins at a verified SOL partner bar or lounge. These are real local spots where your guide is comfortable and knows the staff—not tourist traps.",
     "step3Detail1": "Arrive at the agreed partner venue in your chosen neighborhood",
     "step3Detail2": "Your local guide helps you order, explains the menu in English",
     "step3Detail3": "Relax and enjoy drinks in a safe, friendly environment",
@@ -438,9 +438,9 @@
     "step4Detail2": "Your guide handles ordering, translations, and cultural context",
     "step4Detail3": "Experience Tokyo nightlife like a local, not a tourist",
     "different": {
-      "title": "What Makes LIEN Different?",
+      "title": "What Makes SOL Different?",
       "subtitle": "Not a tour company. Not a dating app. A real connection platform.",
-      "description1": "LIEN is designed for travelers and foreigners who want to experience Tokyo's incredible drinking culture the way locals do. We connect you with verified Japanese locals who genuinely enjoy meeting international visitors—not professional tour guides, just friendly people who love their city's nightlife.",
+      "description1": "SOL is designed for travelers and foreigners who want to experience Tokyo's incredible drinking culture the way locals do. We connect you with verified Japanese locals who genuinely enjoy meeting international visitors—not professional tour guides, just friendly people who love their city's nightlife.",
       "description2": "Every first meet-up happens at verified partner venues across Tokyo. This isn't random—it's intentional. Meeting at trusted bars and lounges where your Japanese guide knows the staff ensures safety and comfort. It's a real local spot where you can relax, break the ice over drinks, and see if you vibe together.",
       "quote": "Real locals. Real venues. Real Tokyo nightlife.",
       "description3": "What happens after that first round of drinks? That's up to you both. If you're having a great time, your guide might take you to their favorite hidden izakaya, a karaoke room, or a late-night ramen spot. It's spontaneous, authentic, and exactly how Tokyo locals actually hang out."
@@ -451,7 +451,7 @@
       "feature1Title": "Verified Local Guides",
       "feature1Desc": "All Japanese drinking partners undergo identity verification. Real locals, real profiles.",
       "feature2Title": "Partner Venue Meetings",
-      "feature2Desc": "First meet-ups always at verified LIEN partner bars and lounges. Safe, public, and comfortable.",
+      "feature2Desc": "First meet-ups always at verified SOL partner bars and lounges. Safe, public, and comfortable.",
       "feature3Title": "Secure Platform",
       "feature3Desc": "All communication and booking happens through our secure platform. Your data is protected.",
       "feature4Title": "Community Support",
@@ -459,7 +459,7 @@
     },
     "cta": {
       "title": "Ready to Experience Real Tokyo?",
-      "subtitle": "Join LIEN and connect with friendly local Japanese guides",
+      "subtitle": "Join SOL and connect with friendly local Japanese guides",
       "button": "Find Your Local Guide"
     }
   },
@@ -469,7 +469,7 @@
       "subtitle": "Your security, discretion, and peace of mind are our highest priorities"
     },
     "intro": {
-      "paragraph1": "At LIEN, we've built our platform on a foundation of trust, transparency, and uncompromising safety. We understand that discretion isn't just a preference—it's essential. Whether meeting someone for the first time at our lounge or continuing an evening elsewhere, you deserve to feel secure every step of the way.",
+      "paragraph1": "At SOL, we've built our platform on a foundation of trust, transparency, and uncompromising safety. We understand that discretion isn't just a preference—it's essential. Whether meeting someone for the first time at our lounge or continuing an evening elsewhere, you deserve to feel secure every step of the way.",
       "paragraph2": "Below, you'll find detailed information about our safety measures, privacy protocols, and the steps we take to ensure a secure, respectful experience for everyone."
     },
     "features": {
@@ -526,25 +526,25 @@
       "title": "Terms of Service",
       "lastUpdated": "Last Updated: January 2025"
     },
-    "intro": "Welcome to LIEN. These Terms of Service govern your access to and use of the LIEN platform. By registering for an account, you agree to be bound by these Terms.",
+    "intro": "Welcome to SOL. These Terms of Service govern your access to and use of the SOL platform. By registering for an account, you agree to be bound by these Terms.",
     "section1Title": "Acceptance of Terms",
-    "section1Content": "By creating an account on LIEN, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. We reserve the right to modify these Terms at any time.",
+    "section1Content": "By creating an account on SOL, you acknowledge that you have read, understood, and agree to be bound by these Terms and our Privacy Policy. We reserve the right to modify these Terms at any time.",
     "section2Title": "Eligibility",
-    "section2Content": "You must be at least 18 years of age to use LIEN. By registering, you represent and warrant that you are of legal age and have the legal capacity to enter into these Terms.",
+    "section2Content": "You must be at least 18 years of age to use SOL. By registering, you represent and warrant that you are of legal age and have the legal capacity to enter into these Terms.",
     "section3Title": "Account Registration & Verification",
     "section3Content": "To access the Platform, you must create an account and provide accurate, complete information. You agree to:\n\n• Provide valid government-issued identification for verification\n• Maintain the confidentiality of your account credentials\n• Notify us immediately of any unauthorized use\n• Accept responsibility for all activities under your account",
     "section4Title": "Nature of Services",
-    "section4Content": "LIEN is a companion introduction platform that facilitates connections between verified members and Japanese companions. We provide:\n\n• A platform to browse companion profiles and request meetings\n• Coordination of initial meetings at our Roppongi lounge\n• Secure messaging and communication tools\n• Verification and safety features\n\nIMPORTANT: LIEN facilitates introductions only. We do not control or have responsibility for what happens between consenting adults after the initial introduction.",
+    "section4Content": "SOL is a companion introduction platform that facilitates connections between verified members and Japanese companions. We provide:\n\n• A platform to browse companion profiles and request meetings\n• Coordination of initial meetings at our Roppongi lounge\n• Secure messaging and communication tools\n• Verification and safety features\n\nIMPORTANT: SOL facilitates introductions only. We do not control or have responsibility for what happens between consenting adults after the initial introduction.",
     "section5Title": "User Conduct & Prohibited Activities",
     "section5Content": "You agree NOT to:\n\n• Use the Platform for any illegal activities\n• Harass, threaten, or abuse other users\n• Share personal contact information without consent\n• Misrepresent your identity, age, or intentions\n• Attempt to bypass verification or security measures\n• Violate the privacy, safety, or rights of others",
     "section6Title": "Payments & Subscriptions",
-    "section6Content": "Access to LIEN requires a paid membership subscription. By subscribing, you agree to:\n\n• Pay all applicable fees according to your chosen tier\n• Automatic renewal unless you cancel before renewal date\n• Our refund policy (no refunds for partial months)\n• Price changes with 30 days' notice",
+    "section6Content": "Access to SOL requires a paid membership subscription. By subscribing, you agree to:\n\n• Pay all applicable fees according to your chosen tier\n• Automatic renewal unless you cancel before renewal date\n• Our refund policy (no refunds for partial months)\n• Price changes with 30 days' notice",
     "section7Title": "Privacy & Data Protection",
     "section7Content": "We take your privacy seriously. Our collection, use, and protection of your personal data is governed by our Privacy Policy.\n\nKey points:\n• We use encryption to protect your data\n• We do not sell your personal information\n• You have the right to access, modify, or delete your data\n• We comply with GDPR, CCPA, and Japanese privacy laws",
     "section8Title": "Disclaimer of Warranties & Limitation of Liability",
-    "section8Content": "LIEN is provided \"as is\" without warranties of any kind. We do not guarantee:\n\n• Uninterrupted or error-free operation\n• Accuracy of user-provided information\n• Specific outcomes from using the Platform\n\nTo the maximum extent permitted by law, LIEN shall not be liable for indirect, incidental, or consequential damages. You acknowledge that meetings with other users are at your own risk.",
+    "section8Content": "SOL is provided \"as is\" without warranties of any kind. We do not guarantee:\n\n• Uninterrupted or error-free operation\n• Accuracy of user-provided information\n• Specific outcomes from using the Platform\n\nTo the maximum extent permitted by law, SOL shall not be liable for indirect, incidental, or consequential damages. You acknowledge that meetings with other users are at your own risk.",
     "section9Title": "Indemnification",
-    "section9Content": "You agree to indemnify and hold harmless LIEN from any claims, damages, losses, and expenses arising from:\n\n• Your use of the Platform\n• Your violation of these Terms\n• Your violation of any rights of another user\n• Any content you submit",
+    "section9Content": "You agree to indemnify and hold harmless SOL from any claims, damages, losses, and expenses arising from:\n\n• Your use of the Platform\n• Your violation of these Terms\n• Your violation of any rights of another user\n• Any content you submit",
     "section10Title": "Termination",
     "section10Content": "We reserve the right to suspend or terminate your account at any time for:\n\n• Violation of these Terms\n• Fraudulent, abusive, or illegal activity\n• Non-payment of fees\n• Any reason necessary to protect the Platform or other users",
     "contact": {
@@ -557,13 +557,13 @@
       "title": "Privacy Policy",
       "lastUpdated": "Last Updated: January 2025"
     },
-    "intro": "At LIEN, your privacy is paramount. This Privacy Policy explains how we collect, use, store, and protect your personal information. We are committed to transparency and compliance with global privacy standards, including GDPR (EU), CCPA (California), and Japan's APPI.",
+    "intro": "At SOL, your privacy is paramount. This Privacy Policy explains how we collect, use, store, and protect your personal information. We are committed to transparency and compliance with global privacy standards, including GDPR (EU), CCPA (California), and Japan's APPI.",
     "section1Title": "Information We Collect",
     "section1Content": "We collect:\n\n**Account Information:**\n• Full name, email, phone number\n• Date of birth (for age verification)\n• Government-issued ID (for identity verification)\n• Payment information (processed through secure third-party providers)\n\n**Profile Information:**\n• Photos you upload\n• Preferences, interests, biographical information\n• Saved favorites and bookmarks\n\n**Usage Data:**\n• Pages visited, features used, time spent\n• Device information (IP address, browser type, OS)\n• Cookies and similar tracking technologies\n\n**Communications:**\n• Messages exchanged on the platform (encrypted)\n• Support requests and correspondence",
     "section2Title": "How We Use Your Information",
     "section2Content": "We use your information to:\n\n• Provide and improve our services\n• Verify your identity and prevent fraud\n• Process payments and manage subscriptions\n• Facilitate connections between members and companions\n• Communicate important updates and security alerts\n• Ensure safety and enforce our Terms of Service\n• Comply with legal obligations\n\nWe do NOT:\n• Sell your personal information to third parties\n• Share your data with advertisers\n• Use your information for unrelated purposes",
     "section3Title": "Data Sharing & Disclosure",
-    "section3Content": "We may share your information only in limited circumstances:\n\n**With Other Users:**\n• Your profile information is visible to other verified members\n• Messages you send are visible only to the recipient (encrypted)\n\n**With Service Providers:**\n• Payment processors (e.g., Stripe)\n• Cloud storage providers (e.g., AWS)\n• Email service providers\n• All providers contractually obligated to protect your data\n\n**For Legal Compliance:**\n• When required by law (court orders, subpoenas)\n• To protect safety and rights of LIEN, users, or public",
+    "section3Content": "We may share your information only in limited circumstances:\n\n**With Other Users:**\n• Your profile information is visible to other verified members\n• Messages you send are visible only to the recipient (encrypted)\n\n**With Service Providers:**\n• Payment processors (e.g., Stripe)\n• Cloud storage providers (e.g., AWS)\n• Email service providers\n• All providers contractually obligated to protect your data\n\n**For Legal Compliance:**\n• When required by law (court orders, subpoenas)\n• To protect safety and rights of SOL, users, or public",
     "section4Title": "Data Security",
     "section4Content": "We implement industry-leading security measures:\n\n• 256-bit SSL encryption for all data transmission\n• End-to-end encryption for in-platform messaging\n• Secure, encrypted storage of sensitive information\n• Regular security audits and penetration testing\n• Restricted access to personal data (authorized personnel only)\n• Multi-factor authentication for admin accounts",
     "section5Title": "Data Retention",
@@ -571,11 +571,11 @@
     "section6Title": "Cookies & Tracking Technologies",
     "section6Content": "We use cookies to:\n\n• Remember your login session and preferences\n• Analyze usage patterns and improve the platform\n• Provide personalized content\n\nYou can control cookie settings through your browser. We do NOT use third-party advertising cookies.",
     "section7Title": "Your Privacy Rights",
-    "section7Content": "Depending on your location, you have rights including:\n\n**GDPR (EU Residents):**\n• Right to access your data\n• Right to rectification (correction)\n• Right to erasure (\"right to be forgotten\")\n• Right to data portability\n• Right to object to processing\n\n**CCPA (California Residents):**\n• Right to know what data we collect\n• Right to delete personal information\n• Right to opt-out of data sales (we don't sell data)\n\n**APPI (Japan Residents):**\n• Right to disclosure of purpose\n• Right to request correction or deletion\n\nTo exercise these rights, contact us at hello@lien.com. We will respond within 30 days.",
+    "section7Content": "Depending on your location, you have rights including:\n\n**GDPR (EU Residents):**\n• Right to access your data\n• Right to rectification (correction)\n• Right to erasure (\"right to be forgotten\")\n• Right to data portability\n• Right to object to processing\n\n**CCPA (California Residents):**\n• Right to know what data we collect\n• Right to delete personal information\n• Right to opt-out of data sales (we don't sell data)\n\n**APPI (Japan Residents):**\n• Right to disclosure of purpose\n• Right to request correction or deletion\n\nTo exercise these rights, contact us at hello@sol-tokyo.com. We will respond within 30 days.",
     "section8Title": "International Data Transfers",
-    "section8Content": "LIEN operates globally, and your data may be transferred to countries outside your own, including Japan, the United States, and the European Union. We ensure all transfers comply with applicable privacy laws through Standard Contractual Clauses (SCCs) and other lawful mechanisms.",
+    "section8Content": "SOL operates globally, and your data may be transferred to countries outside your own, including Japan, the United States, and the European Union. We ensure all transfers comply with applicable privacy laws through Standard Contractual Clauses (SCCs) and other lawful mechanisms.",
     "section9Title": "Children's Privacy",
-    "section9Content": "LIEN is strictly for adults 18 years and older. We do not knowingly collect information from anyone under 18. If we discover a minor has created an account, we will immediately terminate it and delete all associated data.",
+    "section9Content": "SOL is strictly for adults 18 years and older. We do not knowingly collect information from anyone under 18. If we discover a minor has created an account, we will immediately terminate it and delete all associated data.",
     "section10Title": "Changes to This Privacy Policy",
     "section10Content": "We may update this Privacy Policy to reflect changes in our practices or legal requirements. When we make significant changes:\n\n• We'll notify you via email\n• Display a prominent notice on the platform\n• Update the \"Last Updated\" date\n\nContinued use after changes constitutes acceptance of the updated policy.",
     "gdpr": {

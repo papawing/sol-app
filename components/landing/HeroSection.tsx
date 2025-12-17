@@ -64,7 +64,7 @@ export default function HeroSection() {
           <Link href="/login">
             <Button
               size="lg"
-              className="min-w-[220px] bg-gradient-rausch text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
+              className="min-w-[220px] bg-[#FF5A5F] hover:bg-[#E61E4D] text-white text-lg px-8 py-6 rounded-airbnb-lg shadow-airbnb-xl hover:scale-105 transition-transform duration-base"
             >
               {t("ctaPrimary")}
             </Button>

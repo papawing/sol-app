@@ -1,10 +1,10 @@
-# 🌙 LIEN
+# ☀️ SOL - Tokyo Drinking Partners
 
-High-end matching platform with Airbnb-inspired design for Lune Roppongi.
+Connect foreigners with local Japanese for authentic Tokyo nightlife experiences.
 
 ## ✨ What We've Built
 
-Exclusive matching platform where members can browse and request meetings with casts. All first meetings happen at Lune Roppongi in a safe, luxurious environment.
+A platform connecting travelers and foreigners with friendly Japanese locals who love sharing Tokyo's drinking culture. Meet verified local guides, start at partner venues, and explore hidden gems together.
 
 **Multi-language**: English • 中文 • 日本語
 

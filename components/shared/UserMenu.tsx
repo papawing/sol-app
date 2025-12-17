@@ -22,7 +22,7 @@ export default function UserMenu() {
           <svg className="w-4 h-4 text-deep" fill="none" stroke="currentColor" viewBox="0 0 24 24">
             <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
           </svg>
-          <div className={`w-8 h-8 rounded-full flex items-center justify-center text-white ${session?.user ? "bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E]" : "bg-gray-400"}`}>
+          <div className={`w-8 h-8 rounded-full flex items-center justify-center text-white ${session?.user ? "bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D]" : "bg-gray-400"}`}>
             {session?.user?.nickname ? (
               <span className="text-sm font-semibold">{session.user.nickname[0].toUpperCase()}</span>
             ) : (
@@ -88,7 +88,7 @@ export default function UserMenu() {
             <DropdownMenuSeparator />
             <DropdownMenuItem
               onClick={handleLogout}
-              className="cursor-pointer text-[#4A9B8E] focus:text-[#4A9B8E]"
+              className="cursor-pointer text-[#FF5A5F] focus:text-[#FF5A5F]"
             >
               Log out
             </DropdownMenuItem>

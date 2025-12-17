@@ -383,7 +383,7 @@ export default function EditMemberPage() {
                   value={email}
                   onChange={(e) => setEmail(e.target.value)}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div>
@@ -393,7 +393,7 @@ export default function EditMemberPage() {
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
                   placeholder="Leave empty to keep current"
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
                 <p className="text-xs text-gray-500 mt-1">Min 6 characters. Leave empty to keep current password.</p>
               </div>
@@ -412,7 +412,7 @@ export default function EditMemberPage() {
                   value={formData.nickname}
                   onChange={handleChange}
                   required
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div>
@@ -424,7 +424,7 @@ export default function EditMemberPage() {
                   onChange={(e) => setFormData(prev => ({ ...prev, age: e.target.value ? parseInt(e.target.value) : "" }))}
                   min={18}
                   max={99}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div>
@@ -434,7 +434,7 @@ export default function EditMemberPage() {
                   name="location"
                   value={formData.location}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div className="md:col-span-3">
@@ -444,7 +444,7 @@ export default function EditMemberPage() {
                   name="occupation"
                   value={formData.occupation}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 />
               </div>
               <div className="md:col-span-3">
@@ -455,12 +455,12 @@ export default function EditMemberPage() {
                     value={formData.annualIncome}
                     onChange={(e) => setFormData(prev => ({ ...prev, annualIncome: e.target.value ? parseInt(e.target.value) : "" }))}
                     placeholder="Enter annual income"
-                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                    className="flex-1 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                   />
                   <select
                     value={formData.incomeCurrency}
                     onChange={(e) => setFormData(prev => ({ ...prev, incomeCurrency: e.target.value as "USD" | "JPY" }))}
-                    className="w-24 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                    className="w-24 px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                   >
                     <option value="USD">USD</option>
                     <option value="JPY">JPY</option>
@@ -479,7 +479,7 @@ export default function EditMemberPage() {
                     onClick={() => handleArrayToggle("languages", lang.value)}
                     className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors ${
                       formData.languages.includes(lang.value)
-                        ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
+                        ? "bg-[#FF5A5F] text-white border-[#FF5A5F]"
                         : "bg-white text-gray-700 border-gray-300 hover:border-gray-400"
                     }`}
                   >
@@ -502,7 +502,7 @@ export default function EditMemberPage() {
                   onClick={() => setActiveTab(lang)}
                   className={`px-4 py-2 text-sm font-medium border-b-2 transition-colors ${
                     activeTab === lang
-                      ? "border-[#4A9B8E] text-[#4A9B8E]"
+                      ? "border-[#FF5A5F] text-[#FF5A5F]"
                       : "border-transparent text-gray-500 hover:text-gray-700"
                   }`}
                 >
@@ -515,7 +515,7 @@ export default function EditMemberPage() {
               value={(formData.bio as Record<string, string>)[activeTab] || ""}
               onChange={(e) => handleMultilingualChange("bio", e.target.value)}
               rows={4}
-              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+              className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
               placeholder="Tell us about yourself..."
             />
           </section>
@@ -534,7 +534,7 @@ export default function EditMemberPage() {
                     onClick={() => handleArrayToggle("interests", interest)}
                     className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors capitalize ${
                       formData.interests.includes(interest)
-                        ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
+                        ? "bg-[#FF5A5F] text-white border-[#FF5A5F]"
                         : "bg-white text-gray-700 border-gray-300 hover:border-gray-400"
                     }`}
                   >
@@ -554,7 +554,7 @@ export default function EditMemberPage() {
                     onClick={() => handleArrayToggle("hobbies", hobby)}
                     className={`px-3 py-1 rounded-full text-sm font-medium border transition-colors capitalize ${
                       formData.hobbies.includes(hobby)
-                        ? "bg-[#4A9B8E] text-white border-[#4A9B8E]"
+                        ? "bg-[#FF5A5F] text-white border-[#FF5A5F]"
                         : "bg-white text-gray-700 border-gray-300 hover:border-gray-400"
                     }`}
                   >
@@ -577,7 +577,7 @@ export default function EditMemberPage() {
 
                   {/* Profile badge */}
                   {index === 0 && (
-                    <div className="absolute top-2 left-2 px-2 py-1 bg-[#4A9B8E] text-white text-xs font-medium rounded">
+                    <div className="absolute top-2 left-2 px-2 py-1 bg-[#FF5A5F] text-white text-xs font-medium rounded">
                       Profile
                     </div>
                   )}
@@ -621,7 +621,7 @@ export default function EditMemberPage() {
                       <button
                         type="button"
                         onClick={() => handleSetProfile(photo.id)}
-                        className="px-3 py-1 bg-[#4A9B8E] text-white rounded text-xs font-medium"
+                        className="px-3 py-1 bg-[#FF5A5F] text-white rounded text-xs font-medium"
                       >
                         Set Profile
                       </button>
@@ -646,7 +646,7 @@ export default function EditMemberPage() {
                   </div>
                 </div>
               ))}
-              <label className={`aspect-[4/5] rounded-lg border-2 border-dashed border-gray-300 flex flex-col items-center justify-center text-gray-400 hover:border-[#4A9B8E] hover:text-[#4A9B8E] transition-colors cursor-pointer ${isUploading ? "opacity-50 pointer-events-none" : ""}`}>
+              <label className={`aspect-[4/5] rounded-lg border-2 border-dashed border-gray-300 flex flex-col items-center justify-center text-gray-400 hover:border-[#FF5A5F] hover:text-[#FF5A5F] transition-colors cursor-pointer ${isUploading ? "opacity-50 pointer-events-none" : ""}`}>
                 <input
                   type="file"
                   accept="image/jpeg,image/png,image/webp,image/gif"
@@ -682,7 +682,7 @@ export default function EditMemberPage() {
                       href={formData.idDocumentUrl}
                       target="_blank"
                       rel="noopener noreferrer"
-                      className="text-sm text-[#4A9B8E] hover:underline flex items-center gap-2"
+                      className="text-sm text-[#FF5A5F] hover:underline flex items-center gap-2"
                     >
                       <span>📄</span>
                       View current ID document
@@ -716,7 +716,7 @@ export default function EditMemberPage() {
                   name="tier"
                   value={formData.tier}
                   onChange={handleChange}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                 >
                   <option value="STANDARD">Standard</option>
                   <option value="GOLD">Gold</option>
@@ -730,7 +730,7 @@ export default function EditMemberPage() {
                   name="isPaid"
                   checked={formData.isPaid}
                   onChange={handleChange}
-                  className="w-4 h-4 text-[#4A9B8E] rounded border-gray-300 focus:ring-[#4A9B8E]"
+                  className="w-4 h-4 text-[#FF5A5F] rounded border-gray-300 focus:ring-[#FF5A5F]"
                 />
                 <label htmlFor="isPaid" className="text-sm font-medium text-gray-700">
                   Payment Received
@@ -743,7 +743,7 @@ export default function EditMemberPage() {
                   name="isActive"
                   checked={formData.isActive}
                   onChange={handleChange}
-                  className="w-4 h-4 text-[#4A9B8E] rounded border-gray-300 focus:ring-[#4A9B8E]"
+                  className="w-4 h-4 text-[#FF5A5F] rounded border-gray-300 focus:ring-[#FF5A5F]"
                 />
                 <label htmlFor="isActive" className="text-sm font-medium text-gray-700">
                   Active Member
@@ -758,7 +758,7 @@ export default function EditMemberPage() {
                   value={formData.verificationNotes}
                   onChange={handleChange}
                   rows={3}
-                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#4A9B8E] focus:border-transparent"
+                  className="w-full px-3 py-2 border border-gray-300 rounded-lg focus:ring-2 focus:ring-[#FF5A5F] focus:border-transparent"
                   placeholder="Internal notes about this member..."
                 />
               </div>
@@ -776,7 +776,7 @@ export default function EditMemberPage() {
             <button
               type="submit"
               disabled={isSubmitting}
-              className="flex-1 px-6 py-3 bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E] text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+              className="flex-1 px-6 py-3 bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white rounded-lg font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
             >
               {isSubmitting ? "Saving..." : "Save Changes"}
             </button>

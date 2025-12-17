@@ -79,7 +79,7 @@ export default async function AdminMembersPage({ params }: PageProps) {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-4">
               <Link href="/dashboard" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                <span className="text-2xl">🌙</span>
+                <span className="text-2xl">☀️</span>
                 <span className="font-display text-xl font-bold text-deep">
                   {t("common.appName")} Admin
                 </span>
@@ -105,7 +105,7 @@ export default async function AdminMembersPage({ params }: PageProps) {
           </div>
           <Link
             href="/admin/members/new"
-            className="px-4 py-2 bg-gradient-to-r from-[#4A9B8E] to-[#2D7A6E] text-white rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2"
+            className="px-4 py-2 bg-gradient-to-r from-[#FF5A5F] to-[#E61E4D] text-white rounded-lg font-semibold hover:shadow-lg transition-all flex items-center gap-2"
           >
             <span>+</span> Create Member
           </Link>

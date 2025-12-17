@@ -188,7 +188,7 @@ export default async function CastDashboardPage({ params }: PageProps) {
                 <Link
                   href="/cast/requests"
                   locale={locale}
-                  className="block w-full px-4 py-3 bg-gradient-rausch text-white font-semibold rounded-lg hover:scale-[1.02] transition-transform text-center"
+                  className="block w-full px-4 py-3 bg-[#FF5A5F] hover:bg-[#E61E4D] text-white font-semibold rounded-lg hover:scale-[1.02] transition-transform text-center"
                 >
                   📅 View Requests
                 </Link>

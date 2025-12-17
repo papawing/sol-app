@@ -7,7 +7,7 @@ import HeroSection from "@/components/landing/HeroSection";
 import FeaturesSection from "@/components/landing/FeaturesSection";
 import DiscretionSection from "@/components/landing/DiscretionSection";
 import HowItWorksSection from "@/components/landing/HowItWorksSection";
-import WhyLienSection from "@/components/landing/WhyLienSection";
+import WhySolSection from "@/components/landing/WhySolSection";
 import FinalCTASection from "@/components/landing/FinalCTASection";
 
 export default function HomePage() {
@@ -20,7 +20,7 @@ export default function HomePage() {
       <FeaturesSection />
       <DiscretionSection />
       <HowItWorksSection />
-      <WhyLienSection />
+      <WhySolSection />
       <FinalCTASection />
 
       {/* Footer */}
@@ -29,7 +29,7 @@ export default function HomePage() {
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 mb-8">
             {/* About Column */}
             <div>
-              <h3 className="text-white font-semibold mb-4">LIEN</h3>
+              <h3 className="text-white font-semibold mb-4">SOL</h3>
               <p className="text-white/70 text-sm">{t("location")}</p>
             </div>
 

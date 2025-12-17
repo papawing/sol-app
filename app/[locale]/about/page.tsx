@@ -26,8 +26,8 @@ export default async function AboutPage({ params }: PageProps) {
         <div className="relative z-10 max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <div className="mb-6 animate-fade-in-up flex justify-center">
             <Image
-              src="/images/lien-logo.svg"
-              alt="LIEN Icon"
+              src="/images/sol-logo.svg"
+              alt="SOL Icon"
               width={140}
               height={40}
               className="object-contain"
@@ -93,7 +93,7 @@ export default async function AboutPage({ params }: PageProps) {
         </div>
       </section>
 
-      {/* LIEN Platform */}
+      {/* SOL Platform */}
       <section className="py-20 bg-gradient-to-br from-gray-50 to-white">
         <div className="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -103,7 +103,7 @@ export default async function AboutPage({ params }: PageProps) {
                   <div className="relative aspect-square rounded-airbnb-md overflow-hidden">
                     <Image
                       src="/images/vip-1.jpeg"
-                      alt="LIEN - VIP Area"
+                      alt="SOL - VIP Area"
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -112,7 +112,7 @@ export default async function AboutPage({ params }: PageProps) {
                   <div className="relative aspect-square rounded-airbnb-md overflow-hidden">
                     <Image
                       src="/images/vip-2.jpeg"
-                      alt="LIEN - VIP Lounge"
+                      alt="SOL - VIP Lounge"
                       fill
                       className="object-cover"
                       sizes="(max-width: 768px) 50vw, 25vw"
@@ -238,7 +238,7 @@ export default async function AboutPage({ params }: PageProps) {
       {/* Footer */}
       <footer className="bg-deep border-t border-white/10 py-12">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
-          <p className="text-white/50 text-sm">© 2025 LIEN. All rights reserved.</p>
+          <p className="text-white/50 text-sm">© 2025 SOL. All rights reserved.</p>
         </div>
       </footer>
     </div>

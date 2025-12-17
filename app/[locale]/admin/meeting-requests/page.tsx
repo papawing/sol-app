@@ -82,7 +82,7 @@ export default async function AdminRequestsPage({ params }: PageProps) {
           <div className="flex justify-between items-center h-16">
             <div className="flex items-center gap-4">
               <Link href="/dashboard" className="flex items-center gap-2 hover:opacity-80 transition-opacity">
-                <span className="text-2xl">🌙</span>
+                <span className="text-2xl">☀️</span>
                 <span className="font-display text-xl font-bold text-deep">
                   {t("common.appName")} Admin
                 </span>

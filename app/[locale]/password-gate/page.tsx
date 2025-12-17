@@ -41,8 +41,8 @@ export default function PasswordGate() {
         {/* Logo */}
         <div className="flex justify-center mb-8">
           <Image
-            src="/images/lien-logo.svg"
-            alt="LIEN"
+            src="/images/sol-logo.svg"
+            alt="SOL"
             width={200}
             height={57}
             className="object-contain"
@@ -79,7 +79,7 @@ export default function PasswordGate() {
           <button
             type="submit"
             disabled={loading || !password}
-            className="w-full bg-gradient-rausch text-white rounded-lg px-6 py-3 font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
+            className="w-full bg-[#FF5A5F] hover:bg-[#E61E4D] text-white rounded-lg px-6 py-3 font-semibold hover:shadow-lg transition-all disabled:opacity-50 disabled:cursor-not-allowed"
           >
             {loading ? "Verifying..." : "Continue"}
           </button>

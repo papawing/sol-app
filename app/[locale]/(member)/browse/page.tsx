@@ -90,7 +90,7 @@ export default async function BrowsePage({ params }: PageProps) {
                 <p className="text-base md:text-lg text-deep/80 mb-8 max-w-2xl mx-auto">
                   {t("browse.upgradeCTA.description")}
                 </p>
-                <button className="bg-gradient-rausch text-white px-8 py-3.5 rounded-lg font-semibold hover:scale-[1.02] transition-transform shadow-md">
+                <button className="bg-[#FF5A5F] hover:bg-[#E61E4D] text-white px-8 py-3.5 rounded-lg font-semibold hover:scale-[1.02] transition-transform shadow-md">
                   {t("browse.upgradeCTA.button")}
                 </button>
               </div>
